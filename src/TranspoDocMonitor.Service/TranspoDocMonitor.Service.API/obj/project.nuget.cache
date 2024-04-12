@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rT59Z13dB0sNsVXlAl5Dsw1lh7KKVlB4irvp2Qb7vG+qCRzSoQhYPQVEhsRH1KSiQ1m4/CbAdd/kdC0MfVUbFg==",
+  "dgSpecHash": "vrMvoB2BZ9bw1rLncFp+5lPUAnbRTEeRkTj0S1kAhgMZvdYROwjCRdUUQYGjCDC5BDv85HyJqe04dxN8GTkJNg==",
   "success": true,
   "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.5\\microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
@@ -24,6 +25,8 @@
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.5\\npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

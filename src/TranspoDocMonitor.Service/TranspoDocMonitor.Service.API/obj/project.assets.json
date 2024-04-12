@@ -88,6 +88,23 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -341,6 +358,37 @@
           }
         }
       },
+      "Npgsql/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
+          "Npgsql": "6.0.5"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -518,6 +566,44 @@
         "runtime": {
           "bin/placeholder/TranspoDocMonitor.Service.Core.Swagger.dll": {}
         }
+      },
+      "TranspoDocMonitor.Service.DataContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "TranspoDocMonitor.Service.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.DataContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.DataContext.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.DataContext.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TranspoDocMonitor.Service.DataContext": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.DataContext.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.DataContext.DataAccess.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.Domain.dll": {}
+        }
       }
     }
   },
@@ -591,6 +677,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
+      "sha512": "vhAQizlAgvPfurkh9XysNaFc/g3WPXtSka3Y1rXuQdnT//p16CDKt9lO9h+rYmooD+cA7TijSxwqck4GApDT/Q==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
+        "microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -1149,6 +1249,43 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Npgsql/6.0.5": {
+      "sha512": "a11H5/b5yNTuFN0Ycjvb920oI6vQHadt6KhEMmcC7DfvsSHH8Z3wBam+CHmyWcfDxJJaxamcdBb8XA3BvqS4Kw==",
+      "type": "package",
+      "path": "npgsql/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/net6.0/Npgsql.dll",
+        "lib/net6.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.6.0.5.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.5": {
+      "sha512": "1eAaz5CwwZbATraqYyYsG2tMWZM1ydyLmQVpFGTzkUUKB/sAL5QWB0IfjSxOjiIDp5JY1WoFndkcaGMEcexVXg==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -1397,6 +1534,21 @@
       "type": "project",
       "path": "../TranspoDocMonitor.Service.Core.Swagger/TranspoDocMonitor.Service.Core.Swagger.csproj",
       "msbuildProject": "../TranspoDocMonitor.Service.Core.Swagger/TranspoDocMonitor.Service.Core.Swagger.csproj"
+    },
+    "TranspoDocMonitor.Service.DataContext/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.DataContext/TranspoDocMonitor.Service.DataContext.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.DataContext/TranspoDocMonitor.Service.DataContext.csproj"
+    },
+    "TranspoDocMonitor.Service.DataContext.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.DataContext.DataAccess/TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.DataContext.DataAccess/TranspoDocMonitor.Service.DataContext.DataAccess.csproj"
+    },
+    "TranspoDocMonitor.Service.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.Domain/TranspoDocMonitor.Service.Domain.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.Domain/TranspoDocMonitor.Service.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1407,7 +1559,8 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "Microsoft.Extensions.Options >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
-      "TranspoDocMonitor.Service.Core.Swagger >= 1.0.0"
+      "TranspoDocMonitor.Service.Core.Swagger >= 1.0.0",
+      "TranspoDocMonitor.Service.DataContext.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1444,6 +1597,9 @@
           "projectReferences": {
             "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Swagger\\TranspoDocMonitor.Service.Core.Swagger.csproj": {
               "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Swagger\\TranspoDocMonitor.Service.Core.Swagger.csproj"
+            },
+            "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj": {
+              "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj"
             }
           }
         }

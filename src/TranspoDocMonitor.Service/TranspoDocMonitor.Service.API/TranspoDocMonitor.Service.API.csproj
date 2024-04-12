@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Swagger\TranspoDocMonitor.Service.Core.Swagger.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
