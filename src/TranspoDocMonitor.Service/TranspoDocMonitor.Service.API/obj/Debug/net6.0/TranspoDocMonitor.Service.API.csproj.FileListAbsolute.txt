@@ -42,3 +42,14 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\obj\Debug\net6.0\TranspoDocMonitor.Service.API.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\obj\Debug\net6.0\TranspoDocMonitor.Service.API.genruntimeconfig.cache
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.API.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Npgsql.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb

@@ -1,0 +1,12 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Domain\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Domain.dll

@@ -1,0 +1,16 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.csproj.CopyComplete
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.DataContext.dll
