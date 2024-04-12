@@ -8,3 +8,6 @@
 /src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.Core.Swagger/obj
 /src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.API/obj/Debug/net6.0/TranspoDocMonitor.Service.API.AssemblyInfo.cs
 /src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.API/obj/Debug/net6.0/TranspoDocMonitor.Service.API.AssemblyInfoInputs.cache
+/src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.Core.Swagger/bin/Debug/net6.0/TranspoDocMonitor.Service.Core.Swagger.deps.json
+/src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.Core.Swagger/bin/Debug/net6.0/TranspoDocMonitor.Service.Core.Swagger.pdb
+/src/TranspoDocMonitor.Service/TranspoDocMonitor.Service.Core.Swagger/bin/Debug/net6.0/TranspoDocMonitor.Service.Core.Swagger.dll
