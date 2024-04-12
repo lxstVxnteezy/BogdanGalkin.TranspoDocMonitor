@@ -1,0 +1,6 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/src/TranspoDocMonitor.Service/.vs/TranspoDocMonitor.Service/FileContentIndex
+/src/TranspoDocMonitor.Service/.vs/TranspoDocMonitor.Service/v17/.suo
