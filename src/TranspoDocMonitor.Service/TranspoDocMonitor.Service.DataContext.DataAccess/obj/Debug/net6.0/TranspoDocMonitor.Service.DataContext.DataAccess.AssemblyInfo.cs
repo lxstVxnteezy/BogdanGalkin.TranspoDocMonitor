@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ab932a9425f8dd592382cd310f08e3313c57b39")]
-[assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
