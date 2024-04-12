@@ -49,7 +49,7 @@ namespace TranspoDocMonitor.Service.Core.Swagger
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1.0",
-                    Title = "ELDabaa",
+                    Title = "TranspoDocMonitor",
                     Description = "Backend API",
                 });
 
