@@ -604,6 +604,19 @@
         "runtime": {
           "bin/placeholder/TranspoDocMonitor.Service.Domain.dll": {}
         }
+      },
+      "TranspoDocMonitor.Service.HTTP.Handlers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.HTTP.Handlers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.HTTP.Handlers.dll": {}
+        }
       }
     }
   },
@@ -1549,6 +1562,11 @@
       "type": "project",
       "path": "../TranspoDocMonitor.Service.Domain/TranspoDocMonitor.Service.Domain.csproj",
       "msbuildProject": "../TranspoDocMonitor.Service.Domain/TranspoDocMonitor.Service.Domain.csproj"
+    },
+    "TranspoDocMonitor.Service.HTTP.Handlers/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.HTTP.Handlers/TranspoDocMonitor.Service.HTTP.Handlers.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.HTTP.Handlers/TranspoDocMonitor.Service.HTTP.Handlers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1560,7 +1578,8 @@
       "Microsoft.Extensions.Options >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "TranspoDocMonitor.Service.Core.Swagger >= 1.0.0",
-      "TranspoDocMonitor.Service.DataContext.DataAccess >= 1.0.0"
+      "TranspoDocMonitor.Service.DataContext.DataAccess >= 1.0.0",
+      "TranspoDocMonitor.Service.HTTP.Handlers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1600,6 +1619,9 @@
             },
             "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj": {
               "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj"
+            },
+            "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj": {
+              "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj"
             }
           }
         }

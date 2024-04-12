@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8R2/QP4o+CAy3ZRUDp6TIBc1u+U1f46Wv/qb0oST7C8vz3/NX1OCSH2aRK3KDr2T5GDulxAhMvOE5Zptu9YX3A==",
+  "success": true,
+  "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

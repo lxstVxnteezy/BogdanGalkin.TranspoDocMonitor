@@ -25,7 +25,7 @@ namespace TranspoDocMonitor.Service.DataContext
                     typeof(BaseEntity).IsAssignableFrom(i.GenericTypeArguments[0]))
             );
         }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
     }
 }
