@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Methods\Users\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj" />

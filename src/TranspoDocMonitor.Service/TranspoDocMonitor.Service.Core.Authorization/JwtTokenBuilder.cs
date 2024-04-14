@@ -8,7 +8,7 @@ namespace TranspoDocMonitor.Service.Core.Authorization
     {
         public static string Build(ClaimsIdentity claim, DateTime startLifeToken, DateTime endLifeToken)
         {
-            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+            var handler = new JwtSecurityTokenHandler();
 
             var token = handler.CreateJwtSecurityToken(
                 issuer: AuthOptions.Issuer,
@@ -21,7 +21,5 @@ namespace TranspoDocMonitor.Service.Core.Authorization
 
             return handler.WriteToken(token);
         }
-
-
     }
 }

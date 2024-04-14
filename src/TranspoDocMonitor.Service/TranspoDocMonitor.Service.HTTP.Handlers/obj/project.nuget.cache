@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SbbIY946AbGZCjTbh6NfL8rLMcDLp79fH1KkZ+I+doCLIlEHQzjnEh1NgtGzklKxTdCy/NtsLDcwsj0z/T6AUw==",
+  "dgSpecHash": "nwff241EvEeD3GSkOe5LYucy5Yp+VzG+Moji8jJJJTl6zk63gNE/X+CftTNMKGT9aG2Y3jQyT1Uus7Vm6ETcCg==",
   "success": true,
   "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj",
   "expectedPackageFiles": [

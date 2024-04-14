@@ -696,6 +696,9 @@
       "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TranspoDocMonitor.Service.Core.Exception": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TranspoDocMonitor.Service.Contracts.Exceptions.dll": {}
         },
@@ -728,6 +731,16 @@
         },
         "runtime": {
           "bin/placeholder/TranspoDocMonitor.Service.Core.Authorization.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
         }
       },
       "TranspoDocMonitor.Service.DataContext/1.0.0": {
@@ -2376,6 +2389,11 @@
       "type": "project",
       "path": "../TranspoDocMonitor.Service.Core.Authorization/TranspoDocMonitor.Service.Core.Authorization.csproj",
       "msbuildProject": "../TranspoDocMonitor.Service.Core.Authorization/TranspoDocMonitor.Service.Core.Authorization.csproj"
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj"
     },
     "TranspoDocMonitor.Service.DataContext/1.0.0": {
       "type": "project",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "orN9aw4HgO9QgQgqLmesw6ItKVpLjBbglkqnslVhgETRUBAtozon3nMX7a/U2URO4AAE8E40gzYEs87x68wq8Q==",
+  "dgSpecHash": "b5+OuIr9cr6xLv8qKS2X7+MHEZTW/0/AYFxX/RZ1pkUFovToVmMi99Q1xug8NqRh5bVG4EgIcS6NhvRdC80c0A==",
   "success": true,
   "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
   "expectedPackageFiles": [],

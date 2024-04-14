@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Exception\TranspoDocMonitor.Service.Core.Exception.csproj" />
+  </ItemGroup>
+
 </Project>
