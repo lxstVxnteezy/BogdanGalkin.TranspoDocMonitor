@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Middlewares")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0774f5afe22da80a78b950047fe3d93681272b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec69b6b46badf36cce42a1f57b7e5f33532e685")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Middlewares")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Middlewares")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

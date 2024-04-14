@@ -7,7 +7,7 @@ using TranspoDocMonitor.Service.Middlewares.Exceptions;
 
 namespace TranspoDocMonitor.Service.Middlewares
 {
-    public class ExceptionHandlingMiddleware
+    public class ExceptionHandlingMiddleware : IMiddleware
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionHandlingMiddleware> _logger;
