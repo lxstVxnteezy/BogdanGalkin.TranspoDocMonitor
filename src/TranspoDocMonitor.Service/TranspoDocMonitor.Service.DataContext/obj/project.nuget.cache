@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "uh0uxD9P3IL6Nr85LOrChMK4RzZJFVXWRZSyxzMGo5qPmh+e3szvzGMdvI7LQ8xi3ftPGfs8Yu048VUimSrSdg==",
+  "dgSpecHash": "k9RXYRkth3G1YIh2SDFYau410WyRuGeP9iYzKVlXDRxF0CIDFzbmg1ySTls1/2McE8sn3jma0J5XpzA+uxqszw==",
   "success": true,
   "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bredi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.5\\microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.5\\microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.5\\microsoft.entityframeworkcore.tools.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

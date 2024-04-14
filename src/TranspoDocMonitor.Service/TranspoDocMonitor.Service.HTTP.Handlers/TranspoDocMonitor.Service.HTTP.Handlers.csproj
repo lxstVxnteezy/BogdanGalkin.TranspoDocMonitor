@@ -11,8 +11,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Methods\Auth\" />
     <Folder Include="Methods\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Authorization\TranspoDocMonitor.Service.Core.Authorization.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
   </ItemGroup>
 
 </Project>

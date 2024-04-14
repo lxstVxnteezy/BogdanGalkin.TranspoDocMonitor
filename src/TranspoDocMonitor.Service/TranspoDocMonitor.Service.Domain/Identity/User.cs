@@ -1,5 +1,4 @@
-﻿
-using TranspoDocMonitor.Service.Domain.Base;
+﻿using TranspoDocMonitor.Service.Domain.Base;
 
 namespace TranspoDocMonitor.Service.Domain.Identity
 {

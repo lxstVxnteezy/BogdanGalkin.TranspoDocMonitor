@@ -13,17 +13,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9766B973-0E07-4471-B5BB-1E9257D0189F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.Domain", "TranspoDocMonitor.Service.Domain\TranspoDocMonitor.Service.Domain.csproj", "{13A75A0A-9854-4860-B0C5-BA78446106AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.Domain", "TranspoDocMonitor.Service.Domain\TranspoDocMonitor.Service.Domain.csproj", "{13A75A0A-9854-4860-B0C5-BA78446106AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{12419157-2A0D-40F7-8EA5-5F25E3818D88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.DataContext", "TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj", "{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.DataContext", "TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj", "{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.DataContext.DataAccess", "TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj", "{2D4A3265-E0D1-468E-B790-4534939587AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.DataContext.DataAccess", "TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj", "{2D4A3265-E0D1-468E-B790-4534939587AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{EB720187-D5B3-412C-923E-AA5FBBC98DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.HTTP.Handlers", "TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj", "{9444E5E7-5A32-45AF-9974-FFA70788768E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.HTTP.Handlers", "TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj", "{9444E5E7-5A32-45AF-9974-FFA70788768E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{886E2A56-6313-4428-985E-87D57871F44D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.Contracts", "TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj", "{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.Contracts.Exceptions", "TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj", "{C1DB733A-FC38-4D67-8F94-D920A7570F95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.Contracts.Shared", "TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj", "{4F32FFC5-A73F-4C60-B466-05AE93929965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.Core.Authorization", "TranspoDocMonitor.Service.Core.Authorization\TranspoDocMonitor.Service.Core.Authorization.csproj", "{5BCD44E0-5669-4BDA-86E9-88AD35B02180}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +65,22 @@ Global
 		{9444E5E7-5A32-45AF-9974-FFA70788768E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9444E5E7-5A32-45AF-9974-FFA70788768E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9444E5E7-5A32-45AF-9974-FFA70788768E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DB733A-FC38-4D67-8F94-D920A7570F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB733A-FC38-4D67-8F94-D920A7570F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB733A-FC38-4D67-8F94-D920A7570F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB733A-FC38-4D67-8F94-D920A7570F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F32FFC5-A73F-4C60-B466-05AE93929965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F32FFC5-A73F-4C60-B466-05AE93929965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F32FFC5-A73F-4C60-B466-05AE93929965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F32FFC5-A73F-4C60-B466-05AE93929965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCD44E0-5669-4BDA-86E9-88AD35B02180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCD44E0-5669-4BDA-86E9-88AD35B02180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCD44E0-5669-4BDA-86E9-88AD35B02180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCD44E0-5669-4BDA-86E9-88AD35B02180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +96,11 @@ Global
 		{2D4A3265-E0D1-468E-B790-4534939587AF} = {12419157-2A0D-40F7-8EA5-5F25E3818D88}
 		{EB720187-D5B3-412C-923E-AA5FBBC98DC5} = {CDFAF3B8-580C-4E5E-90FB-F4389621D5BF}
 		{9444E5E7-5A32-45AF-9974-FFA70788768E} = {EB720187-D5B3-412C-923E-AA5FBBC98DC5}
+		{886E2A56-6313-4428-985E-87D57871F44D} = {CDFAF3B8-580C-4E5E-90FB-F4389621D5BF}
+		{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E} = {886E2A56-6313-4428-985E-87D57871F44D}
+		{C1DB733A-FC38-4D67-8F94-D920A7570F95} = {886E2A56-6313-4428-985E-87D57871F44D}
+		{4F32FFC5-A73F-4C60-B466-05AE93929965} = {886E2A56-6313-4428-985E-87D57871F44D}
+		{5BCD44E0-5669-4BDA-86E9-88AD35B02180} = {C327C2E2-7FB7-4587-BDBD-B2376CF3756C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B889310B-E517-4F49-8173-3FB62E204133}

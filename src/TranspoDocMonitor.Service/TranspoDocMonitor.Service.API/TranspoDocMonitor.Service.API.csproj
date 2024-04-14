@@ -9,6 +9,14 @@
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
     <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
@@ -16,8 +24,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Swagger\TranspoDocMonitor.Service.Core.Swagger.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
   </ItemGroup>
 

@@ -53,3 +53,11 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Humanizer.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

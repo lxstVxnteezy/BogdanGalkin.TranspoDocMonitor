@@ -2,7 +2,7 @@
 
 namespace TranspoDocMonitor.Service.HTTP.Handlers
 {
-    internal interface IHandler
+    public interface IHandler
     {
     }
 }

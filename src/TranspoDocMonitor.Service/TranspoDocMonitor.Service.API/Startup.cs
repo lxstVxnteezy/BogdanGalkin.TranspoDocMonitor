@@ -1,5 +1,6 @@
 ﻿using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.Core.Swagger;
 using TranspoDocMonitor.Service.DataContext.DataAccess;
 using TranspoDocMonitor.Service.HTTP.Handlers;
@@ -21,6 +22,7 @@ namespace TranspoDocMonitor.Service.API
             services.AddSwagger();
             services.AddDataAccess(Configuration);
             services.AddHttpHandlers();
+            services.AddJwtAuthorization();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

@@ -1,0 +1,12 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Exceptions\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Contracts.Exceptions.dll

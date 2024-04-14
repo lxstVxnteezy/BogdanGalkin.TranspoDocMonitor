@@ -1,0 +1,12 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts.Shared\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Contracts.Shared.dll

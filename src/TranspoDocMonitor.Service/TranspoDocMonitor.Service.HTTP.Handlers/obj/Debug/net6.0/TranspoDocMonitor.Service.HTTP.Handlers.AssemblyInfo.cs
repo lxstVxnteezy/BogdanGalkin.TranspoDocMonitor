@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.HTTP.Handlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb9caddecba1106c6df63f056bafdbfb1180c60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a25b204b91ea6ae77334b40cdbe1948ef92d55a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.HTTP.Handlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.HTTP.Handlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
