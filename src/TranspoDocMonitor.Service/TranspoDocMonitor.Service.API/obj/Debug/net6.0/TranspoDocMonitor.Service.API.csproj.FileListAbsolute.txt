@@ -61,3 +61,15 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Humanizer.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb

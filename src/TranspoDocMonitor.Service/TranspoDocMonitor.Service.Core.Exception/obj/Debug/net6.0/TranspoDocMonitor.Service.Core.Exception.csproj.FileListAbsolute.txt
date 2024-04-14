@@ -1,0 +1,12 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Exception.dll

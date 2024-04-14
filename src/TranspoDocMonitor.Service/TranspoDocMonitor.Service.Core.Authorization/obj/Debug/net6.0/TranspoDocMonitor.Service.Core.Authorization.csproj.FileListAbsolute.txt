@@ -1,0 +1,13 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Authorization.dll
