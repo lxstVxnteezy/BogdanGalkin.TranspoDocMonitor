@@ -4,6 +4,7 @@ using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.Core.Swagger;
 using TranspoDocMonitor.Service.DataContext.DataAccess;
 using TranspoDocMonitor.Service.HTTP.Handlers;
+using TranspoDocMonitor.Service.Middlewares.Exceptions;
 
 namespace TranspoDocMonitor.Service.API
 {
@@ -28,8 +29,7 @@ namespace TranspoDocMonitor.Service.API
         {
             app.UseSwaggerCustom();
             app.UseRouting();
-
-
+            app.UseMiddlewaresExceptions();
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -73,3 +73,5 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.API\bin\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.pdb

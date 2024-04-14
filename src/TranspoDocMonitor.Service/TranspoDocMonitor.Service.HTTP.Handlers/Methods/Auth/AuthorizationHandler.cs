@@ -17,6 +17,10 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Auth
     {
         private readonly IRepository<User> _userRepository;
 
+        public AuthorizationHandler(IRepository<User> userRepository)
+        {
+            _userRepository = userRepository;
+        }
 
         public async Task<AuthResponse> Handle(AuthRequest request, CancellationToken ctn)
         {

@@ -31,6 +31,7 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Middlewares\TranspoDocMonitor.Service.Middlewares.csproj" />
   </ItemGroup>
 
 </Project>
