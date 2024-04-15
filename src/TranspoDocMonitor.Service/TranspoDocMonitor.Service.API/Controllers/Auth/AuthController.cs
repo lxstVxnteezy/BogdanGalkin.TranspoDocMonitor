@@ -4,7 +4,7 @@ using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.Shared;
 using IAuthorizationHandler = TranspoDocMonitor.Service.HTTP.Handlers.Methods.Auth.IAuthorizationHandler;
 
-namespace TranspoDocMonitor.Service.API.Controllers
+namespace TranspoDocMonitor.Service.API.Controllers.Auth
 {
 
     [Authorize]

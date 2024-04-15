@@ -1,0 +1,13 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Hangfire.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Hangfire.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Hangfire\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Hangfire.dll

@@ -30,8 +30,14 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Swagger\TranspoDocMonitor.Service.Core.Swagger.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Hangfire\TranspoDocMonitor.Service.Core.Hangfire.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Middlewares\TranspoDocMonitor.Service.Middlewares.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\User\" />
+    <Folder Include="Controllers\Nortification\" />
   </ItemGroup>
 
 </Project>

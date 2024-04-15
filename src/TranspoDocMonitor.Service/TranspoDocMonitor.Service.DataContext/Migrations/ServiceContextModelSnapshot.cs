@@ -71,6 +71,104 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Dictionaries.DictionaryDocumentType", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("DocumentName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DocumentTypes");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("AutoColor")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Make")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Model")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("RegistrationNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vehicles");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.StagingTables.TransportDocuments", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("DateOfIssue")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("DictionaryDocumentTypeId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("DocumentNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("ExpirationDateOfIssue")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserTransportDocId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("UsertTransportId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DictionaryDocumentTypeId");
+
+                    b.HasIndex("UsertTransportId");
+
+                    b.ToTable("TransportDocuments");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.StagingTables.UserTransport", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("VehicleId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("UsersTransports");
+                });
+
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Identity.User", b =>
                 {
                     b.HasOne("TranspoDocMonitor.Service.Domain.Identity.Role", "Role")
@@ -82,9 +180,57 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.StagingTables.TransportDocuments", b =>
+                {
+                    b.HasOne("TranspoDocMonitor.Service.Domain.Library.Dictionaries.DictionaryDocumentType", "DictionaryDocumentType")
+                        .WithMany()
+                        .HasForeignKey("DictionaryDocumentTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TranspoDocMonitor.Service.Domain.Library.StagingTables.UserTransport", "UsertTransport")
+                        .WithMany()
+                        .HasForeignKey("UsertTransportId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DictionaryDocumentType");
+
+                    b.Navigation("UsertTransport");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.StagingTables.UserTransport", b =>
+                {
+                    b.HasOne("TranspoDocMonitor.Service.Domain.Identity.User", "User")
+                        .WithMany("UserTransports")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", "Vehicle")
+                        .WithMany("UserTransports")
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+
+                    b.Navigation("Vehicle");
+                });
+
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Identity.Role", b =>
                 {
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Identity.User", b =>
+                {
+                    b.Navigation("UserTransports");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", b =>
+                {
+                    b.Navigation("UserTransports");
                 });
 #pragma warning restore 612, 618
         }

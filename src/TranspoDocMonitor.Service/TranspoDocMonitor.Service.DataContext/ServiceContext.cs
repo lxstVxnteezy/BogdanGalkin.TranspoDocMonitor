@@ -2,6 +2,9 @@
 using System.Reflection;
 using TranspoDocMonitor.Service.Domain.Base;
 using TranspoDocMonitor.Service.Domain.Identity;
+using TranspoDocMonitor.Service.Domain.Library.Dictionaries;
+using TranspoDocMonitor.Service.Domain.Library.Entities;
+using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.DataContext
 {
@@ -27,5 +30,9 @@ namespace TranspoDocMonitor.Service.DataContext
         }
         public DbSet<Role> Roles { get; set; } = null!;
         public DbSet<User> Users { get; set; } = null!;
+        public DbSet<Vehicle> Vehicles { get; set; } = null!;
+        public DbSet<UserTransport> UsersTransports { get; set; } = null!;
+        public DbSet<DictionaryDocumentType> DocumentTypes { get; set; } = null!;
+        public DbSet<TransportDocuments> TransportDocuments { get; set; } = null!;
     }
 }

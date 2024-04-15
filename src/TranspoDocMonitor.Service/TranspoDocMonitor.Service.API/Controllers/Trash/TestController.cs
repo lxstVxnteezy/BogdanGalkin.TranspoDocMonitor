@@ -3,7 +3,7 @@ using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.Create;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users;
 
-namespace TranspoDocMonitor.Service.API.Controllers
+namespace TranspoDocMonitor.Service.API.Controllers.Trash
 {
 
     [ApiController]

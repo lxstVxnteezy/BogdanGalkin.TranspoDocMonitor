@@ -1,0 +1,13 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Validation.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Validation.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Validation\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Validation.dll

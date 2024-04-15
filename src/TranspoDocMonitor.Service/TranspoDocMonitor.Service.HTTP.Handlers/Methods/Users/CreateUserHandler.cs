@@ -17,8 +17,6 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users
     {
         private readonly IRepository<User> _userRepository;
         private readonly IRepository<Role> _roleRepository;
-
-
         public CreateUserHandler(
             IRepository<User> userRepository,
             IRepository<Role> roleRepository)

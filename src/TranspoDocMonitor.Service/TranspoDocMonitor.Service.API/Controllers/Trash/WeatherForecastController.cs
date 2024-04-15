@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace TranspoDocMonitor.Service.API.Controllers
+namespace TranspoDocMonitor.Service.API.Controllers.Trash
 {
     [ApiController]
     [Route("[controller]")]
