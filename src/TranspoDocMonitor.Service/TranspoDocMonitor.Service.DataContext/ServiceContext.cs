@@ -31,8 +31,8 @@ namespace TranspoDocMonitor.Service.DataContext
         public DbSet<Role> Roles { get; set; } = null!;
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Vehicle> Vehicles { get; set; } = null!;
-        public DbSet<UserTransport> UsersTransports { get; set; } = null!;
-        public DbSet<DictionaryDocumentType> DocumentTypes { get; set; } = null!;
-        public DbSet<TransportDocuments> TransportDocuments { get; set; } = null!;
+        public DbSet<UserVehicle> UserTransports { get; set; } = null!;
+        public DbSet<DictionaryDocumentType> DictionaryDocumentTypes { get; set; } = null!;
+        public DbSet<VehicleDocument> TransportDocuments { get; set; } = null!;
     }
 }

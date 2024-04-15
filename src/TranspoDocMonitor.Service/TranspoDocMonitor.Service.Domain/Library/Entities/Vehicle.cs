@@ -13,8 +13,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
         public string RegistrationNumber { get; set; } = null!;
 
 
-
-        public virtual ICollection<UserTransport> UserTransports { get; set; } = null!;
+        public virtual ICollection<UserVehicle> UserVehicles { get; set; } = new List<UserVehicle>();
 
     }
 }

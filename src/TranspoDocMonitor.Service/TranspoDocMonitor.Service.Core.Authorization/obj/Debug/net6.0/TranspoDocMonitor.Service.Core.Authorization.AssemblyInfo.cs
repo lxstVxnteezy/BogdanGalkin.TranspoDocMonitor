@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Core.Authorization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e2a5a774eafa8ac65e6feb32062cd61ec0422c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15802637a14c224b48fedbcfece9e7bfd1ff3ea0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Core.Authorization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Core.Authorization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

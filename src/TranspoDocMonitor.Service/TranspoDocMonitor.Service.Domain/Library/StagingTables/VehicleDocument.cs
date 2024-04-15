@@ -3,17 +3,18 @@ using TranspoDocMonitor.Service.Domain.Library.Dictionaries;
 
 namespace TranspoDocMonitor.Service.Domain.Library.StagingTables
 {
-    public class TransportDocuments : BaseEntity
+    public class VehicleDocument : BaseEntity
     {
         public int DocumentNumber { get; set; }
         public DateTime DateOfIssue { get; set; }
         public DateTime ExpirationDateOfIssue { get; set; }
 
 
-        public Guid UserTransportDocId { get; set; }
-        public UserTransport UsertTransport { get; set; } = null!;
+        public Guid UserVehicleId { get; set; }
+        public virtual UserVehicle? UserVehicle { get; set; } = null!;
+       
         public Guid DictionaryDocumentTypeId { get; set; }
-        public DictionaryDocumentType DictionaryDocumentType { get; set; } = null!;
+        public virtual DictionaryDocumentType? DictionaryDocumentType { get; set; } = null!;
 
     }
 }
