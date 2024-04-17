@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Authorization\TranspoDocMonitor.Service.Core.Authorization.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Domain\TranspoDocMonitor.Service.Domain.csproj" />
   </ItemGroup>
 

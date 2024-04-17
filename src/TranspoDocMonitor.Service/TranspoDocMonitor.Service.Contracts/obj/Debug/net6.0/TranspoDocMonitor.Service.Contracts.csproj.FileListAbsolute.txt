@@ -10,3 +10,7 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Contracts.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.csproj.CopyComplete

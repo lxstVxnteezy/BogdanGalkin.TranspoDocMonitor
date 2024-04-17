@@ -15,5 +15,11 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
 
         [ServiceOwnError(message: "Cannot find dictionary")]
         CanNotFindDictionary = 4,
+
+        [ServiceOwnError(message: "Cannot create type document")]
+        CanNotCreateDocumentType = 5,
+
+        [ServiceOwnError(message: "Cannot create vehicle")]
+        CanNotCreateVehicle = 6,
     }
 }

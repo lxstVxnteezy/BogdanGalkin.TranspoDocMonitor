@@ -11,6 +11,8 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
             builder.ToTable("roles");
             builder.Property(x => x.Name).HasColumnName("name");
             builder.Property(x => x.Id).HasColumnName("id");
+
+          
         }
     }
 }

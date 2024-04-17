@@ -1,5 +1,5 @@
-﻿using TranspoDocMonitor.Service.Contracts.Create;
-using TranspoDocMonitor.Service.Contracts.Exceptions;
+﻿using TranspoDocMonitor.Service.Contracts.Exceptions;
+using TranspoDocMonitor.Service.Contracts.User.Create;
 using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
@@ -39,6 +39,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users
                 LastName = request.LastName,
                 Id = Guid.NewGuid(),
                 Surname = request.Surname,
+                Email = request.Email,
                 RoleId = request.RoleId
             };
             _userRepository.Add(newUser);
@@ -62,9 +63,9 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users
         }
         private void AssertExistEmailUser(CreateUserRequest request)
         {
-            var isExistUser = _userRepository.Query.Any(x => x.Login == request.Login);
+            var isExistUser = _userRepository.Query.Any(x => x.Email == request.Email);
             if (isExistUser)
-                throw OwnError.UnableToCreateUser.ToException($"User with login = {request.Login} already exists");
+                throw OwnError.UnableToCreateUser.ToException($"User with email = {request.Email} already exists");
         }
     }
 }

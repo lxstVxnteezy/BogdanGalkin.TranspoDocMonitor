@@ -1257,6 +1257,9 @@
       "TranspoDocMonitor.Service.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TranspoDocMonitor.Service.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TranspoDocMonitor.Service.Contracts.dll": {}
         },
@@ -1352,6 +1355,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
+          "TranspoDocMonitor.Service.Core.Authorization": "1.0.0",
           "TranspoDocMonitor.Service.Domain": "1.0.0"
         },
         "compile": {

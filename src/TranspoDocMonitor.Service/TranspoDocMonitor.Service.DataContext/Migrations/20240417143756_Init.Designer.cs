@@ -12,8 +12,8 @@ using TranspoDocMonitor.Service.DataContext;
 namespace TranspoDocMonitor.Service.DataContext.Migrations
 {
     [DbContext(typeof(ServiceContext))]
-    [Migration("20240415204707_Init-Add-Entities")]
-    partial class InitAddEntities
+    [Migration("20240417143756_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,6 +47,10 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid")
                         .HasColumnName("id");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -104,8 +108,9 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<int>("AutoColor")
-                        .HasColumnType("integer")
+                    b.Property<string>("AutoColor")
+                        .IsRequired()
+                        .HasColumnType("text")
                         .HasColumnName("auto_color");
 
                     b.Property<string>("Make")

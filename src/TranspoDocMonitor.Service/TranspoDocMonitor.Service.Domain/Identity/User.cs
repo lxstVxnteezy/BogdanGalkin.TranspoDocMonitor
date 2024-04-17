@@ -13,6 +13,8 @@ namespace TranspoDocMonitor.Service.Domain.Identity
 
         public string? Surname { get; set; }
 
+        public string Email { get; set; } = null!;
+
         public string Hash { get; set; } = null!;
 
         public Guid RoleId { get; set; }

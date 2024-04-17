@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
+#nullable disable
 
 namespace TranspoDocMonitor.Service.DataContext.Migrations
 {
-    public partial class InitAddEntities : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -39,7 +41,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     make = table.Column<string>(type: "text", nullable: false),
                     model = table.Column<string>(type: "text", nullable: false),
                     year_of_issue = table.Column<int>(type: "integer", nullable: false),
-                    auto_color = table.Column<int>(type: "integer", nullable: false),
+                    auto_color = table.Column<string>(type: "text", nullable: false),
                     registration_number = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
@@ -56,6 +58,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     first_name = table.Column<string>(type: "text", nullable: false),
                     last_name = table.Column<string>(type: "text", nullable: true),
                     sur_name = table.Column<string>(type: "text", nullable: true),
+                    Email = table.Column<string>(type: "text", nullable: false),
                     hash = table.Column<string>(type: "text", nullable: false),
                     role_id = table.Column<Guid>(type: "uuid", nullable: false)
                 },

@@ -46,6 +46,10 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("text")
@@ -102,8 +106,9 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<int>("AutoColor")
-                        .HasColumnType("integer")
+                    b.Property<string>("AutoColor")
+                        .IsRequired()
+                        .HasColumnType("text")
                         .HasColumnName("auto_color");
 
                     b.Property<string>("Make")

@@ -4,7 +4,7 @@ using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Domain.Library.Entities
 {
-    public class Vehicle : BaseEntity
+    public class Vehicle:BaseEntity
     {
         public string Make { get; set; } = null!;
         public string Model { get; set; } = null!;
@@ -15,5 +15,11 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
 
         public virtual ICollection<UserVehicle> UserVehicles { get; set; } = new List<UserVehicle>();
 
+
+
     }
 }
+
+
+
+

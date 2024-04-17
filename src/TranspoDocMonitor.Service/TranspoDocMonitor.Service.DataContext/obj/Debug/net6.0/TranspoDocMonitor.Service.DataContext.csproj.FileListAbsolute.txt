@@ -16,3 +16,5 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.DataContext.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.runtimeconfig.json
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.genruntimeconfig.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
