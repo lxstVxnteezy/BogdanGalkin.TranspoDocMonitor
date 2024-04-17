@@ -8,7 +8,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
     {
         public string Make { get; set; } = null!;
         public string Model { get; set; } = null!;
-        public int Year { get; set; }
+        public string Year { get; set; }
         public AutoColor AutoColor { get; set; }
         public string RegistrationNumber { get; set; } = null!;
 

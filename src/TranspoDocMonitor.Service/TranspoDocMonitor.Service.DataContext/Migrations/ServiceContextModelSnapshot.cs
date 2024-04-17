@@ -126,8 +126,9 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("text")
                         .HasColumnName("registration_number");
 
-                    b.Property<int>("Year")
-                        .HasColumnType("integer")
+                    b.Property<string>("Year")
+                        .IsRequired()
+                        .HasColumnType("text")
                         .HasColumnName("year_of_issue");
 
                     b.HasKey("Id");

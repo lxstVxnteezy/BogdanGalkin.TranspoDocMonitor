@@ -21,5 +21,9 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
 
         [ServiceOwnError(message: "Cannot create vehicle")]
         CanNotCreateVehicle = 6,
+
+        [ServiceOwnError(message: "Cannot create transport document")]
+        CanNotCreateTransportDocument = 7,
+
     }
 }

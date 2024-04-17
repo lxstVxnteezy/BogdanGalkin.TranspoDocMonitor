@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.Vehicle.Create;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle;
 
 namespace TranspoDocMonitor.Service.API.Controllers.Vehicle
 {
-
+    [Authorize(Roles = "member, administrator")]
     [Route("api/vehicle")]
     public class VehicleController : BaseApiController
     {

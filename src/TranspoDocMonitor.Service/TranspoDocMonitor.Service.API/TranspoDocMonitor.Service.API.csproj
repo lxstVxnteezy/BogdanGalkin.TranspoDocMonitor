@@ -17,9 +17,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
@@ -27,6 +27,7 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.HTTP\TranspoDocMonitor.Service.Core.HTTP.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Swagger\TranspoDocMonitor.Service.Core.Swagger.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />

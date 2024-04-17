@@ -1,0 +1,13 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.HTTP.dll

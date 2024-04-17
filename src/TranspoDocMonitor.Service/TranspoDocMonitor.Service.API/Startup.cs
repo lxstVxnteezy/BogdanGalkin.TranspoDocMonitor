@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.Core.Hangfire;
+using TranspoDocMonitor.Service.Core.HTTP.HttpAccessor;
 using TranspoDocMonitor.Service.Core.Swagger;
 using TranspoDocMonitor.Service.DataContext.DataAccess;
 using TranspoDocMonitor.Service.HTTP.Handlers;
@@ -26,6 +27,8 @@ namespace TranspoDocMonitor.Service.API
             services.AddHttpHandlers();
             services.AddJwtAuthorization();
             services.AddCustomHangfire(Configuration);
+            services.AddHttpAccessor();
+
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -35,6 +38,7 @@ namespace TranspoDocMonitor.Service.API
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseCustomHangfire();
+
 
             app.UseEndpoints(endpoints =>
             {

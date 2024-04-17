@@ -1,9 +1,11 @@
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.deps.json
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.csproj.AssemblyReference.cache
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +18,3 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.DataContext.DataAccess.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.DataContext.DataAccess.dll
-F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
-F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext.DataAccess\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
