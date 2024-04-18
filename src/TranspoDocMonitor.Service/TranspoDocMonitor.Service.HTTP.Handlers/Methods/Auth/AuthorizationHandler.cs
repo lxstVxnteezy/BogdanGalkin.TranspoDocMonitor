@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
-using TranspoDocMonitor.Service.Contracts.Shared;
+using TranspoDocMonitor.Service.Contracts.Shared.Auth;
 using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
 using TranspoDocMonitor.Service.Domain.Identity;

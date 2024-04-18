@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TranspoDocMonitor.Service.API.Controllers.Base;
-using TranspoDocMonitor.Service.Contracts.Shared;
+using TranspoDocMonitor.Service.Contracts.Shared.Auth;
 using IAuthorizationHandler = TranspoDocMonitor.Service.HTTP.Handlers.Methods.Auth.IAuthorizationHandler;
 
 namespace TranspoDocMonitor.Service.API.Controllers.Auth

@@ -36,7 +36,7 @@ namespace TranspoDocMonitor.Service.API.Controllers.Document
             return handler.Handle(request, ctn);
         }
 
-        [HttpGet("Get Info")]
+        [HttpGet("/GetInfo")]
         public Task<InfoTransportDocumentResponse[]> GetInfo(
             [FromServices] IGetTransportDocumentHandler handler, 
            [FromQuery] InfoTransportDocumentRequest request,

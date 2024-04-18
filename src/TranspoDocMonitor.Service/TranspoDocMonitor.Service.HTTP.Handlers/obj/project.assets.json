@@ -856,6 +856,9 @@
       "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TranspoDocMonitor.Service.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TranspoDocMonitor.Service.Contracts.Shared.dll": {}
         },

@@ -19,7 +19,7 @@ namespace TranspoDocMonitor.Service.Domain.Identity
 
         public Guid RoleId { get; set; }
 
-        public virtual Role Role { get; set; }
+        public virtual Role Role { get; set; } 
 
 
         public virtual ICollection<UserVehicle> UserVehicles { get; set; } = new List<UserVehicle>();

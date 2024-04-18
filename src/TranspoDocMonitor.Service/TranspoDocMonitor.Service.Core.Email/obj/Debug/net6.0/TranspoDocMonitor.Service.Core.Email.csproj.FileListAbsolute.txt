@@ -1,0 +1,13 @@
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.deps.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.csproj.AssemblyReference.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.AssemblyInfoInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.AssemblyInfo.cs
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.csproj.CoreCompileInputs.cache
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.sourcelink.json
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Email.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Email.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Email\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Email.dll

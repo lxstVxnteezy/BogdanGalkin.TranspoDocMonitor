@@ -11,14 +11,24 @@ namespace TranspoDocMonitor.Service.Core.Hangfire
         public static IServiceCollection AddCustomHangfire(this IServiceCollection services, IConfiguration configuration)
         {
             var connStr = configuration.GetConnectionString("DefaultConnection");
-            services.AddHangfire(x => x.UsePostgreSqlStorage(connStr));
+            services.AddHangfire
+            (
+                x => x.UsePostgreSqlStorage(connStr)
+                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                .UseSimpleAssemblyNameTypeSerializer()
+                .UseRecommendedSerializerSettings()
+            );
             services.AddHangfireServer();
+            services.AddTransient<ExpiryNotificationService>();
+            services.AddTransient<HangfireJobScheduler>();
 
             return services;
         }
-        public static IApplicationBuilder UseCustomHangfire(this IApplicationBuilder app)
+        public static IApplicationBuilder UseCustomHangfire(this IApplicationBuilder app, HangfireJobScheduler jobScheduler)
         {
             app.UseHangfireDashboard("/dashboard");
+            jobScheduler.ScheduleExpiryNotificationCheck();
+
             return app;
         }
 
