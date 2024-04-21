@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Contracts.Exceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d246979734f9a0e1e99a3a48491302e75997195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+294a98d6072276a5b08e5e8280e719c95d196c53")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Contracts.Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Contracts.Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
