@@ -11,3 +11,6 @@ F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.HTTP.dll
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
 F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\pet\TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.CopyComplete

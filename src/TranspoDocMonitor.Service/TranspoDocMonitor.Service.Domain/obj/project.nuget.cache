@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T+1t4yMX5aNtEPDtVq3/qpFWAj2dRQeRv6H5qUASLXUdXctPXsDsPRS5uesgpFGIhbQ1XYtj/JdtEEFFuC6NtQ==",
+  "dgSpecHash": "E98xGRDrbN/YmDlZCeeCf9swS6CBZkrhPDNaAXcHzWd3s+A6/NRijg/dv9B0VT5vUevEmupCTBQlSae8Qah+Zg==",
   "success": true,
-  "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj",
+  "projectFilePath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

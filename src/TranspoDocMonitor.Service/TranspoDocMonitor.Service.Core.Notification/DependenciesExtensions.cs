@@ -19,7 +19,6 @@ namespace TranspoDocMonitor.Service.Core.Notification
                 SenderEmail = configuration["SmtpSettings:SenderEmail"]
             };
 
-
             services.AddSingleton(smtpSettings);
             return services;
         }

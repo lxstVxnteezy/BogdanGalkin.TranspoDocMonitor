@@ -12,11 +12,10 @@ namespace TranspoDocMonitor.Service.DataContext
     {
         public ServiceContext(DbContextOptions options) : base(options)
         {
+            Database.Migrate();
         }
 
-        public ServiceContext()
-        {
-        }
+      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

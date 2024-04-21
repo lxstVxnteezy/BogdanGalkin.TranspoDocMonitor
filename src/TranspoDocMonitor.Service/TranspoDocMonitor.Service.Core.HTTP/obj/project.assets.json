@@ -263,6 +263,16 @@
             "related": ".xml"
           }
         }
+      },
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
+        }
       }
     }
   },
@@ -633,6 +643,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -640,7 +655,8 @@
       "Microsoft.AspNetCore.Http >= 2.2.2",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Http.Extensions >= 2.2.0",
-      "Microsoft.Extensions.DependencyInjection >= 6.0.1"
+      "Microsoft.Extensions.DependencyInjection >= 6.0.1",
+      "TranspoDocMonitor.Service.Core.Exception >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -650,11 +666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\TranspoDocMonitor.Service.Core.HTTP.csproj",
+      "projectUniqueName": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\TranspoDocMonitor.Service.Core.HTTP.csproj",
       "projectName": "TranspoDocMonitor.Service.Core.HTTP",
-      "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\TranspoDocMonitor.Service.Core.HTTP.csproj",
+      "projectPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\TranspoDocMonitor.Service.Core.HTTP.csproj",
       "packagesPath": "C:\\Users\\Bredi\\.nuget\\packages\\",
-      "outputPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\obj\\",
+      "outputPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -674,7 +690,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj": {
+              "projectPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

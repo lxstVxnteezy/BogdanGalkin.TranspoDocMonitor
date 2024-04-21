@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System.Text;
+﻿using System.Text;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Configuration;
 using MimeKit;
@@ -18,7 +17,6 @@ namespace TranspoDocMonitor.Service.Core.Notification
         {
             var smtpSettings = configuration.GetSection("SmtpSettings");
 
-
             _smtpClient = new SmtpClient();
             _smtpClient.ServerCertificateValidationCallback = (s, c, h, e) => true;
             _smtpClient.Connect(smtpSettings["Host"], int.Parse(smtpSettings["Port"]), false);
@@ -27,10 +25,8 @@ namespace TranspoDocMonitor.Service.Core.Notification
             _senderEmail = smtpSettings["SenderEmail"];
         }
 
-        public  async Task SendEmailAsync(VehicleDocument? dataDocument,User user)
+        public  async Task SendEmailAsync(VehicleDocument? dataDocument,User user,CancellationToken ctn)
         {
-          
-
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress(_senderName, _senderEmail));
             message.To.Add(new MailboxAddress(user.FirstName, user.Email));
@@ -41,7 +37,7 @@ namespace TranspoDocMonitor.Service.Core.Notification
 
             try
             {
-                await _smtpClient.SendAsync(message);
+                await _smtpClient.SendAsync(message, ctn);
             }
             catch (Exception ex)
             {
@@ -59,13 +55,11 @@ namespace TranspoDocMonitor.Service.Core.Notification
             var sb = new StringBuilder();
             sb.AppendLine($"Уважаемый {user.FirstName},");
             sb.AppendLine("У нас есть важная информация для вас:");
-         
             sb.AppendLine($"Номер документа: {vehicleDocument.DocumentNumber}");
             sb.AppendLine($"Дата создания документа: {vehicleDocument.DateOfIssue}");
             sb.AppendLine($"Срок окончания действия документа: {vehicleDocument.ExpirationDateOfIssue}");
             sb.AppendLine("С уважением,");
             sb.AppendLine("Ваша команда TranspoDocMonitor");
-
             return sb.ToString();
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zuzUGI1fmMplQb2wrOSBWLLSIAPFkrDiqiOxZNLepiRx0cv4SKDoT/+lLD1hBu8e9U6pFYFHDleljEFyzUlGVw==",
+  "dgSpecHash": "dfb09/eZ6dX5euI/M6ug2TmVcXn5ovwEgK5n27uLgupKY16EixRqYsoJRJAz1FgZxZCRp88vctVPIfXUBoF5Eg==",
   "success": true,
-  "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Middlewares\\TranspoDocMonitor.Service.Middlewares.csproj",
+  "projectFilePath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Middlewares\\TranspoDocMonitor.Service.Middlewares.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

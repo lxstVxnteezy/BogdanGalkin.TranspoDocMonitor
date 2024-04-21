@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
+      "projectUniqueName": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
       "projectName": "TranspoDocMonitor.Service.Contracts.Exceptions",
-      "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
+      "projectPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
       "packagesPath": "C:\\Users\\Bredi\\.nuget\\packages\\",
-      "outputPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\obj\\",
+      "outputPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj": {
-              "projectPath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj"
+            "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj": {
+              "projectPath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj"
             }
           }
         }

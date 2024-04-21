@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0nRUH4KTkQ6qtlaRJcwvkI3w5A4yibqtEsk2h1Ai12YSmCg6GpAlKN+hmz4CidQjfYOtVEyrElVNVVNcKgjPBw==",
+  "dgSpecHash": "300xffP0tQRaEz5u5BXgpUYoa14cyO3Ct+ORRlwY/QJNjwLdkK6Cpima7x5RlO5Cv0tdyNylve9sQeFdNDaDXQ==",
   "success": true,
-  "projectFilePath": "F:\\backend\\pet\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Validation\\TranspoDocMonitor.Service.Core.Validation.csproj",
+  "projectFilePath": "F:\\backend\\TranspoDocMonitor\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Validation\\TranspoDocMonitor.Service.Core.Validation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\fluentvalidation\\6.4.1\\fluentvalidation.6.4.1.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\fluentvalidation.aspnetcore\\6.4.0\\fluentvalidation.aspnetcore.6.4.0.nupkg.sha512",

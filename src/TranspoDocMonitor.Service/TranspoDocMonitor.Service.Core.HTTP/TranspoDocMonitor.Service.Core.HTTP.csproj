@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Exception\TranspoDocMonitor.Service.Core.Exception.csproj" />
+  </ItemGroup>
+
 </Project>

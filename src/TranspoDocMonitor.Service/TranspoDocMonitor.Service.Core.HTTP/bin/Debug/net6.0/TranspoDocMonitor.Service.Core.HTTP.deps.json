@@ -11,7 +11,8 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection": "6.0.1"
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "TranspoDocMonitor.Service.Core.Exception": "1.0.0"
         },
         "runtime": {
           "TranspoDocMonitor.Service.Core.HTTP.dll": {}
@@ -161,7 +162,12 @@
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.Memory/4.5.1": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "System.Text.Encodings.Web/4.5.0": {}
+      "System.Text.Encodings.Web/4.5.0": {},
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "runtime": {
+          "TranspoDocMonitor.Service.Core.Exception.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -288,6 +294,11 @@
       "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

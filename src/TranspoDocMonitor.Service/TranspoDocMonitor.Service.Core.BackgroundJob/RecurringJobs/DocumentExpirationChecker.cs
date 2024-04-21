@@ -2,9 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.DataContext;
-using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
-using TranspoDocMonitor.Service.Domain.Identity;
-using TranspoDocMonitor.Service.Domain.Library.StagingTables;
+
 
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
@@ -20,12 +18,14 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 
         }
 
-        public  void CheckDocumentExpirations()
+        public async Task CheckDocumentExpirations(CancellationToken ctn)
         {
             var documentsToExpireTomorrow = _serviceContext.TransportDocuments
                 .Include(td => td.UserVehicle)
                 .ThenInclude(uv => uv.User)
+                .Where(td => td.ExpirationDateOfIssue.Date == DateTime.Today.AddDays(1))
                 .ToList();
+
 
             foreach (var document in documentsToExpireTomorrow)
             {
@@ -33,16 +33,16 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
                 if (userId != null)
                 {
                     var user = _serviceContext.Users.SingleOrDefault(x=>x.Id==userId);
-                     _emailNotification.SendEmailAsync(document, user);
+                   await _emailNotification.SendEmailAsync(document, user, ctn);
                 }
             }
 
         }
 
-        public void ScheduleDocumentExpirationCheck()
+        public void ScheduleDocumentExpirationCheck(CancellationToken ctn)
         {
             RecurringJob.AddOrUpdate<DocumentExpirationChecker>("document-expiration-check",
-                x => x.CheckDocumentExpirations(), Cron.MinuteInterval(1));
+                x => x.CheckDocumentExpirations(ctn), Cron.HourInterval(8));
         }
     }
 }

@@ -12,6 +12,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob
 {
     public static class DependenciesExtensions
     {
+        static CancellationToken ctn = new CancellationToken();
         public static IServiceCollection AddCustomHangFire(this IServiceCollection services,IConfiguration configuration)
         {
             var connStr = configuration.GetConnectionString("DefaultConnection");
@@ -30,7 +31,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob
 
             var emailNotification = app.ApplicationServices.GetRequiredService<EmailNotification>();
             var documentChecker = new DocumentExpirationChecker(emailNotification, context);
-            documentChecker.ScheduleDocumentExpirationCheck();
+            documentChecker.ScheduleDocumentExpirationCheck(ctn);
             return app;
 
         }
