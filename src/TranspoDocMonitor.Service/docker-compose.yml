@@ -14,6 +14,9 @@ services:
       - transdocapi-dev
     depends_on:
       - postgres_db
+    volumes:
+      - ./dockerSettings/TranspoDocMonitor.Service.API/appsettings.json:/app/appsettings.json
+  
   
   postgres_db:
     container_name: postgres
@@ -43,8 +46,12 @@ services:
       PGADMIN_DEFAULT_SERVER_PASSWORD: postgres
     ports:
       - "5050:5050"
+    volumes:
+      - postgres-pgadmin-data:/var/lib/pgadmin
+      - ./dockerSettings/postgres/pgadmin/servers.json:/pgadmin4/servers.json   
     networks:
       - transdocapi-dev
 
 volumes:
   postgres-data:
+  postgres-pgadmin-data:

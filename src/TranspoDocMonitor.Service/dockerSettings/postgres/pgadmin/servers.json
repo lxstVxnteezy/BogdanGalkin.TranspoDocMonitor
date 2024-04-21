@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "TranspoDocMonitor": {
+      "Name": "transdocapi_db",
+      "Group": "Servers",
+      "Port": 5432,
+      "Username": "postgres",
+      "Host": "postgres_db",
+      "SSLMode": "prefer",
+      "MaintenanceDB": "transdocapi_db"
+    }
+  }
+}

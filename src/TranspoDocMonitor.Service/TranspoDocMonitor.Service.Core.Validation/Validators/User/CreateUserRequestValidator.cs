@@ -12,7 +12,8 @@ namespace TranspoDocMonitor.Service.Core.Validation.Validators.User
             RuleFor(x => x.Password).NotEmpty();
             RuleFor(x => x.Login).NotEmpty();
             RuleFor(x => x.RoleId).NotEmpty();
-            RuleFor(x => x.Email).NotEmpty();
+            RuleFor(x => x.Email).NotEmpty().EmailAddress();
         }
     }
 }
+    
