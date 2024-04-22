@@ -304,15 +304,15 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[8.4.0, )"
+              "version": "[11.9.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[11.3.0, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[11.9.0, )"
             }
           },
           "imports": [

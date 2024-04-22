@@ -10,7 +10,10 @@
         "dependencies": {
           "FluentValidation": "8.4.0",
           "FluentValidation.AspNetCore": "8.3.0",
-          "FluentValidation.DependencyInjectionExtensions": "8.3.0"
+          "FluentValidation.DependencyInjectionExtensions": "8.3.0",
+          "TranspoDocMonitor.Service.Contracts": "1.0.0",
+          "TranspoDocMonitor.Service.Contracts.Exceptions": "1.0.0",
+          "TranspoDocMonitor.Service.Contracts.Shared": "1.0.0"
         },
         "runtime": {
           "TranspoDocMonitor.Service.Core.Validation.dll": {}
@@ -1720,6 +1723,40 @@
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath": "4.3.0"
         }
+      },
+      "TranspoDocMonitor.Service.Contracts/1.0.0": {
+        "dependencies": {
+          "TranspoDocMonitor.Service.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TranspoDocMonitor.Service.Contracts.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+        "dependencies": {
+          "TranspoDocMonitor.Service.Core.Exception": "1.0.0"
+        },
+        "runtime": {
+          "TranspoDocMonitor.Service.Contracts.Exceptions.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
+        "dependencies": {
+          "TranspoDocMonitor.Service.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TranspoDocMonitor.Service.Contracts.Shared.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "runtime": {
+          "TranspoDocMonitor.Service.Core.Exception.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Domain/1.0.0": {
+        "runtime": {
+          "TranspoDocMonitor.Service.Domain.dll": {}
+        }
       }
     }
   },
@@ -2876,6 +2913,31 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "TranspoDocMonitor.Service.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Service.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

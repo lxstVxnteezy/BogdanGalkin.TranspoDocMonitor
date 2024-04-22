@@ -6,6 +6,7 @@ using TranspoDocMonitor.Service.Core.BackgroundJob;
 using TranspoDocMonitor.Service.Core.HTTP.HttpAccessor;
 using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.Core.Swagger;
+using TranspoDocMonitor.Service.Core.Validation;
 using TranspoDocMonitor.Service.DataContext.DataAccess;
 using TranspoDocMonitor.Service.HTTP.Handlers;
 using TranspoDocMonitor.Service.Middlewares.Exceptions;
@@ -31,6 +32,7 @@ namespace TranspoDocMonitor.Service.API
             services.AddCustomHangFire(Configuration);
             services.AddNotification(Configuration);
             services.Configure<SmtpSettings>(Configuration.GetSection("SmtpSettings"));
+            services.AddValidation();
 
         }
         public void Configure(IApplicationBuilder app)

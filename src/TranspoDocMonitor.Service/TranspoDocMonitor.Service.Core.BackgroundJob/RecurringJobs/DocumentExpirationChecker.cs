@@ -23,7 +23,6 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
             var documentsToExpireTomorrow = _serviceContext.TransportDocuments
                 .Include(td => td.UserVehicle)
                 .ThenInclude(uv => uv.User)
-                .Where(td => td.ExpirationDateOfIssue.Date == DateTime.Today.AddDays(1))
                 .ToList();
 
 
@@ -42,7 +41,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
         public void ScheduleDocumentExpirationCheck(CancellationToken ctn)
         {
             RecurringJob.AddOrUpdate<DocumentExpirationChecker>("document-expiration-check",
-                x => x.CheckDocumentExpirations(ctn), Cron.HourInterval(8));
+                x => x.CheckDocumentExpirations(ctn), Cron.Minutely);
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LLzxZUvQ9MELrt3ve1KbL3smlCxGWZqhxoZFEXG972NIog215whYV/ybQMJH0mqKcqWB/XL3OEsgH3Oe35PI6Q==",
+  "dgSpecHash": "KSjJyAYhF2wEcItXlZklKPmyTXtHfFKXbCHogRB9Jzl74HBWYcPjAFQaRd1cCPKMBaeyB9lq33pUng/vX/nf9w==",
   "success": true,
   "projectFilePath": "F:\\backend\\TranspoDocMonitor_dockerSupp\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Bredi\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\6.0.5\\aspnetcore.healthchecks.ui.core.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Bredi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\hangfire\\1.8.12\\hangfire.1.8.12.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\hangfire.aspnetcore\\1.8.12\\hangfire.aspnetcore.1.8.12.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\hangfire.core\\1.8.12\\hangfire.core.1.8.12.nupkg.sha512",
