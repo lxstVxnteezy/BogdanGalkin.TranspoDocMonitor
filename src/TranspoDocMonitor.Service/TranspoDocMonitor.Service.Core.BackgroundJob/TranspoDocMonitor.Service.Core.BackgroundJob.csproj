@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core.HTTP\TranspoDocMonitor.Service.Core.HTTP.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Notification\TranspoDocMonitor.Service.Core.Notification.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />

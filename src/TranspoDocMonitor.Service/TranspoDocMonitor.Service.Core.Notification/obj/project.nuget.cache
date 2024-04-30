@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DrYvmmugxyT1zMfCQeI6a2qyAgqP+zg/sqh4olVDcN5FUjiRli8u+h2IDGeaoyST2weNOkdYSrJS87Hu+RMaw==",
+  "dgSpecHash": "3Hr+iAM9whyUYmjHrcW8oqrFsFnfc7wcd1Zyg73GuzN/dDH31i8z+PR5PBWySs2X5J6yaihdAZDUmpETUHl/pw==",
   "success": true,
-  "projectFilePath": "F:\\backend\\TranspoDocMonitor_dockerSupp\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
+  "projectFilePath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\mailkit\\4.5.0\\mailkit.4.5.0.nupkg.sha512",

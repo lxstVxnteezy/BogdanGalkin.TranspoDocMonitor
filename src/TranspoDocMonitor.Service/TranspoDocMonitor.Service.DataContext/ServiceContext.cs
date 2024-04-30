@@ -12,7 +12,6 @@ namespace TranspoDocMonitor.Service.DataContext
     {
         public ServiceContext(DbContextOptions options) : base(options)
         {
-            Database.Migrate();
         }
 
       

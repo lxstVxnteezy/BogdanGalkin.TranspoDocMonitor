@@ -6,6 +6,8 @@ namespace ComStar.ElDabaa.Service.Core.Http.HttpAccessor;
 public interface IUserIdentityProvider
 {
     Guid GetCurrentUserId();
+    IHeaderDictionary GetHttpHeader();
+    HttpContext GetHttpContext();
 }
 
 internal class UserIdentityProvider : IUserIdentityProvider
@@ -24,4 +26,13 @@ internal class UserIdentityProvider : IUserIdentityProvider
         return Guid.Parse(currentUserId);
     }
 
+    public IHeaderDictionary GetHttpHeader()
+    {
+        return _httpContextAccessor.HttpContext.Request.Headers;
+    }
+
+    public HttpContext GetHttpContext()
+    {
+        return _httpContextAccessor.HttpContext;
+    }
 }

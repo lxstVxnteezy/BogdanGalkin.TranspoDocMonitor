@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TOQKanCzUrh3thfgYu8qeNTGhJnGb8lQ6VwvyP7bDSa/BHoQAfltuSpH2jof9xo2LiBu/aZbJni/VgdvM0olwQ==",
+  "dgSpecHash": "CI4S1Eb2QfWeHegJPuofiFgRuC1SJFg82c/3PMfUj9lBWF1mQMVgI3qDctonT3l+y11mY/3sdxjdDR2cVdOA6A==",
   "success": true,
-  "projectFilePath": "F:\\backend\\TranspoDocMonitor_dockerSupp\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj",
+  "projectFilePath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JA6WlG2H7a81a2szgyR1yr0aTNMCE7V+tX8S5ivnzBkv4Yoq9/0mAbQgiWKn2RC6HLGDC8zdPImJGuosk28gnA==",
+  "dgSpecHash": "Tzalw7HD6jXJZ0aomXWt81+QLxLMCMRlmZdNIzWjv0kGFQjPnI4vnVsceWwd26us7KwcZnQx14gkJyJ1YTRWBQ==",
   "success": true,
-  "projectFilePath": "F:\\backend\\TranspoDocMonitor_dockerSupp\\TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj",
+  "projectFilePath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

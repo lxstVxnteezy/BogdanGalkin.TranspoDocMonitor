@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using ComStar.ElDabaa.Service.Core.Http.HttpAccessor;
 using Microsoft.EntityFrameworkCore;
 using TranspoDocMonitor.Service.Contracts.Shared.Auth;
 using TranspoDocMonitor.Service.Core.Authorization;
@@ -16,10 +17,11 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Auth
     public class AuthorizationHandler : IAuthorizationHandler
     {
         private readonly IRepository<User> _userRepository;
-
-        public AuthorizationHandler(IRepository<User> userRepository)
+        private readonly IUserIdentityProvider _userIdentityProvider;
+        public AuthorizationHandler(IRepository<User> userRepository, IUserIdentityProvider userIdentityProvider)
         {
             _userRepository = userRepository;
+            _userIdentityProvider = userIdentityProvider;
         }
 
         public async Task<AuthResponse> Handle(AuthRequest request, CancellationToken ctn)
@@ -48,6 +50,8 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Auth
                 authenticationType: "Token");
 
             var encodedJwt = JwtTokenBuilder.Build(claimsIdentity, startLifeToken, endLifeToken);
+
+            _userIdentityProvider.GetHttpContext().Response.Cookies.Append("cookies", encodedJwt);
 
             return new AuthResponse(token: encodedJwt);
         }

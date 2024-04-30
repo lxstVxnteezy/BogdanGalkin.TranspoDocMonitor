@@ -44,7 +44,6 @@ namespace TranspoDocMonitor.Service.API
             app.UseAuthorization();
             app.UseHangFire();
 
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

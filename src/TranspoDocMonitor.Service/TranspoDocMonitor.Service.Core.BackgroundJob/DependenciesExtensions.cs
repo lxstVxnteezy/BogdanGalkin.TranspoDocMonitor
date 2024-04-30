@@ -13,25 +13,32 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob
     public static class DependenciesExtensions
     {
         static CancellationToken ctn = new CancellationToken();
-        public static IServiceCollection AddCustomHangFire(this IServiceCollection services,IConfiguration configuration)
+        public static IServiceCollection AddCustomHangFire(this IServiceCollection services, IConfiguration configuration)
         {
             var connStr = configuration.GetConnectionString("DefaultConnection");
 
             services.AddHangfire(x => x.UsePostgreSqlStorage(connStr));
             services.AddHangfireServer();
-            
+            services.AddSingleton<HangfireDashboardAuthFilter>();
             return services;
         }
         public static IApplicationBuilder UseHangFire(this IApplicationBuilder app)
         {
-            app.UseHangfireDashboard("/dashboard");
-            var scope = app.ApplicationServices.CreateScope();
-            var serviceProvider = scope.ServiceProvider;
-            var context = serviceProvider.GetRequiredService<ServiceContext>();
 
+            var scope = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<ServiceContext>();
             var emailNotification = app.ApplicationServices.GetRequiredService<EmailNotification>();
-            var documentChecker = new DocumentExpirationChecker(emailNotification, context);
+            var documentChecker = new DocumentExpirationChecker(emailNotification, scope);
             documentChecker.ScheduleDocumentExpirationCheck(ctn);
+
+            app.UseHangfireDashboard("/dashboard", new DashboardOptions
+            {
+                Authorization = new[] { new HangfireDashboardAuthFilter() }
+            }
+            );
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
             return app;
 
         }
