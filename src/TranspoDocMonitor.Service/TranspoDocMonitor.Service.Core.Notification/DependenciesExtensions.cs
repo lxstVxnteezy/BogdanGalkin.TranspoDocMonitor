@@ -8,8 +8,8 @@ namespace TranspoDocMonitor.Service.Core.Notification
     {
         public static IServiceCollection AddNotification(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddSingleton<EmailNotification>();
-            var smtpSettings = new SmtpSettings()
+            services.AddScoped<EmailNotification>();
+            services.AddSingleton(new SmtpSettings
             {
                 Host = configuration["SmtpSettings:Host"],
                 Port = int.Parse(configuration["SmtpSettings:Port"]),
@@ -17,9 +17,7 @@ namespace TranspoDocMonitor.Service.Core.Notification
                 Password = configuration["SmtpSettings:Password"],
                 SenderName = configuration["SmtpSettings:SenderName"],
                 SenderEmail = configuration["SmtpSettings:SenderEmail"]
-            };
-
-            services.AddSingleton(smtpSettings);
+            });
             return services;
         }
 

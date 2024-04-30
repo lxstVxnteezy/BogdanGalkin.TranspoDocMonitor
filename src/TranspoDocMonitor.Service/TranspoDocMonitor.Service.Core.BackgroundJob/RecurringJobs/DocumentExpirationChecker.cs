@@ -1,9 +1,6 @@
-﻿using Hangfire;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.DataContext;
-
-
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 {
@@ -11,11 +8,11 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
     {
         private readonly EmailNotification _emailNotification;
         private readonly ServiceContext _serviceContext;
+
         public DocumentExpirationChecker(EmailNotification emailNotification, ServiceContext serviceContext)
         {
             _emailNotification = emailNotification;
             _serviceContext = serviceContext;
-
         }
 
         public async Task CheckDocumentExpirations(CancellationToken ctn)
@@ -25,23 +22,16 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
                 .ThenInclude(uv => uv.User)
                 .ToList();
 
-
             foreach (var document in documentsToExpireTomorrow)
             {
                 var userId = document.UserVehicle?.UserId;
                 if (userId != null)
                 {
-                    var user = _serviceContext.Users.SingleOrDefault(x=>x.Id==userId);
-                   await _emailNotification.SendEmailAsync(document, user, ctn);
+                    var user = _serviceContext.Users.SingleOrDefault(x => x.Id == userId);
+                    await _emailNotification.SendEmailAsync(document, user, ctn);
                 }
             }
-
         }
 
-        public void ScheduleDocumentExpirationCheck(CancellationToken ctn)
-        {
-            RecurringJob.AddOrUpdate<DocumentExpirationChecker>("document-expiration-check",
-                x => x.CheckDocumentExpirations(ctn), Cron.Minutely);
-        }
     }
 }
