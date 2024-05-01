@@ -1,4 +1,5 @@
-﻿using HealthChecks.UI.Client;
+﻿using Hangfire;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using TranspoDocMonitor.Service.Contracts.Shared.Notification.Email;
 using TranspoDocMonitor.Service.Core.Authorization;
