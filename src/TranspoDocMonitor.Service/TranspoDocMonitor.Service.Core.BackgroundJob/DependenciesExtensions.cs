@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TranspoDocMonitor.Service.Core.BackgroundJob.Infrastructure;
-using TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs;
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob
 {
@@ -27,9 +26,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob
                 Authorization = new[] { new HangfireDashboardAuthFilter() }
             });
 
-            RecurringJob.AddOrUpdate<DocumentExpirationChecker>("document-expiration-check",
-                x => x.CheckDocumentExpirations(CancellationToken.None),
-                Cron.Minutely);
+            BackgroundJobManager.Start();
 
             return app;
         }

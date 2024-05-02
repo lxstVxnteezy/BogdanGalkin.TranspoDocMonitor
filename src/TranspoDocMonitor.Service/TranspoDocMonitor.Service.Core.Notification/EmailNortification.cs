@@ -7,7 +7,12 @@ using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Core.Notification
 {
-    public class EmailNotification 
+    public interface IEmailNotification
+    {
+        Task SendEmailAsync(VehicleDocument document, User user, CancellationToken cancellationToken);
+    }
+
+    public class EmailNotification : IEmailNotification
     {
         private readonly SmtpClient _smtpClient;
         private readonly string _senderName;

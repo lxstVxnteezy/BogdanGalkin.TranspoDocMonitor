@@ -4,7 +4,13 @@ using TranspoDocMonitor.Service.DataContext;
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 {
-    public class DocumentExpirationChecker
+
+    public interface IDocumentExpirationChecker
+    {
+        Task CheckDocumentExpirations(CancellationToken cancellationToken);
+    }
+
+    public class DocumentExpirationChecker : IDocumentExpirationChecker
     {
         private readonly EmailNotification _emailNotification;
         private readonly ServiceContext _serviceContext;
@@ -20,6 +26,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
             var documentsToExpireTomorrow = _serviceContext.TransportDocuments
                 .Include(td => td.UserVehicle)
                 .ThenInclude(uv => uv.User)
+                .Where(x=>x.ExpirationDateOfIssue == DateTime.Today.AddDays(1))
                 .ToList();
 
             foreach (var document in documentsToExpireTomorrow)
