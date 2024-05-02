@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TranspoDocMonitor.Service.Core.Notification;
-using TranspoDocMonitor.Service.DataContext;
+using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
+using TranspoDocMonitor.Service.Domain.Identity;
+using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 {
@@ -12,21 +14,26 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 
     public class DocumentExpirationChecker : IDocumentExpirationChecker
     {
+        private readonly IRepository<VehicleDocument> _vehicleDocumentRepository;
+        private readonly IRepository<User> _userRepository;
         private readonly EmailNotification _emailNotification;
-        private readonly ServiceContext _serviceContext;
 
-        public DocumentExpirationChecker(EmailNotification emailNotification, ServiceContext serviceContext)
+        public DocumentExpirationChecker(
+            EmailNotification emailNotification,  
+            IRepository<VehicleDocument> vehicleDocumentRepository, 
+            IRepository<User> userRepository)
         {
             _emailNotification = emailNotification;
-            _serviceContext = serviceContext;
+            _vehicleDocumentRepository = vehicleDocumentRepository;
+            _userRepository = userRepository;
         }
 
         public async Task CheckDocumentExpirations(CancellationToken ctn)
         {
-            var documentsToExpireTomorrow = _serviceContext.TransportDocuments
+            var documentsToExpireTomorrow = _vehicleDocumentRepository.Query
                 .Include(td => td.UserVehicle)
                 .ThenInclude(uv => uv.User)
-                .Where(x=>x.ExpirationDateOfIssue == DateTime.Today.AddDays(1))
+                .Where(x => x.ExpirationDateOfIssue == DateTime.Today.AddDays(1))
                 .ToList();
 
             foreach (var document in documentsToExpireTomorrow)
@@ -34,7 +41,7 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
                 var userId = document.UserVehicle?.UserId;
                 if (userId != null)
                 {
-                    var user = _serviceContext.Users.SingleOrDefault(x => x.Id == userId);
+                    var user = _userRepository.Query.SingleOrDefault(x => x.Id == userId);
                     await _emailNotification.SendEmailAsync(document, user, ctn);
                 }
             }
