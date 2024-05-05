@@ -8,31 +8,17 @@ using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 namespace TranspoDocMonitor.Service.Core.Notification
 {
     public interface IEmailNotification
-    {
+    { 
         Task SendEmailAsync(VehicleDocument document, User user, CancellationToken cancellationToken);
     }
 
     public class EmailNotification : IEmailNotification
     {
-        private readonly SmtpClient _smtpClient;
         private readonly string _senderName;
         private readonly string _senderEmail;
         private readonly IConfiguration _configuration;
 
-        public EmailNotification(IConfiguration configuration)
-        {
-            var smtpSettings = configuration.GetSection("SmtpSettings");
-
-            _smtpClient = new SmtpClient();
-            _smtpClient.ServerCertificateValidationCallback = (s, c, h, e) => true;
-            _smtpClient.Connect(smtpSettings["Host"], int.Parse(smtpSettings["Port"]), false);
-            _smtpClient.Authenticate(smtpSettings["Username"], smtpSettings["Password"]);
-            _senderName = smtpSettings["SenderName"];
-            _senderEmail = smtpSettings["SenderEmail"];
-            _configuration= configuration;
-        }
-
-        public  async Task SendEmailAsync(VehicleDocument? dataDocument,User user,CancellationToken ctn)
+        public async Task SendEmailAsync(VehicleDocument? dataDocument, User user, CancellationToken ctn)
         {
             using (var smtpClient = new SmtpClient())
             {
@@ -63,7 +49,6 @@ namespace TranspoDocMonitor.Service.Core.Notification
                 }
             }
         }
-
         private string BuildEmailBody(User user, VehicleDocument vehicleDocument)
         {
             var sb = new StringBuilder();

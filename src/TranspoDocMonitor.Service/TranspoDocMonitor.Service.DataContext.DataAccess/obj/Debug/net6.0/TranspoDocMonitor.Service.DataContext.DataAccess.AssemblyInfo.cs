@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e75bd96bb9fc3fd97f7b84c91a6c8b49b112f40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+713686f226b34130efbe0ea41605a997602cea4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.DataContext.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

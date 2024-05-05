@@ -19,8 +19,8 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
         private readonly EmailNotification _emailNotification;
 
         public DocumentExpirationChecker(
-            EmailNotification emailNotification,  
-            IRepository<VehicleDocument> vehicleDocumentRepository, 
+            EmailNotification emailNotification,
+            IRepository<VehicleDocument> vehicleDocumentRepository,
             IRepository<User> userRepository)
         {
             _emailNotification = emailNotification;
@@ -38,10 +38,10 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 
             foreach (var document in documentsToExpireTomorrow)
             {
-                var userId = document.UserVehicle?.UserId;
+                var userId = document.UserVehicle.UserId;
                 if (userId != null)
                 {
-                    var user = _userRepository.Query.SingleOrDefault(x => x.Id == userId);
+                    var user = await _userRepository.FoundByIdAsync(userId, ctn);
                     await _emailNotification.SendEmailAsync(document, user, ctn);
                 }
             }
