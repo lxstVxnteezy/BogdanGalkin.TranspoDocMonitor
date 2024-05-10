@@ -11,6 +11,7 @@
           "MailKit": "4.5.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.1",
+          "TranspoDocMonitor.Service.Contracts.Exceptions": "1.0.0",
           "TranspoDocMonitor.Service.Contracts.Shared": "1.0.0",
           "TranspoDocMonitor.Service.Domain": "1.0.0"
         },
@@ -131,12 +132,25 @@
           }
         }
       },
+      "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+        "dependencies": {
+          "TranspoDocMonitor.Service.Core.Exception": "1.0.0"
+        },
+        "runtime": {
+          "TranspoDocMonitor.Service.Contracts.Exceptions.dll": {}
+        }
+      },
       "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
         "dependencies": {
           "TranspoDocMonitor.Service.Domain": "1.0.0"
         },
         "runtime": {
           "TranspoDocMonitor.Service.Contracts.Shared.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "runtime": {
+          "TranspoDocMonitor.Service.Core.Exception.dll": {}
         }
       },
       "TranspoDocMonitor.Service.Domain/1.0.0": {
@@ -229,7 +243,17 @@
       "path": "system.security.cryptography.pkcs/8.0.0",
       "hashPath": "system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
     },
+    "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

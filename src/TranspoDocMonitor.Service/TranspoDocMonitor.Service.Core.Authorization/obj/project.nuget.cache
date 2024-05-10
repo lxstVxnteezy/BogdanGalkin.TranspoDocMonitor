@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rlN4LR649MSFqYvKmfUJ0mtS0j6PG+IC4oGTIx1c5w7v5KUIBTtBF1ZvPNcma45094e3UJT808TYDNR/Ai67ng==",
+  "dgSpecHash": "wYpjMHD3weq26MwlyY2v1jaFmOwZQKDLaN61pDIQqQjx5XrAGXdn6pBUzmSZOAyORdeXyYLl1DU45OxZk74X8g==",
   "success": true,
-  "projectFilePath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Authorization\\TranspoDocMonitor.Service.Core.Authorization.csproj",
+  "projectFilePath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Authorization\\TranspoDocMonitor.Service.Core.Authorization.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -62,3 +62,19 @@ F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\Tr
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Contracts.dll
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.deps.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.csproj.AssemblyReference.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.AssemblyInfoInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.AssemblyInfo.cs
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.csproj.CoreCompileInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.sourcelink.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.csproj.CopyComplete
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Contracts\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Contracts.dll

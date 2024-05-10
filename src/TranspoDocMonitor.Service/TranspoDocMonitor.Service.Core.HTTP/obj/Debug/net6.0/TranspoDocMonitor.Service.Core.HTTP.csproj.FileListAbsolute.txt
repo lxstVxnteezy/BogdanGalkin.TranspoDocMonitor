@@ -62,3 +62,19 @@ F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\Tr
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.HTTP.dll
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.deps.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.AssemblyReference.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.AssemblyInfoInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.AssemblyInfo.cs
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.CoreCompileInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.sourcelink.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.csproj.CopyComplete
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.HTTP\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.HTTP.dll

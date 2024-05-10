@@ -2,23 +2,29 @@
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Configuration;
 using MimeKit;
+using TranspoDocMonitor.Service.Contracts.Exceptions;
+using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.Domain.Identity;
 using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Core.Notification
 {
     public interface IEmailNotification
-    { 
-        Task SendEmailAsync(VehicleDocument document, User user, CancellationToken cancellationToken);
+    {
+        Task SendEmailAsync(VehicleDocument document, CancellationToken cancellationToken);
     }
 
     public class EmailNotification : IEmailNotification
     {
-        private readonly string _senderName;
-        private readonly string _senderEmail;
+
         private readonly IConfiguration _configuration;
 
-        public async Task SendEmailAsync(VehicleDocument? dataDocument, User user, CancellationToken ctn)
+        public EmailNotification(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        public async Task SendEmailAsync(VehicleDocument? dataDocument, CancellationToken ctn)
         {
             using (var smtpClient = new SmtpClient())
             {
@@ -28,37 +34,41 @@ namespace TranspoDocMonitor.Service.Core.Notification
                     smtpClient.ServerCertificateValidationCallback = (s, c, h, e) => true;
                     await smtpClient.ConnectAsync(smtpSettings["Host"], int.Parse(smtpSettings["Port"]), false, ctn);
                     await smtpClient.AuthenticateAsync(smtpSettings["Username"], smtpSettings["Password"], ctn);
-
-                    var message = new MimeMessage();
-                    message.From.Add(new MailboxAddress(_senderName, _senderEmail));
-                    message.To.Add(new MailboxAddress(user.FirstName, user.Email));
-                    message.Subject = "Информация о документе и транспортном средстве";
-                    var bodyBuilder = new BodyBuilder();
-                    bodyBuilder.TextBody = BuildEmailBody(user, dataDocument);
-                    message.Body = bodyBuilder.ToMessageBody();
-
+                    var message = MessageBuilder(dataDocument, smtpSettings);
                     await smtpClient.SendAsync(message, ctn);
                 }
-                catch (Exception ex)
+                catch (System.Exception)
                 {
-                    throw new Exception("Ошибка при отправке электронного сообщения", ex);
+                    throw OwnError.CanNotSendEmailMessage.ToException("Error sending email");
                 }
                 finally
                 {
-                    await smtpClient.DisconnectAsync(true);
+                    await smtpClient.DisconnectAsync(true, ctn);
                 }
             }
+        }
+
+        private MimeMessage MessageBuilder(VehicleDocument? dataDocument, IConfigurationSection smtpSettings)
+        {
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress(smtpSettings["SenderName"], smtpSettings["SenderEmail"]));
+            message.To.Add(new MailboxAddress(dataDocument!.UserVehicle!.User!.FirstName, dataDocument.UserVehicle.User.Email));
+            message.Subject = "Information about the document and vehicle";
+            var bodyBuilder = new BodyBuilder();
+            bodyBuilder.TextBody = BuildEmailBody(dataDocument.UserVehicle.User, dataDocument);
+            message.Body = bodyBuilder.ToMessageBody();
+            return message;
         }
         private string BuildEmailBody(User user, VehicleDocument vehicleDocument)
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"Уважаемый {user.FirstName},");
-            sb.AppendLine("У нас есть важная информация для вас:");
-            sb.AppendLine($"Номер документа: {vehicleDocument.DocumentNumber}");
-            sb.AppendLine($"Дата создания документа: {vehicleDocument.DateOfIssue}");
-            sb.AppendLine($"Срок окончания действия документа: {vehicleDocument.ExpirationDateOfIssue}");
-            sb.AppendLine("С уважением,");
-            sb.AppendLine("Ваша команда TranspoDocMonitor");
+            sb.AppendLine($"Dear, {user.FirstName},");
+            sb.AppendLine("We have important information for you:");
+            sb.AppendLine($"Document Number: {vehicleDocument.DocumentNumber}");
+            sb.AppendLine($"Document creation date: {vehicleDocument.DateOfIssue}");
+            sb.AppendLine($"Document expiration date: {vehicleDocument.ExpirationDateOfIssue}");
+            sb.AppendLine("Sincerely,");
+            sb.AppendLine("Your TranspoDocMonitor team");
             return sb.ToString();
         }
     }

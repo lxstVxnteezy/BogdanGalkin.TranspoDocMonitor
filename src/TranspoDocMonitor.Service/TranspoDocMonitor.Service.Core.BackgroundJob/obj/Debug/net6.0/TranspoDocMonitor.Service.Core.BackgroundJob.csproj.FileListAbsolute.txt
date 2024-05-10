@@ -106,3 +106,35 @@ F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\Tr
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.BackgroundJob.dll
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.pdb
 F:\backend\Trans\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.BackgroundJob.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.deps.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Notification.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Notification.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.csproj.AssemblyReference.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.AssemblyInfoInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.AssemblyInfo.cs
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.csproj.CoreCompileInputs.cache
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.sourcelink.json
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.csproj.CopyComplete
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.BackgroundJob.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.BackgroundJob.pdb
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.BackgroundJob.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.BackgroundJob\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.pdb

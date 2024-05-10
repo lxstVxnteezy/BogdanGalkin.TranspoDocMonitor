@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TranspoDocMonitor.Service.Contracts.Exceptions;
+using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
 using TranspoDocMonitor.Service.Domain.Identity;
@@ -15,7 +17,6 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
     public class DocumentExpirationChecker : IDocumentExpirationChecker
     {
         private readonly IRepository<VehicleDocument> _vehicleDocumentRepository;
-        private readonly IRepository<User> _userRepository;
         private readonly EmailNotification _emailNotification;
 
         public DocumentExpirationChecker(
@@ -25,25 +26,21 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
         {
             _emailNotification = emailNotification;
             _vehicleDocumentRepository = vehicleDocumentRepository;
-            _userRepository = userRepository;
         }
 
         public async Task CheckDocumentExpirations(CancellationToken ctn)
         {
             var documentsToExpireTomorrow = _vehicleDocumentRepository.Query
                 .Include(td => td.UserVehicle)
-                .ThenInclude(uv => uv.User)
-                .Where(x => x.ExpirationDateOfIssue == DateTime.Today.AddDays(1))
+                .ThenInclude(uv => uv!.User)
                 .ToList();
+
+            if (documentsToExpireTomorrow == null)
+                return;
 
             foreach (var document in documentsToExpireTomorrow)
             {
-                var userId = document.UserVehicle.UserId;
-                if (userId != null)
-                {
-                    var user = await _userRepository.FoundByIdAsync(userId, ctn);
-                    await _emailNotification.SendEmailAsync(document, user, ctn);
-                }
+                await _emailNotification.SendEmailAsync(document, ctn);
             }
         }
 

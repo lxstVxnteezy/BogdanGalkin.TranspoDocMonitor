@@ -882,6 +882,7 @@
           "MailKit": "4.5.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.1",
+          "TranspoDocMonitor.Service.Contracts.Exceptions": "1.0.0",
           "TranspoDocMonitor.Service.Contracts.Shared": "1.0.0",
           "TranspoDocMonitor.Service.Domain": "1.0.0"
         },

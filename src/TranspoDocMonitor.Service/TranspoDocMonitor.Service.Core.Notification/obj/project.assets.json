@@ -199,6 +199,19 @@
           }
         }
       },
+      "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TranspoDocMonitor.Service.Core.Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.Contracts.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.Contracts.Exceptions.dll": {}
+        }
+      },
       "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -210,6 +223,16 @@
         },
         "runtime": {
           "bin/placeholder/TranspoDocMonitor.Service.Contracts.Shared.dll": {}
+        }
+      },
+      "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Service.Core.Exception.dll": {}
         }
       },
       "TranspoDocMonitor.Service.Domain/1.0.0": {
@@ -561,10 +584,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "TranspoDocMonitor.Service.Contracts.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.Contracts.Exceptions/TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.Contracts.Exceptions/TranspoDocMonitor.Service.Contracts.Exceptions.csproj"
+    },
     "TranspoDocMonitor.Service.Contracts.Shared/1.0.0": {
       "type": "project",
       "path": "../TranspoDocMonitor.Service.Contracts.Shared/TranspoDocMonitor.Service.Contracts.Shared.csproj",
       "msbuildProject": "../TranspoDocMonitor.Service.Contracts.Shared/TranspoDocMonitor.Service.Contracts.Shared.csproj"
+    },
+    "TranspoDocMonitor.Service.Core.Exception/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Service.Core.Exception/TranspoDocMonitor.Service.Core.Exception.csproj"
     },
     "TranspoDocMonitor.Service.Domain/1.0.0": {
       "type": "project",
@@ -577,6 +610,7 @@
       "MailKit >= 4.5.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Options >= 7.0.1",
+      "TranspoDocMonitor.Service.Contracts.Exceptions >= 1.0.0",
       "TranspoDocMonitor.Service.Contracts.Shared >= 1.0.0",
       "TranspoDocMonitor.Service.Domain >= 1.0.0"
     ]
@@ -588,11 +622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
+      "projectUniqueName": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
       "projectName": "TranspoDocMonitor.Service.Core.Notification",
-      "projectPath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
+      "projectPath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj",
       "packagesPath": "C:\\Users\\Bredi\\.nuget\\packages\\",
-      "outputPath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\obj\\",
+      "outputPath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -613,11 +647,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj": {
-              "projectPath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj"
+            "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj": {
+              "projectPath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj"
             },
-            "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj": {
-              "projectPath": "F:\\backend\\Trans\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj"
+            "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj": {
+              "projectPath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared\\TranspoDocMonitor.Service.Contracts.Shared.csproj"
+            },
+            "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj": {
+              "projectPath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj"
             }
           }
         }

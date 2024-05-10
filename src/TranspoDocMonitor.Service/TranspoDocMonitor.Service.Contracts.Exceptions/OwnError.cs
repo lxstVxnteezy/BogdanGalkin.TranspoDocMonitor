@@ -25,5 +25,11 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
         [ServiceOwnError(message: "Cannot create transport document")]
         CanNotCreateTransportDocument = 7,
 
+        [ServiceOwnError(message:"Cannot send email message")]
+        CanNotSendEmailMessage = 8,
+
+        [ServiceOwnError(message:"Cannot find transport document")]
+        CanNotFindTransportDocument = 9,
+
     }
 }
