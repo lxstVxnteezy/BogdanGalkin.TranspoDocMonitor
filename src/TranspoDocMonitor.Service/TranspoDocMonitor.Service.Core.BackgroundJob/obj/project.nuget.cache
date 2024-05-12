@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxIWUqaAhhUOg4HVzpf4ScThmeUuVByowjwOemvsnU/auMVNV5AaUznkhUi8ITGZ/wdVeN/2kv9uXdUTS75oKg==",
+  "dgSpecHash": "o54WOHEjk2U5wJ/YkWRGn8BgSSRFuMvabwOES+0CWPlKT4u6+auh53n1gXy7tNI84JcUw73WZfMihOG0XArkxg==",
   "success": true,
-  "projectFilePath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj",
+  "projectFilePath": "F:\\backend\\13.05.2024\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

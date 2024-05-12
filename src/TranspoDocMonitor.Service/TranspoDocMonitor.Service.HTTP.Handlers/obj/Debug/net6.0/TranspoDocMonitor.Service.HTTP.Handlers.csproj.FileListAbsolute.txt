@@ -158,3 +158,35 @@ F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoD
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.HTTP.Handlers.dll
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.pdb
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.HTTP.Handlers.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.deps.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Exceptions.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.Shared.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Contracts.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.HTTP.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.DataAccess.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.csproj.AssemblyReference.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.AssemblyInfoInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.AssemblyInfo.cs
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.csproj.CoreCompileInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.sourcelink.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.csproj.CopyComplete
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.HTTP.Handlers.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\TranspoDocMonitor.Service.HTTP.Handlers.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.HTTP.Handlers\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.HTTP.Handlers.dll

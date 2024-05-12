@@ -1,9 +1,9 @@
 ﻿using System.Text;
 using MailKit.Net.Smtp;
-using Microsoft.Extensions.Configuration;
 using MimeKit;
 using TranspoDocMonitor.Service.Contracts.Exceptions;
 using TranspoDocMonitor.Service.Core.Exception;
+using TranspoDocMonitor.Service.Core.Nortification;
 using TranspoDocMonitor.Service.Domain.Identity;
 using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
@@ -17,11 +17,11 @@ namespace TranspoDocMonitor.Service.Core.Notification
     public class EmailNotification : IEmailNotification
     {
 
-        private readonly IConfiguration _configuration;
+        private readonly SmtpSettings _smtpSettings;
 
-        public EmailNotification(IConfiguration configuration)
+        public EmailNotification(SmtpSettings smtpSettings)
         {
-            _configuration = configuration;
+            _smtpSettings = smtpSettings;
         }
 
         public async Task SendEmailAsync(VehicleDocument? dataDocument, CancellationToken ctn)
@@ -30,16 +30,15 @@ namespace TranspoDocMonitor.Service.Core.Notification
             {
                 try
                 {
-                    var smtpSettings = _configuration.GetSection("SmtpSettings");
                     smtpClient.ServerCertificateValidationCallback = (s, c, h, e) => true;
-                    await smtpClient.ConnectAsync(smtpSettings["Host"], int.Parse(smtpSettings["Port"]), false, ctn);
-                    await smtpClient.AuthenticateAsync(smtpSettings["Username"], smtpSettings["Password"], ctn);
-                    var message = MessageBuilder(dataDocument, smtpSettings);
+                    await smtpClient.ConnectAsync(_smtpSettings.Host, _smtpSettings.Port, false, ctn);
+                    await smtpClient.AuthenticateAsync(_smtpSettings.Username, _smtpSettings.Password, ctn);
+                    var message = MessageBuilder(dataDocument, _smtpSettings);
                     await smtpClient.SendAsync(message, ctn);
                 }
-                catch (System.Exception)
+                catch (System.Exception ex)
                 {
-                    throw OwnError.CanNotSendEmailMessage.ToException("Error sending email");
+                    throw OwnError.CanNotSendEmailMessage.ToException($"Error sending email: {ex}");
                 }
                 finally
                 {
@@ -48,14 +47,16 @@ namespace TranspoDocMonitor.Service.Core.Notification
             }
         }
 
-        private MimeMessage MessageBuilder(VehicleDocument? dataDocument, IConfigurationSection smtpSettings)
+        private MimeMessage MessageBuilder(VehicleDocument? dataDocument, SmtpSettings smtpSettings)
         {
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress(smtpSettings["SenderName"], smtpSettings["SenderEmail"]));
+            message.From.Add(new MailboxAddress(smtpSettings.SenderName, smtpSettings.SenderEmail));
             message.To.Add(new MailboxAddress(dataDocument!.UserVehicle!.User!.FirstName, dataDocument.UserVehicle.User.Email));
             message.Subject = "Information about the document and vehicle";
-            var bodyBuilder = new BodyBuilder();
-            bodyBuilder.TextBody = BuildEmailBody(dataDocument.UserVehicle.User, dataDocument);
+            var bodyBuilder = new BodyBuilder
+            {
+                TextBody = BuildEmailBody(dataDocument.UserVehicle.User, dataDocument)
+            };
             message.Body = bodyBuilder.ToMessageBody();
             return message;
         }

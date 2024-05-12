@@ -63,3 +63,16 @@ F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoD
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Authorization.dll
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.deps.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.csproj.AssemblyReference.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.AssemblyInfoInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.AssemblyInfo.cs
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.csproj.CoreCompileInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.sourcelink.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Authorization\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Authorization.dll

@@ -58,3 +58,15 @@ F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoD
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Exception.dll
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
 F:\backend\Новая папка (3)\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.deps.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfoInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfo.cs
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.csproj.CoreCompileInputs.cache
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.sourcelink.json
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Exception.dll
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\backend\13.05.2024\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Exception.dll

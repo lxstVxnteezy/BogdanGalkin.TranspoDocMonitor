@@ -32,6 +32,7 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Notification\TranspoDocMonitor.Service.Core.Notification.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Swagger\TranspoDocMonitor.Service.Core.Swagger.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Validation\TranspoDocMonitor.Service.Core.Validation.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Service.Core\TranspoDocMonitor.Service.Core.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />

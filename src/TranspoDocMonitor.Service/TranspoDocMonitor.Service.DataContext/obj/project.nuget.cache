@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eTCsZI7viChOPZCYUsBJg+A3bor4gC84XnDDWegehAj/bsKqDXxmuUEiEYpL0zMI9SfnLg7useLYg3+L8n7F2g==",
+  "dgSpecHash": "uLFzxBJY5yKR6zsdR168q6n52atfBDfU7O+J6VAx3obytcqRjxK2qEDUUZLpybfZ/psdInICFwExpO5TSz4BDA==",
   "success": true,
-  "projectFilePath": "F:\\backend\\Новая папка (3)\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj",
+  "projectFilePath": "F:\\backend\\13.05.2024\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bredi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bredi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",

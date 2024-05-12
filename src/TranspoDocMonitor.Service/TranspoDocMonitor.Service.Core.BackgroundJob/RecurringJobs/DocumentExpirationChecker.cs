@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TranspoDocMonitor.Service.Contracts.Exceptions;
-using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
 using TranspoDocMonitor.Service.Domain.Identity;
@@ -8,8 +6,7 @@ using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 {
-
-    public interface IDocumentExpirationChecker
+     public interface IDocumentExpirationChecker
     {
         Task CheckDocumentExpirations(CancellationToken cancellationToken);
     }
@@ -17,10 +14,9 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
     public class DocumentExpirationChecker : IDocumentExpirationChecker
     {
         private readonly IRepository<VehicleDocument> _vehicleDocumentRepository;
-        private readonly EmailNotification _emailNotification;
-
+        private readonly IEmailNotification _emailNotification;
         public DocumentExpirationChecker(
-            EmailNotification emailNotification,
+            IEmailNotification emailNotification,
             IRepository<VehicleDocument> vehicleDocumentRepository,
             IRepository<User> userRepository)
         {

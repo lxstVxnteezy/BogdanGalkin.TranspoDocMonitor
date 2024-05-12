@@ -1,7 +1,5 @@
-﻿using Hangfire;
-using HealthChecks.UI.Client;
+﻿using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using TranspoDocMonitor.Service.Contracts.Shared.Notification.Email;
 using TranspoDocMonitor.Service.Core.Authorization;
 using TranspoDocMonitor.Service.Core.BackgroundJob;
 using TranspoDocMonitor.Service.Core.HTTP.HttpAccessor;
@@ -32,8 +30,8 @@ namespace TranspoDocMonitor.Service.API
             services.AddHttpAccessor();
             services.AddCustomHangFire(Configuration);
             services.AddNotification(Configuration);
-            services.Configure<SmtpSettings>(Configuration.GetSection("SmtpSettings"));
             services.AddValidation();
+            services.AddCors();
 
         }
         public void Configure(IApplicationBuilder app)
@@ -44,7 +42,7 @@ namespace TranspoDocMonitor.Service.API
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHangFire();
-
+            app.UseCors();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
