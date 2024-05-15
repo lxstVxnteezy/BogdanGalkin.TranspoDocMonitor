@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tb4yb02OeXxCWskE01wy/1bTxQb2r46w9yTJjxmxV7qhs5ASJnlWO6sEM9J5DyY4QHcF/Sr83hztpq5lSvg4Sw==",
+  "dgSpecHash": "4VCQNc5PJiEobjnCSPfAqO/obMzGhyXoIn9rWGPlW14CNthnjdzWE1eft/vWEkYLmfDcVgfONDZ1vaGbyHo8IQ==",
   "success": true,
-  "projectFilePath": "F:\\backend\\13.05.2024\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj",
+  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

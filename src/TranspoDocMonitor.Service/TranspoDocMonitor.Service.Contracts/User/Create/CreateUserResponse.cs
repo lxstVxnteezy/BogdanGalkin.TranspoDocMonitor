@@ -1,7 +1,7 @@
 ﻿
 namespace TranspoDocMonitor.Service.Contracts.User.Create
 {
-    public record CreateUserResponse(Guid id);
+    public record CreateUserResponse(Guid id, string login);
  
 
 }

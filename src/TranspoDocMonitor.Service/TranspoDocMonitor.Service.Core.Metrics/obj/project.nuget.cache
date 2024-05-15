@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DijjHnTgWfy9AJIdDXs5AuzRdutWyyzjI8wwxQKca7Riny5NNM/9PCq+GlWmPz4ivxp1kywo68CLRxDoUsFaCg==",
+  "dgSpecHash": "yWZjSR4OOe5xKh6sjii9TtPdGjmUUjxjpt3XkEWnsdZxDPum9933hlPYvrDJLToUD1sSKPq//fEzaM4xWCq1KQ==",
   "success": true,
-  "projectFilePath": "F:\\backend\\13.05.2024\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Metrics\\TranspoDocMonitor.Service.Core.Metrics.csproj",
+  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Metrics\\TranspoDocMonitor.Service.Core.Metrics.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
