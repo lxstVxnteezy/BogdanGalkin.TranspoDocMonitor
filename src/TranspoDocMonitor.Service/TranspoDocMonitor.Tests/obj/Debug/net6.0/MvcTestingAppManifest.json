@@ -1,0 +1,19 @@
+{
+  "TranspoDocMonitor.Service.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API",
+  "TranspoDocMonitor.Service.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts",
+  "TranspoDocMonitor.Service.Contracts.Exceptions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions",
+  "TranspoDocMonitor.Service.Contracts.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Shared",
+  "TranspoDocMonitor.Service.Core.Authorization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Authorization",
+  "TranspoDocMonitor.Service.Core.BackgroundJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob",
+  "TranspoDocMonitor.Service.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core",
+  "TranspoDocMonitor.Service.Core.Exception, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception",
+  "TranspoDocMonitor.Service.Core.HTTP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.HTTP",
+  "TranspoDocMonitor.Service.Core.Notification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification",
+  "TranspoDocMonitor.Service.Core.Swagger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Swagger",
+  "TranspoDocMonitor.Service.Core.Validation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Validation",
+  "TranspoDocMonitor.Service.DataContext.DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess",
+  "TranspoDocMonitor.Service.DataContext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext",
+  "TranspoDocMonitor.Service.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain",
+  "TranspoDocMonitor.Service.HTTP.Handlers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers",
+  "TranspoDocMonitor.Service.Middlewares, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Middlewares"
+}

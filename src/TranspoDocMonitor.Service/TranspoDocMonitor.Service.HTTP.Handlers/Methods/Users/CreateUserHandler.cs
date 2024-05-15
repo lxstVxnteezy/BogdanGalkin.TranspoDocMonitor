@@ -13,7 +13,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users
     }
 
 
-    internal class CreateUserHandler : ICreateUserHandler
+    public class CreateUserHandler : ICreateUserHandler
     {
         private readonly IRepository<User> _userRepository;
         private readonly IRepository<Role> _roleRepository;
@@ -44,7 +44,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users
             };
             _userRepository.Add(newUser);
             await _userRepository.SaveChanges(ctn);
-            return new CreateUserResponse(id: newUser.Id);
+            return new CreateUserResponse(id: newUser.Id, login: newUser.Login);
 
         }
 

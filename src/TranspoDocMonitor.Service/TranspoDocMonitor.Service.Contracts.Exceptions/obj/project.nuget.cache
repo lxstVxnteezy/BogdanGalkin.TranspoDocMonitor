@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VoSWD58Cq+v1KTpSKohTg6Mc8ZHslctjJycvbiKnIvxmIHVL1MENNYHoAJaKrqRodZ8lxJ4e3qhPgaOzhyWfiw==",
+  "dgSpecHash": "eFbED6Frg3u5G0TPS5ua0Kr6sGeunKzMxx5xBObZ2Y3HX+cx102/pTYDipy+DYyyb3TSoWKAETWWh0jAsM2pqQ==",
   "success": true,
-  "projectFilePath": "F:\\backend\\13.05.2024\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
+  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts.Exceptions\\TranspoDocMonitor.Service.Contracts.Exceptions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

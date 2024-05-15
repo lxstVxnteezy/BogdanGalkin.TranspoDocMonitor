@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.30" />
+      <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="6.0.30" />
+      <PackageReference Include="Moq" Version="4.20.70" />
+      <PackageReference Include="xunit" Version="2.8.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.8.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TranspoDocMonitor.Service.API\TranspoDocMonitor.Service.API.csproj" />
+      <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Exceptions\TranspoDocMonitor.Service.Contracts.Exceptions.csproj" />
+      <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts.Shared\TranspoDocMonitor.Service.Contracts.Shared.csproj" />
+      <ProjectReference Include="..\TranspoDocMonitor.Service.Contracts\TranspoDocMonitor.Service.Contracts.csproj" />
+      <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
+    </ItemGroup>
+
+</Project>
