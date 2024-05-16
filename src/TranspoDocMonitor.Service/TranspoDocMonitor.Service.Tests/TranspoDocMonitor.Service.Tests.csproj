@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -29,6 +29,11 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Validation\TranspoDocMonitor.Service.Core.Validation.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IntegrationTests\" />
+    <Folder Include="UnitTests\Vehicle\" />
   </ItemGroup>
 
 </Project>
