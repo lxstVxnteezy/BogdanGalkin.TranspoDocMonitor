@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>TranspoDocMonitor.Service.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,11 +31,6 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.Validation\TranspoDocMonitor.Service.Core.Validation.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="IntegrationTests\" />
-    <Folder Include="UnitTests\Vehicle\" />
   </ItemGroup>
 
 </Project>
