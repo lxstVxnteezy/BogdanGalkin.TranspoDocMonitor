@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gYXC3YU99fuS5dtiygcg+f0dJIMISyjTrNQJtbB9DGHzb0TdvvG+aFvvpjh6l+xSK9jfOxlhUCzahL4zMGbEUQ==",
+  "dgSpecHash": "nM/LDqm1nCfAVg2AXIPi7nRl+D7Er4a75SCP4haOYo57gURa/y5RPRhqMSkDG3ORA0soGzYAckSnOd+zm37zQQ==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Tests\\TranspoDocMonitor.Service.Tests.csproj",
+  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.UnitTests\\TranspoDocMonitor.Service.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Иван\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Иван\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

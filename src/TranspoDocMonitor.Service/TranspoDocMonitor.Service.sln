@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Service.Core", "TranspoDocMonitor.Service.Core\TranspoDocMonitor.Service.Core.csproj", "{CCD073EA-E071-41B8-89B2-28E1482DCF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.Tests", "TranspoDocMonitor.Service.Tests\TranspoDocMonitor.Service.Tests.csproj", "{1B5C0CC9-E444-4ED0-B477-1C11825CE205}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Service.UnitTests", "TranspoDocMonitor.Service.UnitTests\TranspoDocMonitor.Service.UnitTests.csproj", "{1B5C0CC9-E444-4ED0-B477-1C11825CE205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{65623736-D342-4164-84E7-BAE052B7647D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -166,6 +168,7 @@ Global
 		{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0} = {C327C2E2-7FB7-4587-BDBD-B2376CF3756C}
 		{E8766A49-8E27-4345-9AA4-8BF1D1A0EFAA} = {C327C2E2-7FB7-4587-BDBD-B2376CF3756C}
 		{CCD073EA-E071-41B8-89B2-28E1482DCF4E} = {C327C2E2-7FB7-4587-BDBD-B2376CF3756C}
+		{1B5C0CC9-E444-4ED0-B477-1C11825CE205} = {65623736-D342-4164-84E7-BAE052B7647D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B889310B-E517-4F49-8173-3FB62E204133}
