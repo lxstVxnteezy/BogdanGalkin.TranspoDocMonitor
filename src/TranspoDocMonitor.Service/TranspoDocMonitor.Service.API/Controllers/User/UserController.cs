@@ -10,13 +10,23 @@ namespace TranspoDocMonitor.Service.API.Controllers.User
     [Route("api/user")]
     public class UserController : BaseApiController
     {
-        [HttpPost("/createUser") ]
+        [HttpPost("/createUser")]
         public Task<CreateUserResponse> Create(
             [FromServices] ICreateUserHandler handler,
             [FromBody] CreateUserRequest request,
             CancellationToken ctn)
         {
             return handler.Handle(request, ctn);
+        }
+
+
+        [HttpDelete("/deleteUser{id}")]
+        public Task<ActionResult> Delete(
+            [FromServices] IDeleteUserHandler handler,
+            [FromRoute] Guid id,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, ctn);
         }
     }
 }

@@ -31,5 +31,8 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
         [ServiceOwnError(message:"Cannot find transport document")]
         CanNotFindTransportDocument = 9,
 
+        [ServiceOwnError(message:"Cannot delete user")]
+        CanNotDeleteUser = 10,
+
     }
 }
