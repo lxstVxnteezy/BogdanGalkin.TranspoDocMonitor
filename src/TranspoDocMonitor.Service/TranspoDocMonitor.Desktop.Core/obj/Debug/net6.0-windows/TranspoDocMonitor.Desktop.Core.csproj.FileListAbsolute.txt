@@ -1,0 +1,12 @@
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.deps.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.AssemblyInfoInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.AssemblyInfo.cs
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.csproj.CoreCompileInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.sourcelink.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.Core.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Core.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Core\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.Core.dll
