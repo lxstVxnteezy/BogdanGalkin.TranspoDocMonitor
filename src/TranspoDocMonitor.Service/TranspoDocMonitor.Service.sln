@@ -65,6 +65,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contacts", "Contacts", "{5B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.Core", "TranspoDocMonitor.Desktop.Core\TranspoDocMonitor.Desktop.Core.csproj", "{F3C00361-D06B-4E5E-985C-C6DA35CBC7AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.User", "TranspoDocMonitor.Desktop.User\TranspoDocMonitor.Desktop.User.csproj", "{D4B38E02-4EBE-45A5-B203-5A144B2061C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{04A271DE-19B7-4E15-8D4D-465CF91253D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +159,10 @@ Global
 		{F3C00361-D06B-4E5E-985C-C6DA35CBC7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C00361-D06B-4E5E-985C-C6DA35CBC7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C00361-D06B-4E5E-985C-C6DA35CBC7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B38E02-4EBE-45A5-B203-5A144B2061C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B38E02-4EBE-45A5-B203-5A144B2061C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B38E02-4EBE-45A5-B203-5A144B2061C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B38E02-4EBE-45A5-B203-5A144B2061C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +196,8 @@ Global
 		{BC68D0E5-A505-44B9-8879-1B522533A30C} = {DF404E27-9123-4E1B-973E-C41ADEF33A85}
 		{5BB456FA-C26F-4930-B8B3-78AB12EC13ED} = {DF404E27-9123-4E1B-973E-C41ADEF33A85}
 		{F3C00361-D06B-4E5E-985C-C6DA35CBC7AA} = {DF404E27-9123-4E1B-973E-C41ADEF33A85}
+		{D4B38E02-4EBE-45A5-B203-5A144B2061C0} = {04A271DE-19B7-4E15-8D4D-465CF91253D9}
+		{04A271DE-19B7-4E15-8D4D-465CF91253D9} = {DF404E27-9123-4E1B-973E-C41ADEF33A85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B889310B-E517-4F49-8173-3FB62E204133}

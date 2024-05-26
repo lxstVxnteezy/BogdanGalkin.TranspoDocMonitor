@@ -1,0 +1,17 @@
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.deps.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\UserView.g.cs
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User_MarkupCompile.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User_MarkupCompile.lref
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\UserView.baml
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.g.resources
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.AssemblyInfoInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.AssemblyInfo.cs
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.csproj.CoreCompileInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.sourcelink.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.User.dll

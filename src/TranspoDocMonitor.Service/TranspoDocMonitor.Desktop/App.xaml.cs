@@ -13,10 +13,7 @@ namespace TranspoDocMonitor.Desktop
     /// </summary>
     public partial class App : PrismApplication
     {
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-        }
-
+      
         protected override Window CreateShell()
         {
             return Container.Resolve<MainWindow>();
@@ -27,8 +24,14 @@ namespace TranspoDocMonitor.Desktop
             return base.CreateModuleCatalog();
         }
 
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            
+        }
+
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
+            moduleCatalog.AddModule<MainModule>();
         }
     }
 
