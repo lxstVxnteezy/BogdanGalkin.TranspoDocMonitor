@@ -1,5 +1,4 @@
-﻿
-using TranspoDocMonitor.Desktop.ViewModels.Base;
+﻿using TranspoDocMonitor.Service.Common;
 
 namespace TranspoDocMonitor.Desktop.ViewModels
 {

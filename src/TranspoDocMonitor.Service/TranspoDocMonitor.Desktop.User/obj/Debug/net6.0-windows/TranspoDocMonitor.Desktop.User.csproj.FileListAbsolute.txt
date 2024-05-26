@@ -15,3 +15,7 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.User.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.csproj.AssemblyReference.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoD.860F10EB.Up2Date
