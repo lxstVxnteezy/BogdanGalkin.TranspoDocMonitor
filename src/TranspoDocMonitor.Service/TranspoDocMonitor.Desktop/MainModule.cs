@@ -3,6 +3,7 @@ using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 using TranspoDocMonitor.Desktop.User.Views;
+using TranspoDocMonitor.Desktop.Vehicle;
 
 namespace TranspoDocMonitor.Desktop;
 
@@ -16,5 +17,6 @@ class  MainModule : IModule
     {
         var region = containerProvider.Resolve<IRegionManager>();
         region.RegisterViewWithRegion("MainRegion", typeof(UserView));
+        region.RegisterViewWithRegion("MainRegion", typeof(VehicleView));
     }
 }

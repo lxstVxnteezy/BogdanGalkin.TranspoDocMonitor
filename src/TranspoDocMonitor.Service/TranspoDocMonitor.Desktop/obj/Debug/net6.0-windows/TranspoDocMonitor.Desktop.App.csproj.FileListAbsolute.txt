@@ -31,3 +31,5 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.pdb

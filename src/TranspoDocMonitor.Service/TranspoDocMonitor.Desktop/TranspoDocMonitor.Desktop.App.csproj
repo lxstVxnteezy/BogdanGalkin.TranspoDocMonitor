@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TranspoDocMonitor.Desktop.User\TranspoDocMonitor.Desktop.User.csproj" />
+    <ProjectReference Include="..\TranspoDocMonitor.Desktop.Vehicle\TranspoDocMonitor.Desktop.Vehicle.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Common\TranspoDocMonitor.Desktop.Common.csproj" />
   </ItemGroup>
 

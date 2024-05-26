@@ -159,6 +159,19 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "TranspoDocMonitor.Desktop.Vehicle/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Desktop.Vehicle.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Desktop.Vehicle.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -397,6 +410,11 @@
       "type": "project",
       "path": "../TranspoDocMonitor.Desktop.User/TranspoDocMonitor.Desktop.User.csproj",
       "msbuildProject": "../TranspoDocMonitor.Desktop.User/TranspoDocMonitor.Desktop.User.csproj"
+    },
+    "TranspoDocMonitor.Desktop.Vehicle/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Desktop.Vehicle/TranspoDocMonitor.Desktop.Vehicle.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Desktop.Vehicle/TranspoDocMonitor.Desktop.Vehicle.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -405,7 +423,8 @@
       "Prism.Unity >= 8.1.97",
       "Prism.Wpf >= 8.1.97",
       "TranspoDocMonitor.Desktop.Common >= 1.0.0",
-      "TranspoDocMonitor.Desktop.User >= 1.0.0"
+      "TranspoDocMonitor.Desktop.User >= 1.0.0",
+      "TranspoDocMonitor.Desktop.Vehicle >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -443,6 +462,9 @@
           "projectReferences": {
             "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj": {
               "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj"
+            },
+            "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj": {
+              "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj"
             },
             "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj": {
               "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj"

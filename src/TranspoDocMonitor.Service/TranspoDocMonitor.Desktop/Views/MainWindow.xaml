@@ -4,11 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TranspoDocMonitor.Desktop"
-        mc:Ignorable="d"
+        mc:Ignorable="d" 
+        Title="TranspoDocMonitor.Desktop"
         xmlns:prism="http://prismlibrary.com/">
 
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="MainRegion"/>
+        <TabControl Margin="5" prism:RegionManager.RegionName="MainRegion"
+                    VerticalAlignment="Stretch" HorizontalAlignment="Left" BorderThickness="0"/>
 
     </Grid>
 </Window>

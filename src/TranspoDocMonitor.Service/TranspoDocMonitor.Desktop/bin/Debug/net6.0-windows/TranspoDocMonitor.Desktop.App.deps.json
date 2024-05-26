@@ -12,7 +12,8 @@
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
           "TranspoDocMonitor.Desktop.Common": "1.0.0",
-          "TranspoDocMonitor.Desktop.User": "1.0.0"
+          "TranspoDocMonitor.Desktop.User": "1.0.0",
+          "TranspoDocMonitor.Desktop.Vehicle": "1.0.0"
         },
         "runtime": {
           "TranspoDocMonitor.Desktop.App.dll": {}
@@ -100,6 +101,11 @@
         "runtime": {
           "TranspoDocMonitor.Desktop.User.dll": {}
         }
+      },
+      "TranspoDocMonitor.Desktop.Vehicle/1.0.0": {
+        "runtime": {
+          "TranspoDocMonitor.Desktop.Vehicle.dll": {}
+        }
       }
     }
   },
@@ -171,6 +177,11 @@
       "sha512": ""
     },
     "TranspoDocMonitor.Desktop.User/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Desktop.Vehicle/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

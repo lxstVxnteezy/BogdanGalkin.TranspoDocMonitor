@@ -1,7 +1,7 @@
 
 using Prism.Mvvm;
 
-namespace TranspoDocMonitor.Service.Common
+namespace TranspoDocMonitor.Desktop.Common.Base
 {
     public abstract class BaseViewModel : BindableBase
     {
