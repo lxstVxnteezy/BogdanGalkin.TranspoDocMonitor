@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZU1hR8Xo+EGV0Yk87rTPnW1Iz0GhsP5LjZWTseDNKgQ=",
+  "Source": "TranspoDocMonitor.Service.API",
+  "BasePath": "_content/TranspoDocMonitor.Service.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

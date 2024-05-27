@@ -5,8 +5,43 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TranspoDocMonitor.Desktop.User.Views"
       mc:Ignorable="d"  x:Name="UserTab"
-      d:DesignHeight="450" d:DesignWidth="800">
+      d:DesignHeight="600" d:DesignWidth="800">
     <Grid>
-        <Button Width="200" Height="100" Content="Show Dialog" Command="{Binding ShowDialog}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Для кнопки -->
+            <RowDefinition Height="*"/>
+            <!-- Для списка пользователей -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <!-- Для кнопки -->
+            <ColumnDefinition Width="*"/>
+            <!-- Для списка пользователей -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Кнопка создания пользователя в левом верхнем углу -->
+        <Button Grid.Row="0" Grid.Column="0" Content="Create User" Command="{Binding ShowDialog}" Margin="10,10,0,0"/>
+
+        <!-- Кнопка удаления в правом верхнем углу -->
+        <Button Grid.Row="0" Grid.Column="1" Content="Delete Selected" Command="{Binding RemoveUser}" Margin="0,10,10,0" HorizontalAlignment="Right"/>
+
+        <!-- Список пользователей -->
+        <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Name="UserListView" Margin="10" ItemsSource="{Binding Users}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}" Width="50"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="150"/>
+                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="200"/>
+                    <GridViewColumn Header="Select">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding IsSelected, Mode=TwoWay}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </UserControl>

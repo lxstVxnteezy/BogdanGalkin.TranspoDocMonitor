@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TranspoDocMonitor.Desktop"
         mc:Ignorable="d" 
-        Title="TranspoDocMonitor.Desktop"
+        Title="TranspoDocMonitor.Desktop" Width="600" Height="600"
+        WindowStartupLocation="CenterScreen"
         xmlns:prism="http://prismlibrary.com/">
 
     <Grid>
