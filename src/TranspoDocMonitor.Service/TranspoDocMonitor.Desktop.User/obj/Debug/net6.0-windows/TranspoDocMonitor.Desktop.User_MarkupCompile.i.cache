@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-11025829601
+2-307431538
 
-5-1374540346
+7-161363085
 201275401885
-Views\UserView.xaml;
+Views\DialogCreateUserView.xaml;Views\UserView.xaml;
 
 True
 

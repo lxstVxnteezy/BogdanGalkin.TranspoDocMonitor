@@ -1,5 +1,6 @@
 ﻿
 using System.Windows.Controls;
+using TranspoDocMonitor.Desktop.User.ViewModels;
 
 
 namespace TranspoDocMonitor.Desktop.User.Views
@@ -9,9 +10,10 @@ namespace TranspoDocMonitor.Desktop.User.Views
     /// </summary>
     public partial class UserView : UserControl
     {
-        public UserView()
+        public UserView(UserViewModel viewModel)
         {
             InitializeComponent();
+            DataContext = viewModel;
         }
     }
 }

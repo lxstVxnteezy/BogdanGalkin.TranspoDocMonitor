@@ -148,6 +148,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Prism.Unity": "8.1.97",
+          "Prism.Wpf": "8.1.97",
           "TranspoDocMonitor.Desktop.Common": "1.0.0"
         },
         "compile": {

@@ -6,6 +6,7 @@ using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 using Prism.Unity;
+using TranspoDocMonitor.Desktop.Regions;
 
 
 namespace TranspoDocMonitor.Desktop

@@ -1,10 +1,8 @@
-﻿
-using System.Collections.Specialized;
-
+﻿using System.Collections.Specialized;
 using System.Windows.Controls;
 using Prism.Regions;
 
-namespace TranspoDocMonitor.Desktop
+namespace TranspoDocMonitor.Desktop.Regions
 {
     class TabControlAdapter : RegionAdapterBase<TabControl>
     {

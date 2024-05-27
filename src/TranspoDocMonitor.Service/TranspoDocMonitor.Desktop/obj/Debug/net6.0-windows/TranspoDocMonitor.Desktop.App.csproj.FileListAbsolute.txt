@@ -25,11 +25,11 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.App.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.App.genruntimeconfig.cache
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.App.dll
-F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
-F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\Views\MainWindow.baml
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop\obj\Debug\net6.0-windows\View\MainWindow.baml

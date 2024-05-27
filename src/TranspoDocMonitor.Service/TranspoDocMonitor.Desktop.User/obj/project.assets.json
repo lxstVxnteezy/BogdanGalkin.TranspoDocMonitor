@@ -380,6 +380,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Prism.Core >= 8.1.97",
+      "Prism.Unity >= 8.1.97",
+      "Prism.Wpf >= 8.1.97",
       "TranspoDocMonitor.Desktop.Common >= 1.0.0"
     ]
   },
@@ -436,6 +439,20 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Prism.Core": {
+            "target": "Package",
+            "version": "[8.1.97, )"
+          },
+          "Prism.Unity": {
+            "target": "Package",
+            "version": "[8.1.97, )"
+          },
+          "Prism.Wpf": {
+            "target": "Package",
+            "version": "[8.1.97, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
