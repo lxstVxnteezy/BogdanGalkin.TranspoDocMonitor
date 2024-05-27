@@ -1,0 +1,13 @@
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.deps.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.csproj.AssemblyReference.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.AssemblyInfoInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.AssemblyInfo.cs
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.csproj.CoreCompileInputs.cache
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.sourcelink.json
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.Common.DialogService.dll
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.pdb
+F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Common.DialogService\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.Common.DialogService.dll

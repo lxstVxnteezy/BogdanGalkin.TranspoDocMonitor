@@ -7,6 +7,7 @@ using Prism.Modularity;
 using Prism.Regions;
 using Prism.Unity;
 using TranspoDocMonitor.Desktop.Regions;
+using TranspoDocMonitor.Desktop.User;
 
 
 namespace TranspoDocMonitor.Desktop
@@ -34,6 +35,7 @@ namespace TranspoDocMonitor.Desktop
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
+            moduleCatalog.AddModule<UserModule>();
             moduleCatalog.AddModule<MainModule>();
         }
 

@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TranspoDocMonitor.Common.DialogService\TranspoDocMonitor.Desktop.Common.DialogService.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Common\TranspoDocMonitor.Desktop.Common.csproj" />
   </ItemGroup>
 

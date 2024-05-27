@@ -94,12 +94,23 @@
           "TranspoDocMonitor.Desktop.Common.dll": {}
         }
       },
+      "TranspoDocMonitor.Desktop.Common.DialogService/1.0.0": {
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Prism.Unity": "8.1.97",
+          "Prism.Wpf": "8.1.97"
+        },
+        "runtime": {
+          "TranspoDocMonitor.Desktop.Common.DialogService.dll": {}
+        }
+      },
       "TranspoDocMonitor.Desktop.User/1.0.0": {
         "dependencies": {
           "Prism.Core": "8.1.97",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
-          "TranspoDocMonitor.Desktop.Common": "1.0.0"
+          "TranspoDocMonitor.Desktop.Common": "1.0.0",
+          "TranspoDocMonitor.Desktop.Common.DialogService": "1.0.0"
         },
         "runtime": {
           "TranspoDocMonitor.Desktop.User.dll": {}
@@ -175,6 +186,11 @@
       "hashPath": "unity.container.5.11.11.nupkg.sha512"
     },
     "TranspoDocMonitor.Desktop.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TranspoDocMonitor.Desktop.Common.DialogService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

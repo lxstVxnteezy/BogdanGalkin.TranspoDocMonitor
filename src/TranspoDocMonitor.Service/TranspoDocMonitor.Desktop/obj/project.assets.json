@@ -144,6 +144,24 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "TranspoDocMonitor.Desktop.Common.DialogService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Prism.Core": "8.1.97",
+          "Prism.Unity": "8.1.97",
+          "Prism.Wpf": "8.1.97"
+        },
+        "compile": {
+          "bin/placeholder/TranspoDocMonitor.Desktop.Common.DialogService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TranspoDocMonitor.Desktop.Common.DialogService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "TranspoDocMonitor.Desktop.User/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -151,7 +169,8 @@
           "Prism.Core": "8.1.97",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
-          "TranspoDocMonitor.Desktop.Common": "1.0.0"
+          "TranspoDocMonitor.Desktop.Common": "1.0.0",
+          "TranspoDocMonitor.Desktop.Common.DialogService": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TranspoDocMonitor.Desktop.User.dll": {}
@@ -408,6 +427,11 @@
       "type": "project",
       "path": "../TranspoDocMonitor.Service.Common/TranspoDocMonitor.Desktop.Common.csproj",
       "msbuildProject": "../TranspoDocMonitor.Service.Common/TranspoDocMonitor.Desktop.Common.csproj"
+    },
+    "TranspoDocMonitor.Desktop.Common.DialogService/1.0.0": {
+      "type": "project",
+      "path": "../TranspoDocMonitor.Common.DialogService/TranspoDocMonitor.Desktop.Common.DialogService.csproj",
+      "msbuildProject": "../TranspoDocMonitor.Common.DialogService/TranspoDocMonitor.Desktop.Common.DialogService.csproj"
     },
     "TranspoDocMonitor.Desktop.User/1.0.0": {
       "type": "project",

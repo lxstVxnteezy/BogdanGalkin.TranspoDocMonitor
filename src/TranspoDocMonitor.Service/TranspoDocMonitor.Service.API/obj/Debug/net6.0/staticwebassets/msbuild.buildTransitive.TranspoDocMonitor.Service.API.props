@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\TranspoDocMonitor.Service.API.props" />
-</Project>

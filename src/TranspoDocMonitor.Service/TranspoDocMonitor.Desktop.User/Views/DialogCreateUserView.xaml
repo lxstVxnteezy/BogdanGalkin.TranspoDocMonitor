@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TranspoDocMonitor.Desktop.User.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="DialogCreateUserView" Height="450" Width="800">
+        Title="CreateUser" Height="450" Width="800">
     <Grid>
         <TextBlock  Text="this is a dialog for createUser" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10" />
     </Grid>

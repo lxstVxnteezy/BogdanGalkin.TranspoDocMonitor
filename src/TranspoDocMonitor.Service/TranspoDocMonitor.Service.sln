@@ -59,17 +59,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{65623736
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{DF404E27-9123-4E1B-973E-C41ADEF33A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.App", "TranspoDocMonitor.Desktop\TranspoDocMonitor.Desktop.App.csproj", "{BC68D0E5-A505-44B9-8879-1B522533A30C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Desktop.App", "TranspoDocMonitor.Desktop\TranspoDocMonitor.Desktop.App.csproj", "{BC68D0E5-A505-44B9-8879-1B522533A30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.User", "TranspoDocMonitor.Desktop.User\TranspoDocMonitor.Desktop.User.csproj", "{D4B38E02-4EBE-45A5-B203-5A144B2061C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Desktop.User", "TranspoDocMonitor.Desktop.User\TranspoDocMonitor.Desktop.User.csproj", "{D4B38E02-4EBE-45A5-B203-5A144B2061C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{04A271DE-19B7-4E15-8D4D-465CF91253D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.Vehicle", "TranspoDocMonitor.Desktop.Vehicle\TranspoDocMonitor.Desktop.Vehicle.csproj", "{A7D43662-970E-4BB2-9BD0-9079C9E17A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Desktop.Vehicle", "TranspoDocMonitor.Desktop.Vehicle\TranspoDocMonitor.Desktop.Vehicle.csproj", "{A7D43662-970E-4BB2-9BD0-9079C9E17A79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0EC1273E-CF32-4C49-9879-E6CADED63A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.Common", "TranspoDocMonitor.Service.Common\TranspoDocMonitor.Desktop.Common.csproj", "{8067E87A-0952-4793-B97A-FFA3CF3CD310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranspoDocMonitor.Desktop.Common", "TranspoDocMonitor.Service.Common\TranspoDocMonitor.Desktop.Common.csproj", "{8067E87A-0952-4793-B97A-FFA3CF3CD310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranspoDocMonitor.Desktop.Common.DialogService", "TranspoDocMonitor.Common.DialogService\TranspoDocMonitor.Desktop.Common.DialogService.csproj", "{C7D6051B-EB37-4B19-9503-9057DF5C849C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +171,10 @@ Global
 		{8067E87A-0952-4793-B97A-FFA3CF3CD310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8067E87A-0952-4793-B97A-FFA3CF3CD310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8067E87A-0952-4793-B97A-FFA3CF3CD310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D6051B-EB37-4B19-9503-9057DF5C849C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D6051B-EB37-4B19-9503-9057DF5C849C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D6051B-EB37-4B19-9503-9057DF5C849C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D6051B-EB37-4B19-9503-9057DF5C849C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,6 +211,7 @@ Global
 		{A7D43662-970E-4BB2-9BD0-9079C9E17A79} = {04A271DE-19B7-4E15-8D4D-465CF91253D9}
 		{0EC1273E-CF32-4C49-9879-E6CADED63A84} = {DF404E27-9123-4E1B-973E-C41ADEF33A85}
 		{8067E87A-0952-4793-B97A-FFA3CF3CD310} = {0EC1273E-CF32-4C49-9879-E6CADED63A84}
+		{C7D6051B-EB37-4B19-9503-9057DF5C849C} = {0EC1273E-CF32-4C49-9879-E6CADED63A84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B889310B-E517-4F49-8173-3FB62E204133}

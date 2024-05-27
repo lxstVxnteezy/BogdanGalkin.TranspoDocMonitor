@@ -7,7 +7,12 @@ namespace TranspoDocMonitor.Desktop.User.ViewModels
 {
     public class UserViewModel : BaseViewModel
     {
-        private IDialogService _dialogService = new DialogService();
+        private readonly IDialogService _dialogService;
+
+        public UserViewModel(IDialogService dialogService)
+        {
+            _dialogService = dialogService;
+        }
 
         private DelegateCommand _showDialog;
         public DelegateCommand ShowDialog =>
@@ -15,7 +20,7 @@ namespace TranspoDocMonitor.Desktop.User.ViewModels
 
         private void ExecuteShowDialog()
         {
-            _dialogService.ShowDialog();
+            _dialogService.CreateUserShowDialog();
         }
     }
 
