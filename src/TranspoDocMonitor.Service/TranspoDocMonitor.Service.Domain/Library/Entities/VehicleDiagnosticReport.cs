@@ -1,5 +1,6 @@
 ﻿using System.Numerics;
 using TranspoDocMonitor.Service.Domain.Base;
+using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Domain.Library.Entities
 {

@@ -1,4 +1,5 @@
 ﻿using TranspoDocMonitor.Service.Domain.Base;
+using TranspoDocMonitor.Service.Domain.Library.Entities;
 using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Domain.Identity
@@ -22,7 +23,7 @@ namespace TranspoDocMonitor.Service.Domain.Identity
         public virtual Role Role { get; set; } 
 
 
-        public virtual ICollection<UserVehicle> UserVehicles { get; set; } = new List<UserVehicle>();
+        public virtual ICollection<Vehicle> Vehicles { get; set; } = new List<Vehicle>();
 
     }
 }

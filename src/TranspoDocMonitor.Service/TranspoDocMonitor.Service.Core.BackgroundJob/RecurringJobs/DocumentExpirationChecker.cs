@@ -13,32 +13,9 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob.RecurringJobs
 
     public class DocumentExpirationChecker : IDocumentExpirationChecker
     {
-        private readonly IRepository<VehicleDocument> _vehicleDocumentRepository;
-        private readonly IEmailNotification _emailNotification;
-        public DocumentExpirationChecker(
-            IEmailNotification emailNotification,
-            IRepository<VehicleDocument> vehicleDocumentRepository,
-            IRepository<User> userRepository)
+        public Task CheckDocumentExpirations(CancellationToken cancellationToken)
         {
-            _emailNotification = emailNotification;
-            _vehicleDocumentRepository = vehicleDocumentRepository;
+            throw new NotImplementedException();
         }
-
-        public async Task CheckDocumentExpirations(CancellationToken ctn)
-        {
-            var documentsToExpireTomorrow = _vehicleDocumentRepository.Query
-                .Include(td => td.UserVehicle)
-                .ThenInclude(uv => uv!.User)
-                .ToList();
-
-            if (documentsToExpireTomorrow == null)
-                return;
-
-            foreach (var document in documentsToExpireTomorrow)
-            {
-                await _emailNotification.SendEmailAsync(document, ctn);
-            }
-        }
-
     }
 }

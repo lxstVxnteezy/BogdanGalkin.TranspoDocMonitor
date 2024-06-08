@@ -20,4 +20,8 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Methods\Register\" />
+  </ItemGroup>
+
 </Project>

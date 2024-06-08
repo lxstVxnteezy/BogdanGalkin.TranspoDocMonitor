@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Core.Metrics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33bb72aa3fc53a2cc25bdac7f40157f34870ceb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+091742a593339d969fd4453a4a2b7ee61997b6b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Core.Metrics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Core.Metrics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

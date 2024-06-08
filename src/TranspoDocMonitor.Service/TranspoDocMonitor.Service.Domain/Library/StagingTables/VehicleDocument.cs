@@ -1,20 +1,26 @@
 ﻿using TranspoDocMonitor.Service.Domain.Base;
-using TranspoDocMonitor.Service.Domain.Library.Dictionaries;
+using TranspoDocMonitor.Service.Domain.Library.Entities;
 
 namespace TranspoDocMonitor.Service.Domain.Library.StagingTables
 {
     public class VehicleDocument : BaseEntity
     {
-        public int DocumentNumber { get; set; }
         public DateTime DateOfIssue { get; set; }
         public DateTime ExpirationDateOfIssue { get; set; }
+        public string Policyholder { get; set; } = null!;
+        public string Beneficiary { get; set; } = null!;
+
+        public int ContractNumberCCI { get; set; }
+        public int NumberSeriesCCLI { get; set; }
+
+        public Decimal Insurance { get; set; }
+        public Decimal СoverageAmount { get; set; }
 
 
-        public Guid UserVehicleId { get; set; }
-        public virtual UserVehicle? UserVehicle { get; set; } = null!;
-       
-        public Guid DictionaryDocumentTypeId { get; set; }
-        public virtual DictionaryDocumentType? DictionaryDocumentType { get; set; } = null!;
+
+        public Guid VehicleId { get; set; }
+        public virtual Vehicle? Vehicle { get; set; } = null!;
+
 
     }
 }

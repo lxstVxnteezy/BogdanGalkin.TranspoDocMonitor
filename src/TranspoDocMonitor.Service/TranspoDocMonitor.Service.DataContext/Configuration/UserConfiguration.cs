@@ -22,6 +22,10 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
                 .WithMany(p => p.Users)
                 .HasForeignKey(p => p.RoleId);
 
+            builder.HasMany(e => e.Vehicles)
+                .WithOne(e => e.User)
+                .HasForeignKey(e => e.UserId)
+                .IsRequired();
 
         }
     }

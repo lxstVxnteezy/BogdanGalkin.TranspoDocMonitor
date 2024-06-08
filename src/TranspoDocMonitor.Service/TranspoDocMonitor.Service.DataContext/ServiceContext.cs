@@ -2,7 +2,6 @@
 using System.Reflection;
 using TranspoDocMonitor.Service.Domain.Base;
 using TranspoDocMonitor.Service.Domain.Identity;
-using TranspoDocMonitor.Service.Domain.Library.Dictionaries;
 using TranspoDocMonitor.Service.Domain.Library.Entities;
 using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
@@ -13,8 +12,6 @@ namespace TranspoDocMonitor.Service.DataContext
         public ServiceContext(DbContextOptions options) : base(options)
         {
         }
-
-      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,8 +26,6 @@ namespace TranspoDocMonitor.Service.DataContext
         public DbSet<Role> Roles { get; set; } = null!;
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Vehicle> Vehicles { get; set; } = null!;
-        public DbSet<UserVehicle> UserTransports { get; set; } = null!;
-        public DbSet<DictionaryDocumentType> DictionaryDocumentTypes { get; set; } = null!;
         public DbSet<VehicleDocument> TransportDocuments { get; set; } = null!;
         public DbSet<VehicleDiagnosticReport> VehicleDiagnosticReports { get; set; } = null!;
         public DbSet<Pass> Pass { get; set; } = null!;

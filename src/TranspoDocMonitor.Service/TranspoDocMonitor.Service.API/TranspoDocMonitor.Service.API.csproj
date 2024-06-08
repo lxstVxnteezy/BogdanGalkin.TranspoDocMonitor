@@ -10,6 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Nortification\**" />
+    <Content Remove="Controllers\Nortification\**" />
+    <EmbeddedResource Remove="Controllers\Nortification\**" />
+    <None Remove="Controllers\Nortification\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
     <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
@@ -40,10 +47,6 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.HTTP.Handlers\TranspoDocMonitor.Service.HTTP.Handlers.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.Middlewares\TranspoDocMonitor.Service.Middlewares.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\Nortification\" />
   </ItemGroup>
 
 </Project>
