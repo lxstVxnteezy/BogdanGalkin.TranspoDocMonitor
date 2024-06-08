@@ -3,40 +3,104 @@
   "WorkspaceRootPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\entities\\vehiclediagnosticreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\entities\\vehiclediagnosticreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\vehiclediagnosticreportsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\vehiclediagnosticreportsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\servicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\servicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\passconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\passconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\stagingtables\\vehicledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\stagingtables\\vehicledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\vehiclediagnosticreportsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\vehiclediagnosticreportsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\uservehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\uservehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\entities\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\entities\\pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\enumtypes\\from.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\enumtypes\\from.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\enumtypes\\autocolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\enumtypes\\autocolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\strategy\\notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\strategy\\notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\strategy\\inotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\strategy\\inotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\emailnortification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\emailnortification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\smptsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\smptsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\dependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\dependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.backgroundjob\\dependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|solutionrelative:transpodocmonitor.service.core.backgroundjob\\dependenciesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.backgroundjob\\backgroundjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|solutionrelative:transpodocmonitor.service.core.backgroundjob\\backgroundjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.backgroundjob\\recurringjobs\\documentexpirationchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02E0868-C65C-430E-9CF0-9D7294BC052C}|TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj|solutionrelative:transpodocmonitor.service.core.backgroundjob\\recurringjobs\\documentexpirationchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\dictionaries\\dictionarydocumenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\dictionaries\\dictionarydocumenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\stagingtables\\uservehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\stagingtables\\uservehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.domain\\library\\stagingtables\\vehicledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A75A0A-9854-4860-B0C5-BA78446106AA}|TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj|solutionrelative:transpodocmonitor.service.domain\\library\\stagingtables\\vehicledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.core.notification\\strategy\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7348DE75-61E5-4D05-BD4B-D62B79E5AAC0}|TranspoDocMonitor.Service.Core.Notification\\TranspoDocMonitor.Service.Core.Notification.csproj|solutionrelative:transpodocmonitor.service.core.notification\\strategy\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +110,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserVehicleConfiguration.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\UserVehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\UserVehicleConfiguration.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\UserVehicleConfiguration.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\UserVehicleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:34:19.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:31:51.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PassConfiguration.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\PassConfiguration.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\PassConfiguration.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\PassConfiguration.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\PassConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:28:20.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "From.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\EnumTypes\\From.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\EnumTypes\\From.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\EnumTypes\\From.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\EnumTypes\\From.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:17:52.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoColor.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\EnumTypes\\AutoColor.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\EnumTypes\\AutoColor.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\EnumTypes\\AutoColor.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\EnumTypes\\AutoColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:17:42.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pass.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Pass.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Pass.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Pass.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Pass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:08:14.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehicleDiagnosticReport.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:08:17.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:58:47.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehicleDiagnosticReportsConfiguration.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:18:20.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TransportDocumentsConfiguration.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\TransportDocumentsConfiguration.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\TransportDocumentsConfiguration.cs",
@@ -63,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "VehicleConfiguration.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleConfiguration.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleConfiguration.cs",
@@ -76,115 +257,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VehicleDiagnosticReportsConfiguration.cs",
-              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
-              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
-              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
-              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\VehicleDiagnosticReportsConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:18:20.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ServiceContext.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\ServiceContext.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\ServiceContext.cs",
               "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\ServiceContext.cs",
               "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\ServiceContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABGAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwCMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:17:36.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserVehicle.cs",
-              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
-              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
-              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
-              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "EmailNortification.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\EmailNortification.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\EmailNortification.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\EmailNortification.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\EmailNortification.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:14:54.501Z",
+              "WhenOpened": "2024-06-08T09:40:32.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "SmptSettings.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\SmptSettings.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\SmptSettings.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\SmptSettings.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\SmptSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:40:34.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependenciesExtensions.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\DependenciesExtensions.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\DependenciesExtensions.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\DependenciesExtensions.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\DependenciesExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:50:47.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependenciesExtensions.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\DependenciesExtensions.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.BackgroundJob\\DependenciesExtensions.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\DependenciesExtensions.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.BackgroundJob\\DependenciesExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:59:28.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BackgroundJobManager.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\BackgroundJobManager.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.BackgroundJob\\BackgroundJobManager.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\BackgroundJobManager.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.BackgroundJob\\BackgroundJobManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:54:26.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "INotificationStrategy.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\INotificationStrategy.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\INotificationStrategy.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\INotificationStrategy.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\INotificationStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:40:41.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DocumentExpirationChecker.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\RecurringJobs\\DocumentExpirationChecker.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.BackgroundJob\\RecurringJobs\\DocumentExpirationChecker.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\RecurringJobs\\DocumentExpirationChecker.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.BackgroundJob\\RecurringJobs\\DocumentExpirationChecker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:54:28.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationFactory.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationFactory.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationFactory.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationFactory.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:40:36.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Identity\\User.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Identity\\User.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Identity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:59:14.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DictionaryDocumentType.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Dictionaries\\DictionaryDocumentType.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Dictionaries\\DictionaryDocumentType.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Dictionaries\\DictionaryDocumentType.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Dictionaries\\DictionaryDocumentType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:59:11.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationType.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationType.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationType.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationType.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Core.Notification\\Strategy\\NotificationType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:40:38.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "VehicleDocument.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\VehicleDocument.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\VehicleDocument.cs",
               "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\VehicleDocument.cs",
               "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\VehicleDocument.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:12:31.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehicleDiagnosticReport.cs",
-              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
-              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
-              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
-              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\VehicleDiagnosticReport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "DocumentIndex": 22,
+              "Title": "UserVehicle.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\StagingTables\\UserVehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:08:17.493Z",
+              "WhenOpened": "2024-06-08T09:14:54.501Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
-              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
-              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
-              "RelativeToolTip": "TranspoDocMonitor.Service.Domain\\Library\\Entities\\Vehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T08:58:47.652Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f8091ba9-6460-47c4-a586-80029b60662c",
-        "Display": 1,
-        "X": 470,
-        "Y": 0,
-        "Width": 1971,
-        "Height": 1078,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\RoleConfiguration.cs",
-              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\RoleConfiguration.cs",
-              "RelativeToolTip": "TranspoDocMonitor.Service.DataContext\\Configuration\\RoleConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:20:05.446Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

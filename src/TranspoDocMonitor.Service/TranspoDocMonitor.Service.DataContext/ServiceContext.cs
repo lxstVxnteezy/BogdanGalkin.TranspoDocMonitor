@@ -33,5 +33,6 @@ namespace TranspoDocMonitor.Service.DataContext
         public DbSet<DictionaryDocumentType> DictionaryDocumentTypes { get; set; } = null!;
         public DbSet<VehicleDocument> TransportDocuments { get; set; } = null!;
         public DbSet<VehicleDiagnosticReport> VehicleDiagnosticReports { get; set; } = null!;
+        public DbSet<Pass> Pass { get; set; } = null!;
     }
 }
