@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.User;
 using TranspoDocMonitor.Service.Contracts.User.Create;
+using TranspoDocMonitor.Service.Contracts.User.Info;
 using TranspoDocMonitor.Service.Contracts.User.Update;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users;
 
@@ -49,6 +50,15 @@ namespace TranspoDocMonitor.Service.API.Controllers.User
             CancellationToken ctn)
         {
             return handler.Handle(id, request, ctn);
+        }
+
+        [HttpGet("{id}/infoUser")]
+        public Task<InfoUserResponse> GetById(
+            [FromServices] IInfoUserHandler handler,
+            [FromRoute] Guid id,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, ctn);
         }
     }
 }

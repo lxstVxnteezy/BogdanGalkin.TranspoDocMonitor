@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Numerics;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -11,18 +10,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "DictionaryDocumentTypes",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    DocumentName = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DictionaryDocumentTypes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "roles",
                 columns: table => new
                 {
@@ -32,6 +19,19 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_roles", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "vehicle_diagnostic_report",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    diagnostic_card_number = table.Column<long>(type: "bigint", nullable: false),
+                    expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_vehicle_diagnostic_report", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -71,16 +71,48 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     vehicle_identification_number = table.Column<string>(type: "text", nullable: false),
                     engine_capacity = table.Column<double>(type: "double precision", nullable: false),
                     price = table.Column<decimal>(type: "numeric", nullable: false),
-                    VehicleDiagnosticReportId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
+                    vehicle_diagnostic_report_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    user_id = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_vehicles", x => x.id);
                     table.ForeignKey(
-                        name: "FK_vehicles_users_UserId",
-                        column: x => x.UserId,
+                        name: "FK_vehicles_users_user_id",
+                        column: x => x.user_id,
                         principalTable: "users",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_vehicles_vehicle_diagnostic_report_vehicle_diagnostic_repor~",
+                        column: x => x.vehicle_diagnostic_report_id,
+                        principalTable: "vehicle_diagnostic_report",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "insurance_transport_documents",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    data_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    expiration_date_of_Issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    policyholder = table.Column<string>(type: "text", nullable: false),
+                    beneficiary = table.Column<string>(type: "text", nullable: false),
+                    contract_number_comprehensive_car_insurance = table.Column<int>(type: "integer", nullable: false),
+                    policy_number_series_compulsory_сivil_liability_insurance = table.Column<int>(type: "integer", nullable: false),
+                    sum_insured = table.Column<decimal>(type: "numeric", nullable: false),
+                    coverage_amount = table.Column<decimal>(type: "numeric", nullable: false),
+                    vehicle_id = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_insurance_transport_documents", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_insurance_transport_documents_vehicles_vehicle_id",
+                        column: x => x.vehicle_id,
+                        principalTable: "vehicles",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -93,7 +125,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     PassNumber = table.Column<int>(type: "integer", nullable: false),
                     vehicle_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    from = table.Column<int>(type: "integer", nullable: false)
+                    from = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -106,66 +138,14 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "transport_documents",
-                columns: table => new
-                {
-                    id = table.Column<Guid>(type: "uuid", nullable: false),
-                    document_number = table.Column<int>(type: "integer", nullable: false),
-                    data_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    expiration_date_of_Issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    vehicle_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    dictionary_document_type_id = table.Column<Guid>(type: "uuid", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_transport_documents", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_transport_documents_DictionaryDocumentTypes_dictionary_docu~",
-                        column: x => x.dictionary_document_type_id,
-                        principalTable: "DictionaryDocumentTypes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_transport_documents_vehicles_vehicle_id",
-                        column: x => x.vehicle_id,
-                        principalTable: "vehicles",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "vehicle_diagnostic_report",
-                columns: table => new
-                {
-                    id = table.Column<Guid>(type: "uuid", nullable: false),
-                    diagnostic_card_number = table.Column<BigInteger>(type: "numeric", nullable: false),
-                    expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_vehicle_diagnostic_report", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_vehicle_diagnostic_report_vehicles_id",
-                        column: x => x.id,
-                        principalTable: "vehicles",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_insurance_transport_documents_vehicle_id",
+                table: "insurance_transport_documents",
+                column: "vehicle_id");
 
             migrationBuilder.CreateIndex(
                 name: "IX_passes_vehicle_id",
                 table: "passes",
-                column: "vehicle_id");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_transport_documents_dictionary_document_type_id",
-                table: "transport_documents",
-                column: "dictionary_document_type_id");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_transport_documents_vehicle_id",
-                table: "transport_documents",
                 column: "vehicle_id");
 
             migrationBuilder.CreateIndex(
@@ -174,9 +154,15 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 column: "role_id");
 
             migrationBuilder.CreateIndex(
-                name: "IX_vehicles_UserId",
+                name: "IX_vehicles_user_id",
                 table: "vehicles",
-                column: "UserId");
+                column: "user_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_vehicles_vehicle_diagnostic_report_id",
+                table: "vehicles",
+                column: "vehicle_diagnostic_report_id",
+                unique: true);
 
             migrationBuilder.InsertData(
                 table: "roles",
@@ -194,22 +180,15 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 {
                     { new Guid("4b88dd01-0f6b-42cf-b5ea-1fbf072b4283"), "admin", "admin", "admin", "admin", "admin@example.com", "ECE54AF8D883D1B7A7062A475617B8B2", new Guid("53361d0b-8b55-46bd-b097-ca36972d82ff") }
                 });
-
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "insurance_transport_documents");
+
+            migrationBuilder.DropTable(
                 name: "passes");
-
-            migrationBuilder.DropTable(
-                name: "transport_documents");
-
-            migrationBuilder.DropTable(
-                name: "vehicle_diagnostic_report");
-
-            migrationBuilder.DropTable(
-                name: "DictionaryDocumentTypes");
 
             migrationBuilder.DropTable(
                 name: "vehicles");
@@ -218,13 +197,10 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 name: "users");
 
             migrationBuilder.DropTable(
+                name: "vehicle_diagnostic_report");
+
+            migrationBuilder.DropTable(
                 name: "roles");
-
-
-            migrationBuilder.DeleteData(
-                table: "roles",
-                keyColumn: "name",
-                keyValues: new object[] { "administrator", "member" });
         }
     }
 }

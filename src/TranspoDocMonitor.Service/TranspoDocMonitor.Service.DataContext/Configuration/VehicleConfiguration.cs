@@ -10,20 +10,24 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
         {
             builder.ToTable("vehicles");
 
-            builder.Property(x => x.Id).HasColumnName("id");
-            builder.Property(x => x.Make).HasColumnName("make");
-            builder.Property(x => x.Model).HasColumnName("model");
-            builder.Property(x => x.AutoColor).HasConversion<string>().HasColumnName("auto_color");
-            builder.Property(x => x.RegistrationNumber).HasColumnName("registration_number");
-            builder.Property(x => x.Year).HasColumnName("year_of_issue");
-            builder.Property(x => x.VehicleIdentificationNumber).HasColumnName("vehicle_identification_number");
-            builder.Property(x => x.EngineCapacity).HasColumnName("engine_capacity");
-            builder.Property(x => x.Price).HasColumnName("price");
+            builder.Property(x => x.Id).HasColumnName("id").IsRequired();
+            builder.Property(x => x.Make).HasColumnName("make").IsRequired();
+            builder.Property(x => x.Model).HasColumnName("model").IsRequired();
+            builder.Property(x => x.AutoColor).HasConversion<string>().HasColumnName("auto_color").IsRequired();
+            builder.Property(x => x.RegistrationNumber).HasColumnName("registration_number").IsRequired();
+            builder.Property(x => x.Year).HasColumnName("year_of_issue").IsRequired();
+            builder.Property(x => x.VehicleIdentificationNumber).HasColumnName("vehicle_identification_number").IsRequired();
+            builder.Property(x => x.EngineCapacity).HasColumnName("engine_capacity").IsRequired();
+            builder.Property(x => x.Price).HasColumnName("price").IsRequired();
+            builder.Property(x => x.UserId).HasColumnName("user_id").IsRequired();
+            builder.Property(x => x.VehicleDiagnosticReportId).HasColumnName("vehicle_diagnostic_report_id").IsRequired();
+
+            builder.HasOne(x => x.User)
+                .WithMany(x => x.Vehicles)
+                .HasForeignKey(x => x.UserId);
 
             builder.HasOne(x => x.VehicleDiagnosticReport)
-                .WithOne(x => x.Vehicle)
-                .HasForeignKey<VehicleDiagnosticReport>(x=>x.Id)
-                .IsRequired();
+                .WithOne(x => x.Vehicle);
         }
     }
 }

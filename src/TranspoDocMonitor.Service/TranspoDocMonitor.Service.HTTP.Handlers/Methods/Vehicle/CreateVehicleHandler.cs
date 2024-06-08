@@ -1,7 +1,9 @@
-﻿using TranspoDocMonitor.Service.Contracts.Exceptions;
+﻿using ComStar.ElDabaa.Service.Core.Http.HttpAccessor;
+using TranspoDocMonitor.Service.Contracts.Exceptions;
 using TranspoDocMonitor.Service.Contracts.Vehicle.Create;
 using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
+using TranspoDocMonitor.Service.Domain.Library.Entities;
 
 namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
 {
@@ -14,10 +16,12 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
     internal class CreateVehicleHandler: ICreateVehicleHandler
     {
         private readonly IRepository<Domain.Library.Entities.Vehicle> _vehicleRepository;
+        private readonly IUserIdentityProvider _userIdentityProvider;
 
-        public CreateVehicleHandler(IRepository<Domain.Library.Entities.Vehicle> vehicleRepository)
+        public CreateVehicleHandler(IRepository<Domain.Library.Entities.Vehicle> vehicleRepository, IUserIdentityProvider userIdentityProvider)
         {
             _vehicleRepository = vehicleRepository;
+            _userIdentityProvider = userIdentityProvider;
         }
 
         public async Task<CreateVehicleResponse> Handle(CreateVehicleRequest request, CancellationToken ctn)
@@ -30,7 +34,17 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
                 AutoColor = request.Color,
                 Model = request.Model,
                 RegistrationNumber = request.RegistrationNumber,
-                Year = request.Year
+                Year = request.Year,
+                VehicleIdentificationNumber = request.VehicleIdentificationNumber,
+                EngineCapacity = request.EngineCapacity,
+                Price = request.Price,
+                VehicleDiagnosticReport = new VehicleDiagnosticReport()
+                {
+                    Id = Guid.NewGuid(),
+                    DiagnosticCardNumber = request.DiagnosticCardNumber,
+                    ExpirationDateOfIssue = request.ExpirationDateOfIssue,
+                },
+                UserId = _userIdentityProvider.GetCurrentUserId()
             };
 
             _vehicleRepository.Add(newVehicle);
