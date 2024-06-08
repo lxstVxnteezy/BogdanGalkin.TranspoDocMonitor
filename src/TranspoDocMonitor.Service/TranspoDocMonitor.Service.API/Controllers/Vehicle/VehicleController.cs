@@ -18,5 +18,14 @@ namespace TranspoDocMonitor.Service.API.Controllers.Vehicle
         {
             return handler.Handle(request, ctn);
         }
+
+        [HttpDelete("/deleteVehicle{id}")]
+        public Task<StatusCodeResult> Delete(
+            [FromServices] IDeleteVehicleHandler handler,
+            [FromRoute] Guid id,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, ctn);
+        }
     }
 }
