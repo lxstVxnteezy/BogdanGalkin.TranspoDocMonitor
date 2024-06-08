@@ -14,6 +14,12 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
         public string VehicleIdentificationNumber { get; set; } = null!;
         public double EngineCapacity { get; set; } 
         public decimal Price { get; set; }
+
+
+        public virtual VehicleDiagnosticReport VehicleDiagnosticReport { get; set; } = null!;
+        public Guid VehicleDiagnosticReportId { get; set; }
+
+
         public virtual ICollection<UserVehicle> UserVehicles { get; set; } = new List<UserVehicle>();
 
     }
