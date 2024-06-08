@@ -20,14 +20,17 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
             builder.Property(x => x.EngineCapacity).HasColumnName("engine_capacity").IsRequired();
             builder.Property(x => x.Price).HasColumnName("price").IsRequired();
             builder.Property(x => x.UserId).HasColumnName("user_id").IsRequired();
-            builder.Property(x => x.VehicleDiagnosticReportId).HasColumnName("vehicle_diagnostic_report_id").IsRequired();
 
             builder.HasOne(x => x.User)
                 .WithMany(x => x.Vehicles)
                 .HasForeignKey(x => x.UserId);
 
-            builder.HasOne(x => x.VehicleDiagnosticReport)
-                .WithOne(x => x.Vehicle);
+            builder
+                .HasOne(v => v.VehicleDiagnosticReport)
+                .WithOne(vdr => vdr.Vehicle)
+                .HasForeignKey<VehicleDiagnosticReport>(vdr => vdr.VehicleId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }

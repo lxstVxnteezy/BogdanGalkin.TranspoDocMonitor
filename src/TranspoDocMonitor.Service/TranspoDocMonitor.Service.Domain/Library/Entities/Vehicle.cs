@@ -1,7 +1,6 @@
 ﻿using TranspoDocMonitor.Service.Domain.Base;
 using TranspoDocMonitor.Service.Domain.EnumTypes;
 using TranspoDocMonitor.Service.Domain.Identity;
-using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Domain.Library.Entities
 {
@@ -17,7 +16,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
         public decimal Price { get; set; }
 
         public virtual VehicleDiagnosticReport VehicleDiagnosticReport { get; set; } = null!;
-        public Guid VehicleDiagnosticReportId { get; set; }
+        
 
         public virtual User User { get; set; } = null!;
         public Guid UserId { get; set; }

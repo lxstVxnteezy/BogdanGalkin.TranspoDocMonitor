@@ -6,7 +6,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
     {
         public long DiagnosticCardNumber { get; set; }
         public DateTime ExpirationDateOfIssue { get; set; }
-
+        public Guid VehicleId { get; set; }
         public virtual Vehicle Vehicle { get; set; } = null!;
     }
 }

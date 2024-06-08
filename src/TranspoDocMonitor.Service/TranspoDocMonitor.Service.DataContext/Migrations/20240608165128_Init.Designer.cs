@@ -12,7 +12,7 @@ using TranspoDocMonitor.Service.DataContext;
 namespace TranspoDocMonitor.Service.DataContext.Migrations
 {
     [DbContext(typeof(ServiceContext))]
-    [Migration("20240608152727_Init")]
+    [Migration("20240608165128_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

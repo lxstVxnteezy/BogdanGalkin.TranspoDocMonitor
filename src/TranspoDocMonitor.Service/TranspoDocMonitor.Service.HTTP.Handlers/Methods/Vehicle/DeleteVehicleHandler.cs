@@ -26,14 +26,15 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
 
         public async Task<StatusCodeResult> Handle(Guid id, CancellationToken ctn)
         {
-            var foundVehicle = await _vehicleRepository.Query.Include(x => x.User)
+            var foundVehicle = await _vehicleRepository.Query.Include(x => x.User).Include(x=>x.VehicleDiagnosticReport)
                 .SingleOrDefaultAsync(x => x.Id == id, ctn);
 
             if (foundVehicle == null)
-                throw OwnError.CanNotFindUser.ToException($"User with id {id} not found in db");
+                throw OwnError.CanNotFindUser.ToException($"Vehicle with id {id} not found in db");
 
             if (foundVehicle.UserId != _userIdentityProvider.GetCurrentUserId())
-                throw new Exception("error");
+                throw OwnError.CanNotAccess.ToException("Shown in access");
+
             _vehicleRepository.Remove(foundVehicle);
             await _vehicleRepository.SaveChanges(ctn);
 

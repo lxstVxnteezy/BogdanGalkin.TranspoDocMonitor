@@ -172,13 +172,21 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     { new Guid("53361d0b-8b55-46bd-b097-ca36972d82ff"), "administrator" },
                     { new Guid("d813a26d-dc9a-4664-8cb7-b2280a73a727"), "member" }
                 });
-
             migrationBuilder.InsertData(
                 table: "users",
                 columns: new[] { "id", "login", "first_name", "last_name", "sur_name", "Email", "hash", "role_id" },
                 values: new object[,]
                 {
-                    { new Guid("4b88dd01-0f6b-42cf-b5ea-1fbf072b4283"), "admin", "admin", "admin", "admin", "admin@example.com", "ECE54AF8D883D1B7A7062A475617B8B2", new Guid("53361d0b-8b55-46bd-b097-ca36972d82ff") }
+                    {
+                        new Guid("0f15d688-305b-48d5-a9fd-8775873d2daa"), // Уникальный идентификатор пользователя
+                        "admin", // Логин администратора
+                        "Admin", // Имя администратора
+                        "User", // Фамилия администратора
+                        "AdminSurname", // Отчество администратора (если есть)
+                        "admin@example.com", // Email администратора
+                        "ECE54AF8D883D1B7A7062A475617B8B2", // Хеш пароля администратора
+                        new Guid("53361d0b-8b55-46bd-b097-ca36972d82ff") // ID роли администратора
+                    }
                 });
         }
 

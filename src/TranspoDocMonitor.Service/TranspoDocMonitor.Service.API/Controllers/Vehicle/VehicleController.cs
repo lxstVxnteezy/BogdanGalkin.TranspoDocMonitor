@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.Vehicle.Create;
+using TranspoDocMonitor.Service.Contracts.Vehicle.Update;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle;
 
 namespace TranspoDocMonitor.Service.API.Controllers.Vehicle
@@ -26,6 +27,16 @@ namespace TranspoDocMonitor.Service.API.Controllers.Vehicle
             CancellationToken ctn)
         {
             return handler.Handle(id, ctn);
+        }
+
+        [HttpPut("{id}/updateVehicle")]
+        public Task<UpdateVehicleResponse> Update(
+            [FromServices] IUpdateVehicleHandler handler,
+            [FromRoute] Guid id,
+            [FromBody] UpdateVehicleRequest request,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, request, ctn);
         }
     }
 }
