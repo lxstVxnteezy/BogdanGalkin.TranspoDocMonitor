@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\users\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|solutionrelative:transpodocmonitor.service.http.handlers\\methods\\users\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\users\\resetpassworduserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|solutionrelative:transpodocmonitor.service.http.handlers\\methods\\users\\resetpassworduserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\users\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|solutionrelative:transpodocmonitor.service.http.handlers\\methods\\users\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3942577F-44BD-48E8-9D3A-9317EA9FA737}|TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3942577F-44BD-48E8-9D3A-9317EA9FA737}|TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj|solutionrelative:transpodocmonitor.service.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}|TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.contracts\\user\\update\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}|TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj|solutionrelative:transpodocmonitor.service.contracts\\user\\update\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}|TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.contracts\\user\\update\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B3CD1F-9255-4FC7-B943-9DBCC42A977E}|TranspoDocMonitor.Service.Contracts\\TranspoDocMonitor.Service.Contracts.csproj|solutionrelative:transpodocmonitor.service.contracts\\user\\update\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\auth\\authorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|solutionrelative:transpodocmonitor.service.http.handlers\\methods\\auth\\authorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Migrations\\20240608132158_RefactoringDomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TranspoDocMonitor.Service.DataContext\\Migrations\\20240608132158_RefactoringDomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\dictionarydocumenttypes\\createdocumenttypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|solutionrelative:transpodocmonitor.service.http.handlers\\methods\\dictionarydocumenttypes\\createdocumenttypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD6C6FA6-2B0C-41AF-9730-61FB2282B53D}|TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj|solutionrelative:transpodocmonitor.service.datacontext\\configuration\\transportdocumentsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9444E5E7-5A32-45AF-9974-FFA70788768E}|TranspoDocMonitor.Service.HTTP.Handlers\\TranspoDocMonitor.Service.HTTP.Handlers.csproj|f:\\backend\\bogdangalkin.transpodocmonitor\\src\\transpodocmonitor.service\\transpodocmonitor.service.http.handlers\\methods\\transportdocuments\\gettransportdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +54,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserRequest.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserRequest.cs*",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserRequest.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:39:54.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserResponse.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserResponse.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserResponse.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserResponse.cs*",
+              "RelativeToolTip": "TranspoDocMonitor.Service.Contracts\\User\\Update\\UpdateUserResponse.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:38:41.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdateUserHandler.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\UpdateUserHandler.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\UpdateUserHandler.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\UpdateUserHandler.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\UpdateUserHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:25:44.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResetPasswordUserHandler.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\ResetPasswordUserHandler.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\ResetPasswordUserHandler.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\ResetPasswordUserHandler.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\ResetPasswordUserHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:25:34.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteUserHandler.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\DeleteUserHandler.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\DeleteUserHandler.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\DeleteUserHandler.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Users\\DeleteUserHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:25:06.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.API\\Controllers\\User\\UserController.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\Controllers\\User\\UserController.cs*",
+              "RelativeToolTip": "TranspoDocMonitor.Service.API\\Controllers\\User\\UserController.cs*",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:25:00.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorizationHandler.cs",
+              "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Auth\\AuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Auth\\AuthorizationHandler.cs",
+              "ToolTip": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Auth\\AuthorizationHandler.cs",
+              "RelativeToolTip": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\Auth\\AuthorizationHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:24:13.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20240608132158_RefactoringDomain.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Migrations\\20240608132158_RefactoringDomain.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Migrations\\20240608132158_RefactoringDomain.cs",
@@ -43,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CreateDocumentTypeHandler.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\DictionaryDocumentTypes\\CreateDocumentTypeHandler.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\DictionaryDocumentTypes\\CreateDocumentTypeHandler.cs",
@@ -56,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TransportDocumentsConfiguration.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\Configuration\\TransportDocumentsConfiguration.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.DataContext\\Configuration\\TransportDocumentsConfiguration.cs",
@@ -69,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "GetTransportDocumentHandler.cs",
               "DocumentMoniker": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\TransportDocuments\\GetTransportDocumentHandler.cs",
               "RelativeDocumentMoniker": "TranspoDocMonitor.Service.HTTP.Handlers\\Methods\\TransportDocuments\\GetTransportDocumentHandler.cs",

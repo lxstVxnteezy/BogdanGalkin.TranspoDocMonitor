@@ -34,5 +34,7 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
         [ServiceOwnError(message:"Cannot delete user")]
         CanNotDeleteUser = 10,
 
+      
+
     }
 }
