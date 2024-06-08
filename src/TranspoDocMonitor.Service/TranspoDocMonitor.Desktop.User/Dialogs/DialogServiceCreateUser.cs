@@ -4,6 +4,7 @@ using IDialogService = TranspoDocMonitor.Desktop.Common.DialogService.IDialogSer
 
 namespace TranspoDocMonitor.Desktop.User.Dialogs
 {
+
     internal class DialogServiceCreateUser : IDialogService
     {
         public void CreateUserShowDialog()
