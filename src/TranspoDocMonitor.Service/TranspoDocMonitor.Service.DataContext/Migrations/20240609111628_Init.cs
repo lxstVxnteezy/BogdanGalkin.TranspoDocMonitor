@@ -22,19 +22,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "vehicle_diagnostic_report",
-                columns: table => new
-                {
-                    id = table.Column<Guid>(type: "uuid", nullable: false),
-                    diagnostic_card_number = table.Column<long>(type: "bigint", nullable: false),
-                    expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_vehicle_diagnostic_report", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "users",
                 columns: table => new
                 {
@@ -71,7 +58,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     vehicle_identification_number = table.Column<string>(type: "text", nullable: false),
                     engine_capacity = table.Column<double>(type: "double precision", nullable: false),
                     price = table.Column<decimal>(type: "numeric", nullable: false),
-                    vehicle_diagnostic_report_id = table.Column<Guid>(type: "uuid", nullable: false),
                     user_id = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
@@ -81,12 +67,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         name: "FK_vehicles_users_user_id",
                         column: x => x.user_id,
                         principalTable: "users",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_vehicles_vehicle_diagnostic_report_vehicle_diagnostic_repor~",
-                        column: x => x.vehicle_diagnostic_report_id,
-                        principalTable: "vehicle_diagnostic_report",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -122,7 +102,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 columns: table => new
                 {
                     id = table.Column<Guid>(type: "uuid", nullable: false),
-                    expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    ExDateTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     PassNumber = table.Column<int>(type: "integer", nullable: false),
                     vehicle_id = table.Column<Guid>(type: "uuid", nullable: false),
                     from = table.Column<string>(type: "text", nullable: false)
@@ -138,15 +118,54 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "vehicle_diagnostic_report",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    diagnostic_card_number = table.Column<long>(type: "bigint", nullable: false),
+                    expiration_date_of_issue = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    VehicleId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_vehicle_diagnostic_report", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_vehicle_diagnostic_report_vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "vehicles",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_insurance_transport_documents_vehicle_id",
                 table: "insurance_transport_documents",
                 column: "vehicle_id");
 
             migrationBuilder.CreateIndex(
-                name: "IX_passes_vehicle_id",
+                name: "IX_passes_PassNumber",
                 table: "passes",
-                column: "vehicle_id");
+                column: "PassNumber",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_passes_vehicle_id_from",
+                table: "passes",
+                columns: new[] { "vehicle_id", "from" },
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_users_Email",
+                table: "users",
+                column: "Email",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_users_login",
+                table: "users",
+                column: "login",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_users_role_id",
@@ -154,14 +173,26 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 column: "role_id");
 
             migrationBuilder.CreateIndex(
+                name: "IX_vehicle_diagnostic_report_VehicleId",
+                table: "vehicle_diagnostic_report",
+                column: "VehicleId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_vehicles_registration_number",
+                table: "vehicles",
+                column: "registration_number",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_vehicles_user_id",
                 table: "vehicles",
                 column: "user_id");
 
             migrationBuilder.CreateIndex(
-                name: "IX_vehicles_vehicle_diagnostic_report_id",
+                name: "IX_vehicles_vehicle_identification_number",
                 table: "vehicles",
-                column: "vehicle_diagnostic_report_id",
+                column: "vehicle_identification_number",
                 unique: true);
 
             migrationBuilder.InsertData(
@@ -199,13 +230,13 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                 name: "passes");
 
             migrationBuilder.DropTable(
+                name: "vehicle_diagnostic_report");
+
+            migrationBuilder.DropTable(
                 name: "vehicles");
 
             migrationBuilder.DropTable(
                 name: "users");
-
-            migrationBuilder.DropTable(
-                name: "vehicle_diagnostic_report");
 
             migrationBuilder.DropTable(
                 name: "roles");

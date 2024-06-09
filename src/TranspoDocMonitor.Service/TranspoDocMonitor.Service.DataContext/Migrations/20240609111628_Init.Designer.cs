@@ -12,7 +12,7 @@ using TranspoDocMonitor.Service.DataContext;
 namespace TranspoDocMonitor.Service.DataContext.Migrations
 {
     [DbContext(typeof(ServiceContext))]
-    [Migration("20240608165128_Init")]
+    [Migration("20240609111628_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,6 +81,12 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.HasIndex("Login")
+                        .IsUnique();
+
                     b.HasIndex("RoleId");
 
                     b.ToTable("users", (string)null);
@@ -93,9 +99,8 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<DateTime>("ExpirationDateOfIssue")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("expiration_date_of_issue");
+                    b.Property<DateTime>("ExDateTime")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("From")
                         .IsRequired()
@@ -111,7 +116,11 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("VehicleId");
+                    b.HasIndex("PassNumber")
+                        .IsUnique();
+
+                    b.HasIndex("VehicleId", "From")
+                        .IsUnique();
 
                     b.ToTable("passes", (string)null);
                 });
@@ -155,10 +164,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("user_id");
 
-                    b.Property<Guid>("VehicleDiagnosticReportId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("vehicle_diagnostic_report_id");
-
                     b.Property<string>("VehicleIdentificationNumber")
                         .IsRequired()
                         .HasColumnType("text")
@@ -171,9 +176,12 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RegistrationNumber")
+                        .IsUnique();
+
                     b.HasIndex("UserId");
 
-                    b.HasIndex("VehicleDiagnosticReportId")
+                    b.HasIndex("VehicleIdentificationNumber")
                         .IsUnique();
 
                     b.ToTable("vehicles", (string)null);
@@ -194,7 +202,13 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("expiration_date_of_issue");
 
+                    b.Property<Guid>("VehicleId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("VehicleId")
+                        .IsUnique();
 
                     b.ToTable("vehicle_diagnostic_report", (string)null);
                 });
@@ -265,7 +279,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Pass", b =>
                 {
                     b.HasOne("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", "Vehicle")
-                        .WithMany()
+                        .WithMany("Passes")
                         .HasForeignKey("VehicleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -281,15 +295,18 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TranspoDocMonitor.Service.Domain.Library.Entities.VehicleDiagnosticReport", "VehicleDiagnosticReport")
-                        .WithOne("Vehicle")
-                        .HasForeignKey("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", "VehicleDiagnosticReportId")
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.VehicleDiagnosticReport", b =>
+                {
+                    b.HasOne("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", "Vehicle")
+                        .WithOne("VehicleDiagnosticReport")
+                        .HasForeignKey("TranspoDocMonitor.Service.Domain.Library.Entities.VehicleDiagnosticReport", "VehicleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
-
-                    b.Navigation("VehicleDiagnosticReport");
+                    b.Navigation("Vehicle");
                 });
 
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.StagingTables.VehicleDocument", b =>
@@ -313,9 +330,11 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                     b.Navigation("Vehicles");
                 });
 
-            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.VehicleDiagnosticReport", b =>
+            modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", b =>
                 {
-                    b.Navigation("Vehicle")
+                    b.Navigation("Passes");
+
+                    b.Navigation("VehicleDiagnosticReport")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

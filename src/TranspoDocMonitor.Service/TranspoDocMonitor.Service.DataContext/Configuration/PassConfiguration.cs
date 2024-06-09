@@ -12,8 +12,18 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
 
             builder.Property(x => x.Id).HasColumnName("id");
             builder.Property(x => x.From).HasConversion<string>().HasColumnName("from");
-            builder.Property(x => x.ExpirationDateOfIssue).HasColumnName("expiration_date_of_issue");
             builder.Property(x => x.VehicleId).HasColumnName("vehicle_id");
+
+            builder.HasOne(x => x.Vehicle)
+                .WithMany(x => x.Passes)
+                .HasForeignKey(x => x.VehicleId);
+
+            builder
+                .HasIndex(x => new {x.VehicleId,x.From})
+                .IsUnique();
+            builder
+                .HasIndex(x => x.PassNumber)
+                .IsUnique();
         }
     }
 }

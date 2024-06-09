@@ -17,6 +17,10 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
             builder.Property(x => x.ExpirationDateOfIssue).HasColumnName("expiration_date_of_issue").IsRequired();
 
 
+            builder
+                .HasIndex(x => x.DiagnosticCardNumber)
+                .IsUnique();
+
         }
     }
 }

@@ -5,12 +5,10 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
 {
     public class Pass : BaseEntity
     {
-        public DateTime ExpirationDateOfIssue { get; set; }
+        public DateTime ExDateTime { get; set; }
         public int PassNumber { get; set; }
-
         public Guid VehicleId { get; set; }
         public virtual Vehicle? Vehicle { get; set; }
-
         public From From { get; set; }
     }
 }

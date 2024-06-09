@@ -7,7 +7,8 @@ namespace TranspoDocMonitor.Service.Contracts.Vehicle.Create
     public record CreateVehicleRequest(
         string Make, 
         string Model, 
-        string Year, AutoColor Color, 
+        string Year, 
+        AutoColor Color, 
         string RegistrationNumber,
         string VehicleIdentificationNumber,
         double EngineCapacity,

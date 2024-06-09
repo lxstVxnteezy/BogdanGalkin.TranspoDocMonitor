@@ -39,5 +39,9 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
         
         [ServiceOwnError(message: "Cannot access ")]
         CanNotAccess = 11,
+
+        [ServiceOwnError(message: "Cannot find vehicle")]
+        CanNotFindVehicle = 3,
+
     }
 }

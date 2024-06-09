@@ -31,6 +31,13 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
                 .HasForeignKey<VehicleDiagnosticReport>(vdr => vdr.VehicleId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            builder
+                .HasIndex(x => x.VehicleIdentificationNumber)
+                .IsUnique();
+            builder
+                .HasIndex(x => x.RegistrationNumber)
+                .IsUnique();
+
         }
     }
 }

@@ -21,7 +21,13 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
                 .WithMany(p => p.Users)
                 .HasForeignKey(p => p.RoleId);
 
-        
+            builder
+                .HasIndex(x => x.Email)
+                .IsUnique();
+            builder
+                .HasIndex(x=>x.Login)
+                .IsUnique();
+
 
         }
     }

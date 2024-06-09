@@ -1,6 +1,5 @@
 ﻿using TranspoDocMonitor.Service.Domain.Base;
 using TranspoDocMonitor.Service.Domain.Library.Entities;
-using TranspoDocMonitor.Service.Domain.Library.StagingTables;
 
 namespace TranspoDocMonitor.Service.Domain.Identity
 {

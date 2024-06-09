@@ -79,6 +79,12 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.HasIndex("Login")
+                        .IsUnique();
+
                     b.HasIndex("RoleId");
 
                     b.ToTable("users", (string)null);
@@ -91,9 +97,8 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<DateTime>("ExpirationDateOfIssue")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("expiration_date_of_issue");
+                    b.Property<DateTime>("ExDateTime")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("From")
                         .IsRequired()
@@ -109,7 +114,11 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("VehicleId");
+                    b.HasIndex("PassNumber")
+                        .IsUnique();
+
+                    b.HasIndex("VehicleId", "From")
+                        .IsUnique();
 
                     b.ToTable("passes", (string)null);
                 });
@@ -165,7 +174,13 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RegistrationNumber")
+                        .IsUnique();
+
                     b.HasIndex("UserId");
+
+                    b.HasIndex("VehicleIdentificationNumber")
+                        .IsUnique();
 
                     b.ToTable("vehicles", (string)null);
                 });
@@ -189,6 +204,9 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DiagnosticCardNumber")
+                        .IsUnique();
 
                     b.HasIndex("VehicleId")
                         .IsUnique();
@@ -262,7 +280,7 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Pass", b =>
                 {
                     b.HasOne("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", "Vehicle")
-                        .WithMany()
+                        .WithMany("Passes")
                         .HasForeignKey("VehicleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -315,6 +333,8 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
             modelBuilder.Entity("TranspoDocMonitor.Service.Domain.Library.Entities.Vehicle", b =>
                 {
+                    b.Navigation("Passes");
+
                     b.Navigation("VehicleDiagnosticReport")
                         .IsRequired();
                 });

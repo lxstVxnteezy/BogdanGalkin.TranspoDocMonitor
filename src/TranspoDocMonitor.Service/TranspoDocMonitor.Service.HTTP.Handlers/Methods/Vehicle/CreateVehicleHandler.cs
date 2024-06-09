@@ -1,5 +1,6 @@
 ﻿using ComStar.ElDabaa.Service.Core.Http.HttpAccessor;
 using TranspoDocMonitor.Service.Contracts.Exceptions;
+using TranspoDocMonitor.Service.Contracts.User.Create;
 using TranspoDocMonitor.Service.Contracts.Vehicle.Create;
 using TranspoDocMonitor.Service.Core.Exception;
 using TranspoDocMonitor.Service.DataContext.DataAccess.Repositories;
@@ -27,6 +28,8 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
         public async Task<CreateVehicleResponse> Handle(CreateVehicleRequest request, CancellationToken ctn)
         {
             AssertExistRegistrationNumber(request);
+            AssertExistVINVehicle(request);
+
             var newVehicle = new Domain.Library.Entities.Vehicle()
             {
                 Id = Guid.NewGuid(),
@@ -59,6 +62,14 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
             if (isExistVehicle)
                 throw OwnError.CanNotCreateVehicle.ToException($"Vehicle with registation number = {request.RegistrationNumber} already exists");
         }
+
+        private void AssertExistVINVehicle(CreateVehicleRequest request)
+        {
+            var isExistVehicle = _vehicleRepository.Query.Any(x => x.VehicleIdentificationNumber == request.VehicleIdentificationNumber);
+            if (isExistVehicle)
+                throw OwnError.CanNotCreateVehicle.ToException($"Vehicle with VIN = {request.VehicleIdentificationNumber} already exists");
+        }
+        
     }
 }
  
