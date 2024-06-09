@@ -38,10 +38,13 @@ namespace TranspoDocMonitor.Service.Contracts.Exceptions
         CanNotDeleteVehicle = 11,
         
         [ServiceOwnError(message: "Cannot access ")]
-        CanNotAccess = 11,
+        CanNotAccess = 12,
 
         [ServiceOwnError(message: "Cannot find vehicle")]
-        CanNotFindVehicle = 3,
+        CanNotFindVehicle = 13,
+
+        [ServiceOwnError(message: "Cannot find pass")]
+        CanNotFindPass = 14,
 
     }
 }

@@ -82,3 +82,15 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Exception.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Exception.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Exception.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Exception\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Exception.dll

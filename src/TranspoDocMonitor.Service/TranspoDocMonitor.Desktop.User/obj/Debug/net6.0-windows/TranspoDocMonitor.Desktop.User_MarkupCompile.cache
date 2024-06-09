@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\
 TranspoDocMonitor.Desktop.User
 none
 false
@@ -13,8 +13,8 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 2-307431538
 
 71009552992
-2021003605850
+202-1604824030
 Views\DialogCreateUserView.xaml;Views\UserView.xaml;
 
-False
+True
 

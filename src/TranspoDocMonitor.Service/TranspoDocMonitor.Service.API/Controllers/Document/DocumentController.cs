@@ -3,20 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 using TranspoDocMonitor.Service.API.Controllers.Base;
 using TranspoDocMonitor.Service.Contracts.DocumentType;
 using TranspoDocMonitor.Service.Contracts.Pass.Create;
+using TranspoDocMonitor.Service.Contracts.Pass.Get;
+using TranspoDocMonitor.Service.Contracts.Pass.Update;
 using TranspoDocMonitor.Service.Contracts.TransportDocument.Create;
 using TranspoDocMonitor.Service.Contracts.TransportDocument.GetDocument;
-using TranspoDocMonitor.Service.Contracts.Vehicle.Update;
+using TranspoDocMonitor.Service.Contracts.User.Info;
+using TranspoDocMonitor.Service.Contracts.User.Update;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.DictionaryDocumentTypes;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Passes;
 using TranspoDocMonitor.Service.HTTP.Handlers.Methods.TransportDocuments;
-using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle;
+using TranspoDocMonitor.Service.HTTP.Handlers.Methods.Users;
+
 
 namespace TranspoDocMonitor.Service.API.Controllers.Document
 {
     [Authorize(Roles = "member, administrator")]
 
     [Route("api/document")]
-    public class DocumentController:BaseApiController
+    public class DocumentController : BaseApiController
     {
         [HttpPost("/createTypeDocument")]
         public Task<CreateDocumentTypeResponse> Create
@@ -26,7 +30,7 @@ namespace TranspoDocMonitor.Service.API.Controllers.Document
             CancellationToken ctn
         )
         {
-            return handler.Handle( request, ctn );
+            return handler.Handle(request, ctn);
         }
 
         [HttpPost("/createTransportDocument")]
@@ -42,7 +46,7 @@ namespace TranspoDocMonitor.Service.API.Controllers.Document
 
         [HttpGet("/GetInfo")]
         public Task<InfoTransportDocumentResponse[]> GetInfo(
-            [FromServices] IGetTransportDocumentHandler handler, 
+            [FromServices] IGetTransportDocumentHandler handler,
            [FromQuery] InfoTransportDocumentRequest request,
             CancellationToken ctn)
         {
@@ -58,5 +62,32 @@ namespace TranspoDocMonitor.Service.API.Controllers.Document
             return handler.Handle(id, request, ctn);
         }
 
+        [HttpDelete("/deletePass{id}")]
+        public Task<ActionResult> Delete(
+            [FromServices] IDeletePassHandler handler,
+            [FromRoute] Guid id,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, ctn);
+        }
+
+        [HttpPut("{id}/updatePass")]
+        public Task<UpdatePassResponse> Update(
+            [FromServices] IUpdatePassHandler handler,
+            [FromRoute] Guid id,
+            [FromBody] UpdatePassRequest request,
+            CancellationToken ctn)
+        {
+            return handler.Handle(id, request, ctn);
+        }
+
+        [HttpGet("{email}/GetPass")]
+        public Task<GetPassResponse[]> GetById(
+            [FromServices] IGetPassHandler handler,
+            [FromRoute] string email,
+            CancellationToken ctn)
+        {
+            return handler.Handle(email, ctn);
+        }
     }
 }

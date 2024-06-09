@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj": {}
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj": {}
   },
   "projects": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj": {
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj",
+        "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj",
         "projectName": "TranspoDocMonitor.Desktop.Vehicle",
-        "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj",
+        "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\TranspoDocMonitor.Desktop.Vehicle.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\obj\\",
+        "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.Vehicle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

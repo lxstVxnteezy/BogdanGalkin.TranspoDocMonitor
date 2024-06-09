@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9b4QwdnjiKeq3VMJtZYO+AxEl8PI+ndC3ZV+5hfry8NJjP/FBWS8lAMmkU7YkVxRtj6S7BbrIfYTrBjDgoaTww==",
+  "dgSpecHash": "cNMbuxfX+cjcby6/Z7b8cBUOfpKM/P45M0+/Ck4rgB7YziUxnGOx74UQdNCG8MUppgkyFU5uxaehJcjlfSZncA==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",

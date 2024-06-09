@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yjJ7uvRLo1+9TRd+FeFeJnHumufDFaKCSLv/8FRi6ZdGUiTSVhh51TX8RHqeTGws4QqRrvHCMOdKmYVaIvbEyA==",
+  "dgSpecHash": "9BrEXVHlNccMkDcv2h+Wl9ognwgx9ZbREZkj6j8v4dTtXDZNygxGLUGmQTGHJlKjmSaa14LX+DedOKBTflnZKw==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.API\\TranspoDocMonitor.Service.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\6.0.5\\aspnetcore.healthchecks.ui.client.6.0.5.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\6.0.5\\aspnetcore.healthchecks.ui.core.6.0.5.nupkg.sha512",

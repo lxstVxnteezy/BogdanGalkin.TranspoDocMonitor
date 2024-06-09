@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "44tTACnCGNPJPiJ+Btfm0yoOtBcKhADm8osg1cYGcy6L0FouHgjVvpW24giaVtU74Ex20C+ctaTiHia6XpmF5Q==",
+  "dgSpecHash": "W6lRw7Tk2IgJtpV1rmZ3F9RPcOeiDV/etck5eJKz2b7PuXZOj4xKcC2lQVnuZtWVvcrERd8gQSFeOyTqdPeDfg==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.BackgroundJob\\TranspoDocMonitor.Service.Core.BackgroundJob.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

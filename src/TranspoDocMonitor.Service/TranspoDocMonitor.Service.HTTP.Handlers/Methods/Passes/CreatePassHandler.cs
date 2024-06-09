@@ -31,13 +31,14 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Passes
 
         public async Task<CreatePassResponse> Handle(Guid id, CreatePassRequest request, CancellationToken ctn)
         {
-            var foundVehicle = await _vehicleRepository.Query.SingleOrDefaultAsync(x => x.Id == id, ctn);
+            var foundVehicle = await _vehicleRepository.Query
+                .SingleOrDefaultAsync(x => x.Id == id, ctn);
 
-            if (foundVehicle == null)
-                throw OwnError.CanNotFindVehicle.ToException("Cannot find vehicle");
+            ExistVehicle(foundVehicle);
+            IsValidUser(foundVehicle);
+            EnsureUniqueVehicleIdFrom(request, foundVehicle);
+            EnsureUniquePass(request);
 
-            if (foundVehicle.UserId != _userIdentityProvider.GetCurrentUserId())
-                throw OwnError.CanNotAccess.ToException("shown in access");
 
             var newPass = new Pass
             {
@@ -60,6 +61,36 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Passes
             );
 
         }
+
+        private void EnsureUniqueVehicleIdFrom(CreatePassRequest request, Domain.Library.Entities.Vehicle foundVehicle)
+        {
+            var existingPass = _passRepository.Query
+                .SingleOrDefault(p => p.VehicleId == foundVehicle.Id && p.From == request.From);
+
+            if (existingPass != null)
+                throw OwnError.CanNotCreateTransportDocument.ToException("A pass with this 'From' and 'VehicleId' already exists.");
+        }
+
+        private void EnsureUniquePass(CreatePassRequest request)
+        {
+            var existNumber = _passRepository.Query
+                .SingleOrDefault(x => x.PassNumber == request.PassNumber);
+            if (existNumber != null)
+                throw OwnError.CanNotCreateTransportDocument.ToException("A pass with this 'number' already exists.");
+        }
+
+        private void ExistVehicle(Domain.Library.Entities.Vehicle foundVehicle)
+        {
+            if (foundVehicle == null)
+                throw OwnError.CanNotFindVehicle.ToException("Cannot find vehicle");
+        }
+
+        private void IsValidUser(Domain.Library.Entities.Vehicle foundVehicle)
+        {
+            if (foundVehicle.UserId != _userIdentityProvider.GetCurrentUserId())
+                throw OwnError.CanNotAccess.ToException("shown in access");
+        }
+
     }
 
 }

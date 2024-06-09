@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Service.Core.BackgroundJob")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+532543e703ed55af96d3f67c6f3d80db8604bdd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e01e3d00da231d898fd30cf9ec37fbfeee444f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Service.Core.BackgroundJob")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Service.Core.BackgroundJob")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

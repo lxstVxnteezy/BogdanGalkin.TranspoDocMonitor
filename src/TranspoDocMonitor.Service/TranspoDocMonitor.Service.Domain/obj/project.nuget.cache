@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pDO5NL9mF1iaCjMdGgF4CukNiRd9v7VMCkulQF+a/1edsdZyOj1qNmDwXsTKm7hW5+6jwEaJGA2dKkFnGj8oAw==",
+  "dgSpecHash": "DGv5f0f86nGJngBFV8e95cVvjytLzkddz39ZCgvIhbye0AqpVNR6rJ/Q2twL9vExUhd6sgkxjptFYiXQ16+u5A==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Domain\\TranspoDocMonitor.Service.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

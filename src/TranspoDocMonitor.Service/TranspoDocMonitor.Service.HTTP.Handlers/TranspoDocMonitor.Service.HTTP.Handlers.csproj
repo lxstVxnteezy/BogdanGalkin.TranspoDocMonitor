@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Methods\Register\**" />
+    <EmbeddedResource Remove="Methods\Register\**" />
+    <None Remove="Methods\Register\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
   </ItemGroup>
 
@@ -18,10 +24,6 @@
     <ProjectReference Include="..\TranspoDocMonitor.Service.Core.HTTP\TranspoDocMonitor.Service.Core.HTTP.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext.DataAccess\TranspoDocMonitor.Service.DataContext.DataAccess.csproj" />
     <ProjectReference Include="..\TranspoDocMonitor.Service.DataContext\TranspoDocMonitor.Service.DataContext.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Methods\Register\" />
   </ItemGroup>
 
 </Project>

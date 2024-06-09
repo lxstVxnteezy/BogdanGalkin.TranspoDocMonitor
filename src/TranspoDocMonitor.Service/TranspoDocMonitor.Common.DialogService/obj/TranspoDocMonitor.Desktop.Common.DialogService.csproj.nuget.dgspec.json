@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {}
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {}
   },
   "projects": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
+        "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
         "projectName": "TranspoDocMonitor.Desktop.Common.DialogService",
-        "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
+        "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\obj\\",
+        "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

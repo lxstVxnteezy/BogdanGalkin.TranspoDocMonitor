@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NWwQpUieGgkNyCElShvmdxEoypa9JOD2tdCmdXGKYYu0P8E4TZRFQEX2p7EUUXpvxDH/F0KSvNUWmsBzFSRi0Q==",
+  "dgSpecHash": "WkcudVwBJKJYWoz5ihom0Islns/0gyrytEerzlCN+QSNxiXWJjiCe5L2LItjqHrLOCHCfD05WlXi9mdZg3/Fbg==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

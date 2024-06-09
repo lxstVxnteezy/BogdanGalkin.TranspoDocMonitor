@@ -110,3 +110,19 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Middlewares.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Middlewares.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\bin\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\bin\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\bin\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Exception.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.csproj.AssemblyReference.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoD.B06FA55E.Up2Date
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Middlewares.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\TranspoDocMonitor.Service.Middlewares.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Middlewares\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Middlewares.dll

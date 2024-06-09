@@ -138,3 +138,23 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.genruntimeconfig.cache
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.DataContext.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.runtimeconfig.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Authorization.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\bin\Debug\net6.0\TranspoDocMonitor.Service.Domain.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.csproj.AssemblyReference.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoD.AE79DE3B.Up2Date
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.DataContext.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\TranspoDocMonitor.Service.DataContext.genruntimeconfig.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.DataContext\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.DataContext.dll

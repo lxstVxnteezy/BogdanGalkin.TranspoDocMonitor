@@ -2343,11 +2343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
+      "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
       "projectName": "TranspoDocMonitor.Service.DataContext.DataAccess",
-      "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
+      "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\TranspoDocMonitor.Service.DataContext.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\obj\\",
+      "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2369,8 +2369,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj": {
-              "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj"
+            "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj": {
+              "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.DataContext\\TranspoDocMonitor.Service.DataContext.csproj"
             }
           }
         }

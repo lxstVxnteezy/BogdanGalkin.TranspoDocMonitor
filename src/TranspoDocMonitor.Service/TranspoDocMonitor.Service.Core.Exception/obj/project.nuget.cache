@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29x+08UllUcz1eY8t7kUSARrao0x7GLTfepRg0dQXRUDHqbI0kdOeYJhy8FaTLYFiSSpJcO3QQqOv5dDehpqtw==",
+  "dgSpecHash": "7Sfq2T1dt08RwbRQ216HpkMJ7qouidtzbSZ7KnON6Cthb4ZWfffwgtg/qPQC7XIq1PdIF8ei5vj7NHm2vHrjcQ==",
   "success": true,
-  "projectFilePath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj",
+  "projectFilePath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Core.Exception\\TranspoDocMonitor.Service.Core.Exception.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

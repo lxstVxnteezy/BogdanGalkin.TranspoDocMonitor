@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj": {}
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj": {}
   },
   "projects": {
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
+        "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
         "projectName": "TranspoDocMonitor.Desktop.Common.DialogService",
-        "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
+        "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\obj\\",
+        "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,14 +86,14 @@
         }
       }
     },
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj": {
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
+        "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
         "projectName": "TranspoDocMonitor.Desktop.User",
-        "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
+        "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\TranspoDocMonitor.Desktop.User.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\obj\\",
+        "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Desktop.User\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,11 +115,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
-                "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj"
+              "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj": {
+                "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Common.DialogService\\TranspoDocMonitor.Desktop.Common.DialogService.csproj"
               },
-              "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj": {
-                "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj"
+              "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj": {
+                "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj": {
+    "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj",
+        "projectUniqueName": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj",
         "projectName": "TranspoDocMonitor.Desktop.Common",
-        "projectPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj",
+        "projectPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\TranspoDocMonitor.Desktop.Common.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "F:\\Backend\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\obj\\",
+        "outputPath": "F:\\Backend\\Новая папка\\BogdanGalkin.TranspoDocMonitor\\src\\TranspoDocMonitor.Service\\TranspoDocMonitor.Service.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
