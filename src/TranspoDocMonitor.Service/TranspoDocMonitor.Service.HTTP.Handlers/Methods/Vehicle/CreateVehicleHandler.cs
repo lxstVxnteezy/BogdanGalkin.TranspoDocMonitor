@@ -41,6 +41,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
                 VehicleIdentificationNumber = request.VehicleIdentificationNumber,
                 EngineCapacity = request.EngineCapacity,
                 Price = request.Price,
+                Horsepower = request.Horsepower,
                 VehicleDiagnosticReport = new VehicleDiagnosticReport()
                 {
                     Id = Guid.NewGuid(),

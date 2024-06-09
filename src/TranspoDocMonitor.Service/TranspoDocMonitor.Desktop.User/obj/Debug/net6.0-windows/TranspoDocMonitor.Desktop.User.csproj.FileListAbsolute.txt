@@ -23,3 +23,28 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.User.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.DialogService.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Common.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.csproj.AssemblyReference.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\DialogCreateUserView.g.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\UserView.g.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User_MarkupCompile.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User_MarkupCompile.lref
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\DialogCreateUserView.baml
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\Views\UserView.baml
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.g.resources
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoD.860F10EB.Up2Date
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.User.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.User.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.User\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.User.dll

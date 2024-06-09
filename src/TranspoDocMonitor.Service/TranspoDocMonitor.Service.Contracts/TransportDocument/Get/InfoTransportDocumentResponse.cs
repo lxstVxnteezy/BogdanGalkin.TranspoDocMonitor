@@ -1,11 +1,13 @@
 ﻿namespace TranspoDocMonitor.Service.Contracts.TransportDocument.GetDocument
 {
     public record InfoTransportDocumentResponse(
-        int DocumentNumber,
-        DateTime DateOfIssue,
-        DateTime ExpirationDateOfIssue,
-        Guid UserVehicleId,
-        Guid DictionaryDocumentTypeId);
+        string Policyholder,
+        string Beneficiary,
+        int ContractNumberCCI,
+        int NumberSeriesCCLI,
+        Decimal Insurance,
+        Decimal СoverageAmount,
+        Guid VehicleId);
 
 }
 

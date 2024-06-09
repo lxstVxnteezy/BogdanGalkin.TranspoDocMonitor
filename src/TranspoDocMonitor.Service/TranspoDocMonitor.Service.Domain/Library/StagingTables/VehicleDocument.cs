@@ -5,8 +5,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.StagingTables
 {
     public class VehicleDocument : BaseEntity
     {
-        public DateTime DateOfIssue { get; set; }
-        public DateTime ExpirationDateOfIssue { get; set; }
+    
         public string Policyholder { get; set; } = null!;
         public string Beneficiary { get; set; } = null!;
 

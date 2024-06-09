@@ -15,3 +15,20 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.Vehicle.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.Vehicle.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\bin\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\Views\VehicleView.g.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle_MarkupCompile.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle_MarkupCompile.lref
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\Views\VehicleView.baml
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.g.resources
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\refint\TranspoDocMonitor.Desktop.Vehicle.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\TranspoDocMonitor.Desktop.Vehicle.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Desktop.Vehicle\obj\Debug\net6.0-windows\ref\TranspoDocMonitor.Desktop.Vehicle.dll

@@ -1,7 +1,11 @@
-﻿
-
-namespace TranspoDocMonitor.Service.Contracts.TransportDocument.Create
+﻿namespace TranspoDocMonitor.Service.Contracts.TransportDocument.Create
 {
-    public record CreateTransportDocumentRequest(int DocumentNumber, DateTime DateOfIssue, DateTime ExpirationDateOfIssue, Guid DictionaryDocumentTypeId,Guid VehicleId);
+    public record CreateTransportDocumentRequest(
+        string Policyholder,
+        string Beneficiary,
+        int ContractNumberCCI,
+        int NumberSeriesCCLI,
+        Decimal Insurance,
+        Decimal СoverageAmount);
 
 }

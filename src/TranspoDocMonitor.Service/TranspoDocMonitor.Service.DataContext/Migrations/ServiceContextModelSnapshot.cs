@@ -139,6 +139,10 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("double precision")
                         .HasColumnName("engine_capacity");
 
+                    b.Property<int>("Horsepower")
+                        .HasColumnType("integer")
+                        .HasColumnName("horsepower");
+
                     b.Property<string>("Make")
                         .IsRequired()
                         .HasColumnType("text")
@@ -230,14 +234,6 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("contract_number_comprehensive_car_insurance");
 
-                    b.Property<DateTime>("DateOfIssue")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("data_of_issue");
-
-                    b.Property<DateTime>("ExpirationDateOfIssue")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("expiration_date_of_Issue");
-
                     b.Property<decimal>("Insurance")
                         .HasColumnType("numeric")
                         .HasColumnName("sum_insured");
@@ -261,7 +257,14 @@ namespace TranspoDocMonitor.Service.DataContext.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("VehicleId");
+                    b.HasIndex("ContractNumberCCI")
+                        .IsUnique();
+
+                    b.HasIndex("NumberSeriesCCLI")
+                        .IsUnique();
+
+                    b.HasIndex("VehicleId")
+                        .IsUnique();
 
                     b.ToTable("insurance_transport_documents", (string)null);
                 });

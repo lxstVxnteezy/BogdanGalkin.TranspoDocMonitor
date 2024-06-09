@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranspoDocMonitor.Desktop.Common.DialogService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e01e3d00da231d898fd30cf9ec37fbfeee444f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cd134f7df9fd5ff854299eeb5c04c0f20685534")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranspoDocMonitor.Desktop.Common.DialogService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranspoDocMonitor.Desktop.Common.DialogService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

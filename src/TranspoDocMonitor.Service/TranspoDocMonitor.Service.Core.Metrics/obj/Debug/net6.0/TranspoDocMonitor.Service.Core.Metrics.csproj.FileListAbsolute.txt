@@ -34,3 +34,15 @@ F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoD
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Metrics.dll
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.pdb
 F:\Backend\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Metrics.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.deps.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\bin\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.AssemblyInfoInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.AssemblyInfo.cs
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.csproj.CoreCompileInputs.cache
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.sourcelink.json
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\refint\TranspoDocMonitor.Service.Core.Metrics.dll
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\TranspoDocMonitor.Service.Core.Metrics.pdb
+F:\Backend\Новая папка\BogdanGalkin.TranspoDocMonitor\src\TranspoDocMonitor.Service\TranspoDocMonitor.Service.Core.Metrics\obj\Debug\net6.0\ref\TranspoDocMonitor.Service.Core.Metrics.dll

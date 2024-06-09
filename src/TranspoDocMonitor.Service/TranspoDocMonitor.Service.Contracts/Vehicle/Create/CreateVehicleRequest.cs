@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-using TranspoDocMonitor.Service.Domain.EnumTypes;
-using TranspoDocMonitor.Service.Domain.Library.Entities;
+﻿using TranspoDocMonitor.Service.Domain.EnumTypes;
 
 namespace TranspoDocMonitor.Service.Contracts.Vehicle.Create
 {
@@ -14,6 +12,7 @@ namespace TranspoDocMonitor.Service.Contracts.Vehicle.Create
         double EngineCapacity,
         decimal Price,
         long DiagnosticCardNumber,
+        int Horsepower,
         DateTime ExpirationDateOfIssue);
 
 }

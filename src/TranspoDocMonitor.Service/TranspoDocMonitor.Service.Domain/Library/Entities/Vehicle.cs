@@ -18,7 +18,7 @@ namespace TranspoDocMonitor.Service.Domain.Library.Entities
         public string VehicleIdentificationNumber { get; set; } = null!;
         public double EngineCapacity { get; set; } 
         public decimal Price { get; set; }
-
+        public int Horsepower { get; set; }
         public virtual VehicleDiagnosticReport VehicleDiagnosticReport { get; set; } = null!;
         public virtual ICollection<Pass> Passes { get; set; }
 

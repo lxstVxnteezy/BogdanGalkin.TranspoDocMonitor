@@ -42,6 +42,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
             foundVehicle.Price = request.Price;
             foundVehicle.VehicleDiagnosticReport.DiagnosticCardNumber = request.DiagnosticCardNumber;
             foundVehicle.VehicleDiagnosticReport.ExpirationDateOfIssue = request.ExpirationDateOfIssue;
+            foundVehicle.Horsepower = request.Horsepower;
 
             await _vehicleRepository.SaveChanges(ctn);
 
@@ -54,6 +55,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Vehicle
                 VehicleIdentificationNumber: foundVehicle.VehicleIdentificationNumber,
                 EngineCapacity: foundVehicle.EngineCapacity,
                 Price: foundVehicle.Price,
+                Horsepower:foundVehicle.Horsepower,
                 DiagnosticCardNumber: foundVehicle.VehicleDiagnosticReport.DiagnosticCardNumber,
                 ExpirationDateOfIssue: foundVehicle.VehicleDiagnosticReport.ExpirationDateOfIssue
             );

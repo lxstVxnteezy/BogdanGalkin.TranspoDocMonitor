@@ -12,6 +12,7 @@ namespace TranspoDocMonitor.Service.Contracts.Vehicle.Update
         string VehicleIdentificationNumber,
         double EngineCapacity,
         decimal Price,
-        long DiagnosticCardNumber,
+        long DiagnosticCardNumber, 
+        int Horsepower,
         DateTime ExpirationDateOfIssue);
 }

@@ -7,9 +7,7 @@ namespace TranspoDocMonitor.Service.Core.Validation.Validators.Document
     {
         public CreateDocumentTransportRequestValidator()
         {
-            RuleFor(x => x.ExpirationDateOfIssue).NotEmpty();
-            RuleFor(x => x.DateOfIssue).NotEmpty();
-            RuleFor(x=>x.DocumentNumber).NotEmpty();
+           
         }
     }
 }

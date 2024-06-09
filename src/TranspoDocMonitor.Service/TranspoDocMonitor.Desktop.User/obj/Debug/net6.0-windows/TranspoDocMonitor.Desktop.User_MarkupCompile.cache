@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 202-1604824030
 Views\DialogCreateUserView.xaml;Views\UserView.xaml;
 
-True
+False
 

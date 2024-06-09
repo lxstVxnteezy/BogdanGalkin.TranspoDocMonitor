@@ -17,6 +17,7 @@ namespace TranspoDocMonitor.Service.DataContext.Configuration
             builder.Property(x => x.RegistrationNumber).HasColumnName("registration_number").IsRequired();
             builder.Property(x => x.Year).HasColumnName("year_of_issue").IsRequired();
             builder.Property(x => x.VehicleIdentificationNumber).HasColumnName("vehicle_identification_number").IsRequired();
+            builder.Property(x => x.Horsepower).HasColumnName("horsepower").IsRequired();
             builder.Property(x => x.EngineCapacity).HasColumnName("engine_capacity").IsRequired();
             builder.Property(x => x.Price).HasColumnName("price").IsRequired();
             builder.Property(x => x.UserId).HasColumnName("user_id").IsRequired();
