@@ -61,8 +61,6 @@ namespace TranspoDocMonitor.Service.API.Controllers.Document
         }
 
 
-
-
         [HttpPost("{id}/createPass")]
         public Task<CreatePassResponse> Update(
             [FromServices] ICreatePassHandler handler,

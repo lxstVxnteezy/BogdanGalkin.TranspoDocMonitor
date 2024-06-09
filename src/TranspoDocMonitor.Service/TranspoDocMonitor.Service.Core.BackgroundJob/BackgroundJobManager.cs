@@ -8,13 +8,19 @@ namespace TranspoDocMonitor.Service.Core.BackgroundJob
         public static void Start()
         {
             DocumentExprationCheckerReccuringJob();
-
+            PassesCheckerReccuringJob();
         }
 
         private static void DocumentExprationCheckerReccuringJob()
         {
-            RecurringJob.AddOrUpdate<DocumentExpirationChecker>("document-expiration-check",
-                x => x.CheckDocumentExpirations(CancellationToken.None),
+            RecurringJob.AddOrUpdate<DiagnosticDocumentExpirationChecker>("document-expiration-check",
+                x => x.CheckDiagnosticDocumentExpirations(CancellationToken.None),
+                Cron.Minutely);
+        }
+        private static void PassesCheckerReccuringJob()
+        {
+            RecurringJob.AddOrUpdate<PassesDocumentsChecker>("passes-expiration-check",
+                x => x.CheckPassesDocumentExpirations(CancellationToken.None),
                 Cron.Minutely);
         }
     }

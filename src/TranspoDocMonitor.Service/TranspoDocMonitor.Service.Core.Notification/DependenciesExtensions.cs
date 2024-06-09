@@ -8,7 +8,10 @@ namespace TranspoDocMonitor.Service.Core.Notification
     {
         public static IServiceCollection AddNotification(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddScoped<IEmailNotification, EmailNotification>(); 
+            services.AddScoped<IEmailNotification, EmailNotification>();
+            services.AddScoped<IEmailBuilderVehicalDiagnosticReport, EmailBuilderVehicalDiagnosticReport>();
+            services.AddScoped<IEmailBuilderPasses, EmailBuilderPasses>();
+
             services.AddSingleton<SmtpSettings>();
             return services;
         }

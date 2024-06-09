@@ -1,10 +1,10 @@
 ﻿using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using TranspoDocMonitor.Service.Core.Authorization;
-//using TranspoDocMonitor.Service.Core.BackgroundJob;
+using TranspoDocMonitor.Service.Core.BackgroundJob;
 using TranspoDocMonitor.Service.Core.Cors;
 using TranspoDocMonitor.Service.Core.HTTP.HttpAccessor;
-//using TranspoDocMonitor.Service.Core.Notification;
+using TranspoDocMonitor.Service.Core.Notification;
 using TranspoDocMonitor.Service.Core.Swagger;
 using TranspoDocMonitor.Service.Core.Validation;
 using TranspoDocMonitor.Service.DataContext.DataAccess;
@@ -29,8 +29,8 @@ namespace TranspoDocMonitor.Service.API
             services.AddHttpHandlers();
             services.AddJwtAuthorization();
             services.AddHttpAccessor();
-           // services.AddCustomHangFire(Configuration);
-           // services.AddNotification(Configuration);
+            services.AddCustomHangFire(Configuration);
+            services.AddNotification(Configuration);
             services.AddValidation();
             services.AddSupportCors();
 
@@ -42,7 +42,7 @@ namespace TranspoDocMonitor.Service.API
             app.UseMiddlewareExceptions();
             app.UseAuthentication();
             app.UseAuthorization();
-          //  app.UseHangFire();
+            app.UseHangFire();
             app.UseCorsCustom();
             app.UseEndpoints(endpoints =>
             {
