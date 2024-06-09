@@ -1,11 +1,12 @@
 ﻿using FluentValidation;
-using TranspoDocMonitor.Service.Contracts.TransportDocument.Create;
 
-namespace TranspoDocMonitor.Service.Core.Validation.Validators.Document
+using TranspoDocMonitor.Service.Contracts.TransportDocument.Update;
+
+namespace TranspoDocMonitor.Service.Core.Validation.Validators.TransportDocument
 {
-    public class CreateDocumentTransportRequestValidator : AbstractValidator<CreateTransportDocumentRequest>
+    public class UpdateTransportDocumentRequestValidator : AbstractValidator<UpdateTransportDocumentRequest>
     {
-        public CreateDocumentTransportRequestValidator()
+        public UpdateTransportDocumentRequestValidator()
         {
             RuleFor(x => x.Policyholder)
                 .NotEmpty().WithMessage("Policyholder is required.");
@@ -27,4 +28,3 @@ namespace TranspoDocMonitor.Service.Core.Validation.Validators.Document
         }
     }
 }
- 

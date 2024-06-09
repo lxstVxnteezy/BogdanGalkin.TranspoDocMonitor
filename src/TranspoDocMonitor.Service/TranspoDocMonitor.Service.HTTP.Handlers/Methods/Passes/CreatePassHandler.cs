@@ -45,7 +45,7 @@ namespace TranspoDocMonitor.Service.HTTP.Handlers.Methods.Passes
                 Id = Guid.NewGuid(),
                 From = request.From,
                 PassNumber = request.PassNumber,
-                ExDateTime = DateTime.UtcNow,
+                ExDateTime = request.ExDateTime,
                 VehicleId = foundVehicle.Id
             };
 
